@@ -62,7 +62,7 @@
 #ifdef NETSTACK_CONF_RDC
 #define NETSTACK_RDC NETSTACK_CONF_RDC
 #else /* NETSTACK_CONF_RDC */
-#define NETSTACK_RDC     nullrdc_driver
+#define NETSTACK_RDC     xmac_driver
 #endif /* NETSTACK_CONF_RDC */
 #endif /* NETSTACK_RDC */
 

@@ -472,10 +472,12 @@ int staffetta_send_packet(void) {
 			    	} else {
 						printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
 						collisions++;
+						printf("collision")
 			    	}
 				} else {
 			    	printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
 			    	collisions++;
+				printf("collision")
 				}
 		    }
 		}

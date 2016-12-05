@@ -385,7 +385,7 @@ int staffetta_send_packet(void) {
 #elif ORW_GRADIENT
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #else
-    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,255)); // we limit the # of wakeups to 25
+    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;
@@ -472,12 +472,12 @@ int staffetta_send_packet(void) {
 			    	} else {
 						printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
 						collisions++;
-						printf("collision")
+						printf("collision");
 			    	}
 				} else {
 			    	printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
 			    	collisions++;
-				printf("collision")
+				printf("collision");
 				}
 		    }
 		}
@@ -495,6 +495,7 @@ int staffetta_send_packet(void) {
 		select[PKT_DST] = strobe_ack[PKT_SRC];
 		radio_flush_tx();
 		FASTSPI_WRITE_FIFO(select, STAFFETTA_PKT_LEN+1);
+		printf("5 %d %d\n", select[PKT_DST], select[PKT_SRC]);
 		FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
 		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
@@ -541,7 +542,7 @@ int staffetta_send_packet(void) {
 		num_wakeups = 10;
 #endif
 		if (!IS_SINK) {
-	    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
+		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
 		}
 	}
 	radio_flush_rx();

@@ -30,7 +30,7 @@
 #define WITH_GRADIENT 		    0                 // ensure that messages follows a gradient to the sink (number of wakeups)
 #define BCP_GRADIENT		      0                 // use the queue size as gradient (BCP)
 #define ORW_GRADIENT		      1                 // use the expected duty cycle as gradient (ORW)
-#define DYN_DC 			          0                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
+#define DYN_DC 			          1                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
 
 #define FAST_FORWARD 		      1                 // forward as soon as you can (not dummy messages)
 #define BUDGET_PRECISION 	    1                 //use fixed point precision to compute the number of wakeups

@@ -1,0 +1,1337 @@
+00:00.294	ID:39	Contiki 2.4 started. Node id is set to 39.
+00:00.294	ID:34	Contiki 2.4 started. Node id is set to 34.
+00:00.296	ID:39	Starting 'Staffetta test'
+00:00.296	ID:34	Starting 'Staffetta test'
+00:00.297	ID:39	4 39 0
+00:00.298	ID:34	4 34 0
+00:00.298	ID:39	4 39 1
+00:00.299	ID:34	4 34 1
+00:00.299	ID:39	4 39 2
+00:00.300	ID:34	4 34 2
+00:00.300	ID:39	4 39 3
+00:00.301	ID:34	4 34 3
+00:00.301	ID:39	4 39 4
+00:00.302	ID:34	4 34 4
+00:00.302	ID:39	4 39 5
+00:00.302	ID:24	Contiki 2.4 started. Node id is set to 24.
+00:00.303	ID:34	4 34 5
+00:00.304	ID:24	Starting 'Staffetta test'
+00:00.306	ID:24	4 24 0
+00:00.307	ID:24	4 24 1
+00:00.308	ID:24	4 24 2
+00:00.309	ID:24	4 24 3
+00:00.310	ID:24	4 24 4
+00:00.311	ID:24	4 24 5
+00:00.340	ID:8	Contiki 2.4 started. Node id is set to 8.
+00:00.342	ID:8	Starting 'Staffetta test'
+00:00.343	ID:8	4 8 0
+00:00.344	ID:8	4 8 1
+00:00.345	ID:8	4 8 2
+00:00.346	ID:8	4 8 3
+00:00.347	ID:8	4 8 4
+00:00.348	ID:8	4 8 5
+00:00.374	ID:48	Contiki 2.4 started. Node id is set to 48.
+00:00.376	ID:48	Starting 'Staffetta test'
+00:00.377	ID:48	4 48 0
+00:00.378	ID:48	4 48 1
+00:00.379	ID:48	4 48 2
+00:00.380	ID:48	4 48 3
+00:00.381	ID:48	4 48 4
+00:00.382	ID:48	4 48 5
+00:00.392	ID:50	Contiki 2.4 started. Node id is set to 50.
+00:00.394	ID:50	Starting 'Staffetta test'
+00:00.395	ID:50	4 50 0
+00:00.396	ID:50	4 50 1
+00:00.397	ID:50	4 50 2
+00:00.398	ID:50	4 50 3
+00:00.399	ID:50	4 50 4
+00:00.400	ID:50	4 50 5
+00:00.409	ID:28	Contiki 2.4 started. Node id is set to 28.
+00:00.411	ID:28	Starting 'Staffetta test'
+00:00.412	ID:28	4 28 0
+00:00.413	ID:28	4 28 1
+00:00.414	ID:28	4 28 2
+00:00.415	ID:28	4 28 3
+00:00.417	ID:28	4 28 4
+00:00.418	ID:28	4 28 5
+00:00.458	ID:11	Contiki 2.4 started. Node id is set to 11.
+00:00.460	ID:11	Starting 'Staffetta test'
+00:00.461	ID:11	4 11 0
+00:00.462	ID:11	4 11 1
+00:00.463	ID:11	4 11 2
+00:00.464	ID:11	4 11 3
+00:00.465	ID:11	4 11 4
+00:00.466	ID:11	4 11 5
+00:00.471	ID:31	Contiki 2.4 started. Node id is set to 31.
+00:00.473	ID:31	Starting 'Staffetta test'
+00:00.474	ID:31	4 31 0
+00:00.475	ID:31	4 31 1
+00:00.476	ID:31	4 31 2
+00:00.477	ID:31	4 31 3
+00:00.478	ID:31	4 31 4
+00:00.479	ID:31	4 31 5
+00:00.481	ID:35	Contiki 2.4 started. Node id is set to 35.
+00:00.483	ID:35	Starting 'Staffetta test'
+00:00.484	ID:35	4 35 0
+00:00.485	ID:44	Contiki 2.4 started. Node id is set to 44.
+00:00.485	ID:45	Contiki 2.4 started. Node id is set to 45.
+00:00.485	ID:35	4 35 1
+00:00.486	ID:35	4 35 2
+00:00.487	ID:44	Starting 'Staffetta test'
+00:00.487	ID:45	Starting 'Staffetta test'
+00:00.487	ID:35	4 35 3
+00:00.488	ID:44	4 44 0
+00:00.488	ID:35	4 35 4
+00:00.489	ID:45	4 45 0
+00:00.489	ID:44	4 44 1
+00:00.489	ID:35	4 35 5
+00:00.490	ID:45	4 45 1
+00:00.490	ID:44	4 44 2
+00:00.491	ID:45	4 45 2
+00:00.491	ID:44	4 44 3
+00:00.492	ID:45	4 45 3
+00:00.492	ID:44	4 44 4
+00:00.493	ID:45	4 45 4
+00:00.493	ID:44	4 44 5
+00:00.494	ID:45	4 45 5
+00:00.503	ID:2	Contiki 2.4 started. Node id is set to 2.
+00:00.505	ID:2	Starting 'Staffetta test'
+00:00.507	ID:2	4 2 0
+00:00.507	ID:2	4 2 1
+00:00.508	ID:2	4 2 2
+00:00.509	ID:2	4 2 3
+00:00.510	ID:2	4 2 4
+00:00.511	ID:2	4 2 5
+00:00.511	ID:30	Contiki 2.4 started. Node id is set to 30.
+00:00.513	ID:30	Starting 'Staffetta test'
+00:00.515	ID:30	4 30 0
+00:00.516	ID:30	4 30 1
+00:00.517	ID:30	4 30 2
+00:00.518	ID:6	Contiki 2.4 started. Node id is set to 6.
+00:00.518	ID:30	4 30 3
+00:00.519	ID:30	4 30 4
+00:00.520	ID:6	Starting 'Staffetta test'
+00:00.520	ID:30	4 30 5
+00:00.521	ID:6	4 6 0
+00:00.522	ID:6	4 6 1
+00:00.523	ID:6	4 6 2
+00:00.524	ID:6	4 6 3
+00:00.525	ID:6	4 6 4
+00:00.526	ID:6	4 6 5
+00:00.594	ID:18	Contiki 2.4 started. Node id is set to 18.
+00:00.596	ID:18	Starting 'Staffetta test'
+00:00.597	ID:18	4 18 0
+00:00.598	ID:18	4 18 1
+00:00.599	ID:18	4 18 2
+00:00.600	ID:18	4 18 3
+00:00.601	ID:18	4 18 4
+00:00.602	ID:18	4 18 5
+00:00.615	ID:4	Contiki 2.4 started. Node id is set to 4.
+00:00.618	ID:4	Starting 'Staffetta test'
+00:00.619	ID:4	4 4 0
+00:00.620	ID:4	4 4 1
+00:00.621	ID:4	4 4 2
+00:00.621	ID:4	4 4 3
+00:00.622	ID:4	4 4 4
+00:00.623	ID:33	Contiki 2.4 started. Node id is set to 33.
+00:00.623	ID:4	4 4 5
+00:00.625	ID:33	Starting 'Staffetta test'
+00:00.626	ID:33	4 33 0
+00:00.627	ID:33	4 33 1
+00:00.628	ID:33	4 33 2
+00:00.629	ID:33	4 33 3
+00:00.630	ID:33	4 33 4
+00:00.631	ID:33	4 33 5
+00:00.649	ID:1	Contiki 2.4 started. Node id is set to 1.
+00:00.651	ID:1	Starting 'Staffetta test'
+00:00.653	ID:1	4 1 0
+00:00.653	ID:27	Contiki 2.4 started. Node id is set to 27.
+00:00.653	ID:1	4 1 1
+00:00.654	ID:1	4 1 2
+00:00.655	ID:27	Starting 'Staffetta test'
+00:00.655	ID:1	4 1 3
+00:00.656	ID:1	4 1 4
+00:00.656	ID:27	4 27 0
+00:00.656	ID:41	Contiki 2.4 started. Node id is set to 41.
+00:00.657	ID:1	4 1 5
+00:00.657	ID:27	4 27 1
+00:00.658	ID:1	Sink active
+00:00.658	ID:27	4 27 2
+00:00.658	ID:41	Starting 'Staffetta test'
+00:00.659	ID:27	4 27 3
+00:00.660	ID:41	4 41 0
+00:00.660	ID:27	4 27 4
+00:00.661	ID:41	4 41 1
+00:00.661	ID:27	4 27 5
+00:00.662	ID:41	4 41 2
+00:00.663	ID:41	4 41 3
+00:00.664	ID:41	4 41 4
+00:00.665	ID:41	4 41 5
+00:00.669	ID:7	Contiki 2.4 started. Node id is set to 7.
+00:00.671	ID:7	Starting 'Staffetta test'
+00:00.672	ID:7	4 7 0
+00:00.673	ID:7	4 7 1
+00:00.674	ID:7	4 7 2
+00:00.675	ID:7	4 7 3
+00:00.676	ID:7	4 7 4
+00:00.677	ID:7	4 7 5
+00:00.679	ID:47	Contiki 2.4 started. Node id is set to 47.
+00:00.680	ID:40	Contiki 2.4 started. Node id is set to 40.
+00:00.681	ID:47	Starting 'Staffetta test'
+00:00.682	ID:40	Starting 'Staffetta test'
+00:00.682	ID:47	4 47 0
+00:00.683	ID:40	4 40 0
+00:00.683	ID:47	4 47 1
+00:00.684	ID:40	4 40 1
+00:00.684	ID:47	4 47 2
+00:00.685	ID:40	4 40 2
+00:00.685	ID:47	4 47 3
+00:00.686	ID:40	4 40 3
+00:00.687	ID:47	4 47 4
+00:00.687	ID:40	4 40 4
+00:00.688	ID:47	4 47 5
+00:00.688	ID:40	4 40 5
+00:00.717	ID:14	Contiki 2.4 started. Node id is set to 14.
+00:00.719	ID:14	Starting 'Staffetta test'
+00:00.721	ID:14	4 14 0
+00:00.722	ID:14	4 14 1
+00:00.723	ID:14	4 14 2
+00:00.724	ID:14	4 14 3
+00:00.725	ID:14	4 14 4
+00:00.726	ID:14	4 14 5
+00:00.730	ID:15	Contiki 2.4 started. Node id is set to 15.
+00:00.732	ID:15	Starting 'Staffetta test'
+00:00.732	ID:46	Contiki 2.4 started. Node id is set to 46.
+00:00.733	ID:15	4 15 0
+00:00.734	ID:15	4 15 1
+00:00.734	ID:46	Starting 'Staffetta test'
+00:00.735	ID:25	Contiki 2.4 started. Node id is set to 25.
+00:00.735	ID:15	4 15 2
+00:00.736	ID:46	4 46 0
+00:00.736	ID:15	4 15 3
+00:00.737	ID:46	4 46 1
+00:00.737	ID:25	Starting 'Staffetta test'
+00:00.737	ID:15	4 15 4
+00:00.738	ID:46	4 46 2
+00:00.738	ID:25	4 25 0
+00:00.738	ID:15	4 15 5
+00:00.739	ID:46	4 46 3
+00:00.739	ID:25	4 25 1
+00:00.740	ID:20	Contiki 2.4 started. Node id is set to 20.
+00:00.740	ID:46	4 46 4
+00:00.740	ID:16	Contiki 2.4 started. Node id is set to 16.
+00:00.740	ID:25	4 25 2
+00:00.741	ID:37	Contiki 2.4 started. Node id is set to 37.
+00:00.741	ID:46	4 46 5
+00:00.741	ID:25	4 25 3
+00:00.742	ID:20	Starting 'Staffetta test'
+00:00.742	ID:16	Starting 'Staffetta test'
+00:00.742	ID:25	4 25 4
+00:00.743	ID:37	Starting 'Staffetta test'
+00:00.743	ID:20	4 20 0
+00:00.743	ID:25	4 25 5
+00:00.744	ID:16	4 16 0
+00:00.744	ID:37	4 37 0
+00:00.744	ID:20	4 20 1
+00:00.745	ID:16	4 16 1
+00:00.745	ID:37	4 37 1
+00:00.745	ID:20	4 20 2
+00:00.746	ID:16	4 16 2
+00:00.746	ID:37	4 37 2
+00:00.746	ID:20	4 20 3
+00:00.747	ID:16	4 16 3
+00:00.747	ID:37	4 37 3
+00:00.747	ID:20	4 20 4
+00:00.748	ID:16	4 16 4
+00:00.748	ID:37	4 37 4
+00:00.748	ID:20	4 20 5
+00:00.749	ID:16	4 16 5
+00:00.749	ID:37	4 37 5
+00:00.824	ID:10	Contiki 2.4 started. Node id is set to 10.
+00:00.826	ID:10	Starting 'Staffetta test'
+00:00.827	ID:10	4 10 0
+00:00.828	ID:10	4 10 1
+00:00.829	ID:10	4 10 2
+00:00.830	ID:10	4 10 3
+00:00.831	ID:10	4 10 4
+00:00.832	ID:10	4 10 5
+00:00.862	ID:12	Contiki 2.4 started. Node id is set to 12.
+00:00.864	ID:12	Starting 'Staffetta test'
+00:00.865	ID:12	4 12 0
+00:00.866	ID:12	4 12 1
+00:00.867	ID:12	4 12 2
+00:00.868	ID:12	4 12 3
+00:00.869	ID:12	4 12 4
+00:00.870	ID:12	4 12 5
+00:00.893	ID:49	Contiki 2.4 started. Node id is set to 49.
+00:00.895	ID:49	Starting 'Staffetta test'
+00:00.896	ID:49	4 49 0
+00:00.897	ID:49	4 49 1
+00:00.898	ID:49	4 49 2
+00:00.899	ID:49	4 49 3
+00:00.900	ID:49	4 49 4
+00:00.901	ID:49	4 49 5
+00:00.904	ID:29	Contiki 2.4 started. Node id is set to 29.
+00:00.906	ID:29	Starting 'Staffetta test'
+00:00.908	ID:29	4 29 0
+00:00.909	ID:29	4 29 1
+00:00.910	ID:29	4 29 2
+00:00.911	ID:29	4 29 3
+00:00.912	ID:29	4 29 4
+00:00.913	ID:29	4 29 5
+00:00.930	ID:22	Contiki 2.4 started. Node id is set to 22.
+00:00.932	ID:22	Starting 'Staffetta test'
+00:00.934	ID:22	4 22 0
+00:00.935	ID:22	4 22 1
+00:00.936	ID:22	4 22 2
+00:00.937	ID:22	4 22 3
+00:00.938	ID:22	4 22 4
+00:00.939	ID:22	4 22 5
+00:00.956	ID:43	Contiki 2.4 started. Node id is set to 43.
+00:00.958	ID:26	Contiki 2.4 started. Node id is set to 26.
+00:00.958	ID:43	Starting 'Staffetta test'
+00:00.960	ID:26	Starting 'Staffetta test'
+00:00.960	ID:43	4 43 0
+00:00.961	ID:43	4 43 1
+00:00.961	ID:26	4 26 0
+00:00.962	ID:43	4 43 2
+00:00.962	ID:26	4 26 1
+00:00.963	ID:43	4 43 3
+00:00.963	ID:26	4 26 2
+00:00.964	ID:43	4 43 4
+00:00.964	ID:26	4 26 3
+00:00.965	ID:43	4 43 5
+00:00.965	ID:26	4 26 4
+00:00.966	ID:26	4 26 5
+00:00.976	ID:9	Contiki 2.4 started. Node id is set to 9.
+00:00.978	ID:9	Starting 'Staffetta test'
+00:00.979	ID:9	4 9 0
+00:00.980	ID:9	4 9 1
+00:00.981	ID:9	4 9 2
+00:00.982	ID:9	4 9 3
+00:00.982	ID:5	Contiki 2.4 started. Node id is set to 5.
+00:00.982	ID:9	4 9 4
+00:00.983	ID:9	4 9 5
+00:00.984	ID:5	Starting 'Staffetta test'
+00:00.986	ID:5	4 5 0
+00:00.986	ID:42	Contiki 2.4 started. Node id is set to 42.
+00:00.986	ID:19	Contiki 2.4 started. Node id is set to 19.
+00:00.986	ID:5	4 5 1
+00:00.987	ID:5	4 5 2
+00:00.988	ID:5	4 5 3
+00:00.988	ID:42	Starting 'Staffetta test'
+00:00.988	ID:19	Starting 'Staffetta test'
+00:00.989	ID:5	4 5 4
+00:00.990	ID:42	4 42 0
+00:00.990	ID:19	4 19 0
+00:00.990	ID:5	4 5 5
+00:00.991	ID:19	4 19 1
+00:00.991	ID:42	4 42 1
+00:00.992	ID:19	4 19 2
+00:00.992	ID:42	4 42 2
+00:00.993	ID:19	4 19 3
+00:00.993	ID:42	4 42 3
+00:00.994	ID:19	4 19 4
+00:00.994	ID:42	4 42 4
+00:00.995	ID:19	4 19 5
+00:00.995	ID:42	4 42 5
+00:01.055	ID:38	Contiki 2.4 started. Node id is set to 38.
+00:01.057	ID:38	Starting 'Staffetta test'
+00:01.059	ID:38	4 38 0
+00:01.060	ID:38	4 38 1
+00:01.061	ID:38	4 38 2
+00:01.062	ID:38	4 38 3
+00:01.063	ID:38	4 38 4
+00:01.064	ID:38	4 38 5
+00:01.076	ID:17	Contiki 2.4 started. Node id is set to 17.
+00:01.078	ID:17	Starting 'Staffetta test'
+00:01.080	ID:17	4 17 0
+00:01.081	ID:17	4 17 1
+00:01.082	ID:17	4 17 2
+00:01.083	ID:17	4 17 3
+00:01.084	ID:17	4 17 4
+00:01.085	ID:17	4 17 5
+00:01.149	ID:36	Contiki 2.4 started. Node id is set to 36.
+00:01.151	ID:36	Starting 'Staffetta test'
+00:01.151	ID:13	Contiki 2.4 started. Node id is set to 13.
+00:01.152	ID:36	4 36 0
+00:01.153	ID:13	Starting 'Staffetta test'
+00:01.153	ID:36	4 36 1
+00:01.154	ID:36	4 36 2
+00:01.155	ID:13	4 13 0
+00:01.155	ID:36	4 36 3
+00:01.156	ID:13	4 13 1
+00:01.156	ID:36	4 36 4
+00:01.157	ID:13	4 13 2
+00:01.157	ID:36	4 36 5
+00:01.158	ID:13	4 13 3
+00:01.159	ID:13	4 13 4
+00:01.160	ID:13	4 13 5
+00:01.166	ID:3	Contiki 2.4 started. Node id is set to 3.
+00:01.168	ID:3	Starting 'Staffetta test'
+00:01.170	ID:3	4 3 0
+00:01.171	ID:3	4 3 1
+00:01.171	ID:1	24 0 1
+00:01.172	ID:3	4 3 2
+00:01.172	ID:3	4 3 3
+00:01.173	ID:3	4 3 4
+00:01.173	ID:24	2 1 12
+00:01.174	ID:21	Contiki 2.4 started. Node id is set to 21.
+00:01.174	ID:3	4 3 5
+00:01.176	ID:21	Starting 'Staffetta test'
+00:01.177	ID:21	4 21 0
+00:01.178	ID:21	4 21 1
+00:01.179	ID:21	4 21 2
+00:01.180	ID:21	4 21 3
+00:01.181	ID:21	4 21 4
+00:01.182	ID:21	4 21 5
+00:01.212	ID:23	Contiki 2.4 started. Node id is set to 23.
+00:01.215	ID:23	Starting 'Staffetta test'
+00:01.216	ID:23	4 23 0
+00:01.217	ID:23	4 23 1
+00:01.218	ID:23	4 23 2
+00:01.219	ID:23	4 23 3
+00:01.220	ID:23	4 23 4
+00:01.221	ID:23	4 23 5
+00:01.245	ID:32	Contiki 2.4 started. Node id is set to 32.
+00:01.247	ID:32	Starting 'Staffetta test'
+00:01.248	ID:32	4 32 0
+00:01.249	ID:32	4 32 1
+00:01.250	ID:32	4 32 2
+00:01.252	ID:32	4 32 3
+00:01.253	ID:32	4 32 4
+00:01.254	ID:32	4 32 5
+00:01.269	ID:1	50 0 1
+00:01.271	ID:50	2 1 12
+00:01.288	ID:31	2 39 10
+00:01.289	ID:1	39 0 1
+00:01.291	ID:39	2 1 12
+00:01.323	ID:1	45 0 1
+00:01.325	ID:45	2 1 12
+00:01.360	ID:1	48 0 1
+00:01.362	ID:48	2 1 12
+00:01.444	ID:2	2 33 9
+00:01.468	ID:1	sink got a too long beacon
+00:01.470	ID:1	sink got a too long beacon
+00:01.472	ID:1	sink got a too long beacon
+00:01.474	ID:1	sink got a too long beacon
+00:01.477	ID:1	sink got a too long beacon
+00:01.479	ID:1	sink got a too long beacon
+00:01.481	ID:1	sink got a too long beacon
+00:01.483	ID:1	sink got a too long beacon
+00:01.485	ID:1	sink got a too long beacon
+00:01.492	ID:1	sink got a too long beacon
+00:01.494	ID:1	sink got a too long beacon
+00:01.496	ID:1	sink got a too long beacon
+00:01.498	ID:1	sink got a too long beacon
+00:01.501	ID:1	sink got a too long beacon
+00:01.594	ID:1	4 0 1
+00:01.594	ID:6	expected beacon ack, got type 1
+00:01.594	ID:34	expected beacon ack, got type 1
+00:01.596	ID:6	collision: 1
+00:01.596	ID:34	collision: 1
+00:01.596	ID:1	40 0 1
+00:01.599	ID:1	40 0 1
+00:01.601	ID:1	4 0 1
+00:01.604	ID:1	40 0 1
+00:01.607	ID:40	2 1 11
+00:01.665	ID:1	14 0 1
+00:01.665	ID:41	expected beacon ack, got type 1
+00:01.666	ID:41	collision: 1
+00:01.667	ID:1	14 0 1
+00:01.669	ID:1	14 0 1
+00:01.671	ID:14	2 1 12
+00:01.676	ID:18	2 12 10
+00:01.719	ID:35	beacon ack not for us. For 255, from 1
+00:01.720	ID:35	collision: 1
+00:01.819	ID:46	select not for us
+00:01.819	ID:29	select not for us
+00:01.821	ID:22	select not for us
+00:01.825	ID:46	expected beacon ack, got type 1
+00:01.825	ID:29	expected beacon ack, got type 1
+00:01.826	ID:20	select not for us
+00:01.826	ID:46	collision: 1
+00:01.826	ID:29	collision: 1
+00:01.827	ID:22	expected beacon ack, got type 1
+00:01.828	ID:22	collision: 1
+00:01.831	ID:20	expected beacon ack, got type 1
+00:01.832	ID:20	collision: 1
+00:01.833	ID:27	select not for us
+00:01.838	ID:27	expected beacon ack, got type 1
+00:01.840	ID:27	collision: 1
+00:01.841	ID:25	2 15 10
+00:01.867	ID:1	37 0 1
+00:01.868	ID:38	expected beacon ack, got type 1
+00:01.869	ID:38	collision: 1
+00:01.870	ID:1	37 0 1
+00:01.881	ID:12	2 16 7
+00:01.905	ID:19	2 24 8
+00:01.907	ID:1	24 1 1
+00:01.909	ID:24	2 1 15
+00:01.917	ID:1	50 1 1
+00:01.919	ID:50	2 1 15
+00:01.951	ID:49	beacon ack not for us. For 255, from 1
+00:01.952	ID:49	collision: 1
+00:01.971	ID:1	36 0 1
+00:01.973	ID:1	36 0 1
+00:01.975	ID:36	2 1 12
+00:01.998	ID:5	2 10 10
+00:01.999	ID:1	10 0 1
+00:02.001	ID:10	2 1 12
+00:02.069	ID:1	39 1 1
+00:02.071	ID:1	39 1 1
+00:02.072	ID:42	select not for us
+00:02.076	ID:1	42 0 1
+00:02.078	ID:1	42 0 1
+00:02.081	ID:1	42 0 1
+00:02.083	ID:42	2 1 12
+00:02.096	ID:3	2 21 10
+00:02.126	ID:21	2 9 11
+00:02.128	ID:1	9 0 1
+00:02.130	ID:9	2 1 12
+00:02.145	ID:23	2 13 12
+00:02.147	ID:1	13 0 1
+00:02.149	ID:13	2 1 12
+00:02.177	ID:1	43 0 1
+00:02.179	ID:43	2 1 12
+00:02.186	ID:1	26 0 1
+00:02.188	ID:26	2 1 12
+00:02.204	ID:1	48 1 1
+00:02.205	ID:45	expected beacon, got type 2
+00:02.206	ID:48	2 1 15
+00:02.317	ID:17	expected beacon ack, got type 1
+00:02.318	ID:17	collision: 1
+00:02.336	ID:47	select not for us
+00:02.341	ID:30	select not for us
+00:02.346	ID:30	expected beacon ack, got type 3
+00:02.347	ID:30	collision: 1
+00:02.504	ID:1	6 0 1
+00:02.505	ID:34	expected beacon ack, got type 1
+00:02.506	ID:34	collision: 1
+00:02.507	ID:6	goto sleep after waiting for SELECT. Wrong packet length
+00:02.529	ID:24	goto sleep after waiting for SELECT. Wrong packet length
+00:02.533	ID:1	40 1 1
+00:02.534	ID:28	expected beacon ack, got type 1
+00:02.534	ID:31	expected beacon ack, got type 1
+00:02.535	ID:28	collision: 1
+00:02.535	ID:31	collision: 1
+00:02.535	ID:40	2 1 15
+00:02.540	ID:1	14 1 1
+00:02.542	ID:14	2 1 15
+00:02.650	ID:15	beacon ack not for us. For 2, from 50
+00:02.650	ID:2	2 50 11
+00:02.651	ID:15	collision: 1
+00:02.652	ID:1	50 2 1
+00:02.653	ID:10	select not for us
+00:02.653	ID:7	select not for us
+00:02.654	ID:1	50 2 1
+00:02.656	ID:50	2 1 21
+00:02.737	ID:1	44 0 1
+00:02.737	ID:7	expected beacon ack, got type 1
+00:02.738	ID:7	collision: 1
+00:02.747	ID:18	expected beacon ack, got type 9
+00:02.748	ID:18	collision: 1
+00:02.797	ID:1	sink got a too long beacon
+00:02.799	ID:1	sink got a too long beacon
+00:02.800	ID:1	sink got a too long beacon
+00:02.802	ID:1	sink got a too long beacon
+00:02.804	ID:1	sink got a too long beacon
+00:02.806	ID:1	sink got a too long beacon
+00:02.808	ID:1	sink got a too long beacon
+00:02.810	ID:1	sink got a too long beacon
+00:02.812	ID:1	sink got a too long beacon
+00:02.814	ID:1	sink got a too long beacon
+00:02.816	ID:1	sink got a too long beacon
+00:02.818	ID:1	sink got a too long beacon
+00:02.820	ID:1	sink got a too long beacon
+00:02.822	ID:1	sink got a too long beacon
+00:02.824	ID:1	sink got a too long beacon
+00:02.826	ID:1	sink got a too long beacon
+00:02.830	ID:41	goto sleep after waiting for SELECT. Wrong packet length
+00:02.830	ID:1	sink got a too long beacon
+00:02.834	ID:1	sink got a too long beacon
+00:02.837	ID:49	beacon ack not for us. For 255, from 46
+00:02.837	ID:20	beacon ack not for us. For 255, from 46
+00:02.838	ID:33	expected beacon ack, got type 1
+00:02.838	ID:49	collision: 1
+00:02.838	ID:1	sink got a too long beacon
+00:02.838	ID:20	collision: 1
+00:02.839	ID:33	collision: 1
+00:02.841	ID:1	44 0 1
+00:02.843	ID:1	sink got a too long beacon
+00:02.845	ID:1	44 0 1
+00:02.847	ID:1	sink got a too long beacon
+00:02.849	ID:1	44 0 1
+00:02.852	ID:1	sink got a too long beacon
+00:02.854	ID:1	44 0 1
+00:02.856	ID:1	sink got a too long beacon
+00:02.858	ID:1	44 0 1
+00:02.860	ID:36	goto sleep after waiting for SELECT. Wrong packet length
+00:02.860	ID:1	sink got a too long beacon
+00:02.863	ID:1	sink got a too long beacon
+00:02.865	ID:1	sink got a too long beacon
+00:02.867	ID:1	sink got a too long beacon
+00:02.876	ID:1	sink got a too long beacon
+00:02.878	ID:1	sink got a too long beacon
+00:02.880	ID:1	sink got a too long beacon
+00:02.882	ID:1	sink got a too long beacon
+00:02.884	ID:1	sink got a too long beacon
+00:02.887	ID:43	goto sleep after waiting for SELECT. Wrong packet length
+00:02.938	ID:35	expected beacon ack, got type 1
+00:02.939	ID:35	collision: 1
+00:02.981	ID:1	sink got a too long beacon
+00:02.983	ID:1	sink got a too long beacon
+00:03.003	ID:1	sink got a too long beacon
+00:03.005	ID:1	sink got a too long beacon
+00:03.018	ID:1	sink got a too long beacon
+00:03.021	ID:1	sink got a too long beacon
+00:03.023	ID:37	goto sleep after waiting for SELECT. Wrong packet length
+00:03.023	ID:1	sink got a too long beacon
+00:03.025	ID:1	sink got a too long beacon
+00:03.027	ID:1	sink got a too long beacon
+00:03.029	ID:1	sink got a too long beacon
+00:03.031	ID:1	sink got a too long beacon
+00:03.034	ID:1	sink got a too long beacon
+00:03.036	ID:1	sink got a too long beacon
+00:03.038	ID:1	sink got a too long beacon
+00:03.082	ID:10	expected beacon ack, got type 3
+00:03.082	ID:4	expected beacon ack, got type 3
+00:03.083	ID:10	collision: 1
+00:03.083	ID:4	collision: 1
+00:03.102	ID:39	beacon ack not for us. For 255, from 1
+00:03.103	ID:39	collision: 1
+00:03.122	ID:14	beacon ack not for us. For 255, from 1
+00:03.123	ID:14	collision: 1
+00:03.124	ID:29	2 17 10
+00:03.168	ID:17	beacon ack not for us. For 255, from 23
+00:03.168	ID:1	45 1 1
+00:03.169	ID:17	collision: 1
+00:03.170	ID:45	2 1 13
+00:03.180	ID:1	sink got a too long beacon
+00:03.182	ID:1	sink got a too long beacon
+00:03.185	ID:1	sink got a too long beacon
+00:03.187	ID:1	sink got a too long beacon
+00:03.189	ID:1	sink got a too long beacon
+00:03.207	ID:1	sink got a too long beacon
+00:03.207	ID:32	2 30 11
+00:03.207	ID:3	beacon ack not for us. For 32, from 30
+00:03.207	ID:21	beacon ack not for us. For 32, from 30
+00:03.208	ID:3	collision: 1
+00:03.208	ID:21	collision: 1
+00:03.209	ID:1	26 1 1
+00:03.211	ID:26	2 1 13
+00:03.237	ID:1	50 3 1
+00:03.239	ID:50	2 1 36
+00:03.244	ID:1	40 2 1
+00:03.246	ID:40	2 1 21
+00:03.262	ID:1	6 0 1
+00:03.264	ID:6	2 1 12
+00:03.408	ID:2	expected beacon, got type 2
+00:03.409	ID:31	2 19 11
+00:03.418	ID:1	42 1 1
+00:03.420	ID:42	2 1 15
+00:03.495	ID:1	50 4 1
+00:03.515	ID:12	2 47 5
+00:03.548	ID:47	2 18 11
+00:03.587	ID:18	beacon ack not for us. For 255, from 9
+00:03.587	ID:1	34 0 1
+00:03.588	ID:18	collision: 1
+00:03.589	ID:34	2 1 11
+00:03.606	ID:1	28 0 1
+00:03.608	ID:28	2 1 12
+00:03.626	ID:1	48 2 1
+00:03.628	ID:48	2 1 22
+00:03.643	ID:1	38 0 1
+00:03.644	ID:49	select not for us
+00:03.645	ID:1	38 0 1
+00:03.647	ID:38	2 1 12
+00:03.650	ID:1	49 0 1
+00:03.652	ID:49	2 1 12
+00:03.658	ID:1	40 3 1
+00:03.660	ID:40	2 1 34
+00:03.694	ID:1	7 0 1
+00:03.696	ID:7	2 1 12
+00:03.708	ID:10	select not for us
+00:03.708	ID:15	select not for us
+00:03.713	ID:10	expected beacon ack, got type 1
+00:03.713	ID:15	expected beacon ack, got type 1
+00:03.714	ID:10	collision: 1
+00:03.714	ID:15	collision: 1
+00:03.747	ID:1	43 1 1
+00:03.750	ID:1	43 1 1
+00:03.752	ID:43	2 1 15
+00:03.757	ID:1	24 2 1
+00:03.759	ID:24	2 1 22
+00:03.774	ID:11	2 25 9
+00:03.792	ID:1	50 4 1
+00:03.794	ID:14	expected beacon, got type 3
+00:03.802	ID:25	beacon ack not for us. For 255, from 35
+00:03.803	ID:25	collision: 1
+00:03.836	ID:1	37 0 1
+00:03.838	ID:45	select not for us
+00:03.839	ID:1	37 0 1
+00:03.843	ID:1	45 2 1
+00:03.846	ID:1	45 2 1
+00:03.848	ID:1	45 2 1
+00:03.850	ID:39	beacon ack not for us. For 45, from 1
+00:03.850	ID:45	2 1 17
+00:03.851	ID:39	collision: 1
+00:03.887	ID:1	13 1 1
+00:03.888	ID:23	expected beacon ack, got type 1
+00:03.889	ID:23	collision: 1
+00:03.890	ID:1	13 1 1
+00:03.892	ID:1	13 1 1
+00:03.894	ID:13	2 1 15
+00:03.897	ID:1	36 1 1
+00:03.906	ID:1	46 0 1
+00:03.908	ID:46	2 1 12
+00:03.924	ID:1	40 4 1
+00:03.926	ID:1	40 4 1
+00:03.929	ID:1	40 4 1
+00:03.931	ID:40	2 1 84
+00:03.970	ID:41	goto sleep after waiting for SELECT. Wrong packet length
+00:03.977	ID:27	expected beacon ack, got type 1
+00:03.978	ID:27	collision: 1
+00:04.079	ID:6	expected beacon ack, got type 3
+00:04.079	ID:17	expected beacon ack, got type 3
+00:04.079	ID:26	expected beacon ack, got type 3
+00:04.080	ID:29	goto sleep after waiting for SELECT. Wrong packet length
+00:04.080	ID:20	goto sleep after waiting for SELECT. Wrong packet length
+00:04.080	ID:33	goto sleep after waiting for SELECT. Wrong packet length
+00:04.080	ID:40	goto sleep after waiting for SELECT. Wrong packet length
+00:04.081	ID:6	collision: 1
+00:04.081	ID:17	collision: 1
+00:04.081	ID:26	collision: 1
+00:04.137	ID:1	42 2 1
+00:04.137	ID:8	expected beacon ack, got type 1
+00:04.137	ID:21	expected beacon ack, got type 1
+00:04.137	ID:50	expected beacon ack, got type 1
+00:04.137	ID:44	expected beacon ack, got type 1
+00:04.138	ID:8	collision: 1
+00:04.138	ID:50	collision: 1
+00:04.138	ID:21	collision: 1
+00:04.138	ID:44	collision: 1
+00:04.139	ID:1	42 2 1
+00:04.141	ID:1	42 2 1
+00:04.144	ID:1	42 2 1
+00:04.146	ID:1	42 2 1
+00:04.150	ID:1	42 2 1
+00:04.151	ID:22	select not for us
+00:04.152	ID:1	42 2 1
+00:04.155	ID:1	42 2 1
+00:04.157	ID:42	2 1 19
+00:04.157	ID:22	expected beacon ack, got type 3
+00:04.158	ID:22	collision: 1
+00:04.181	ID:30	beacon ack not for us. For 255, from 40
+00:04.182	ID:30	collision: 1
+00:04.272	ID:2	2 24 14
+00:04.288	ID:1	34 1 1
+00:04.290	ID:40	select not for us
+00:04.291	ID:1	34 1 1
+00:04.293	ID:34	2 1 11
+00:04.337	ID:4	beacon ack not for us. For 255, from 1
+00:04.338	ID:4	collision: 1
+00:04.348	ID:10	goto sleep after waiting for SELECT. Wrong packet length
+00:04.370	ID:1	38 1 1
+00:04.370	ID:45	expected beacon ack, got type 1
+00:04.370	ID:40	expected beacon ack, got type 1
+00:04.370	ID:49	expected beacon ack, got type 1
+00:04.370	ID:50	expected beacon ack, got type 1
+00:04.370	ID:5	expected beacon ack, got type 1
+00:04.371	ID:49	collision: 1
+00:04.371	ID:50	collision: 1
+00:04.371	ID:45	collision: 1
+00:04.371	ID:40	collision: 1
+00:04.371	ID:5	collision: 1
+00:04.372	ID:38	2 1 15
+00:04.450	ID:1	28 1 1
+00:04.452	ID:28	2 1 15
+00:04.501	ID:18	2 40 12
+00:04.503	ID:1	40 5 1
+00:04.506	ID:40	2 1 102
+00:04.634	ID:1	46 1 1
+00:04.634	ID:13	expected beacon ack, got type 1
+00:04.634	ID:23	expected beacon ack, got type 1
+00:04.634	ID:7	expected beacon ack, got type 1
+00:04.635	ID:13	collision: 1
+00:04.635	ID:23	collision: 1
+00:04.635	ID:7	collision: 1
+00:04.636	ID:1	46 1 1
+00:04.638	ID:1	46 1 1
+00:04.686	ID:1	26 2 1
+00:04.702	ID:1	26 2 1
+00:04.704	ID:1	26 2 1
+00:04.706	ID:1	26 2 1
+00:04.708	ID:35	select not for us
+00:04.713	ID:1	18 1 2
+00:04.714	ID:35	expected beacon ack, got type 1
+00:04.715	ID:35	collision: 1
+00:04.731	ID:24	beacon ack not for us. For 255, from 1
+00:04.732	ID:24	collision: 1
+00:04.782	ID:39	beacon ack not for us. For 255, from 1
+00:04.783	ID:39	collision: 1
+00:04.844	ID:25	select not for us
+00:04.849	ID:25	expected beacon ack, got type 3
+00:04.850	ID:25	collision: 1
+00:04.910	ID:1	6 1 1
+00:04.919	ID:40	goto sleep after waiting for BEACON's byte 1 from radio
+00:04.919	ID:38	goto sleep after waiting for BEACON's byte 2 from radio
+00:04.985	ID:1	37 0 1
+00:05.017	ID:19	beacon ack not for us. For 255, from 40
+00:05.018	ID:19	collision: 1
+00:05.028	ID:47	2 12 11
+00:05.033	ID:12	2 21 6
+00:05.096	ID:1	18 1 2
+00:05.096	ID:8	expected beacon ack, got type 1
+00:05.096	ID:21	expected beacon ack, got type 1
+00:05.097	ID:8	collision: 1
+00:05.097	ID:21	collision: 1
+00:05.099	ID:40	goto sleep after waiting for SELECT. Wrong packet length
+00:05.099	ID:49	goto sleep after waiting for SELECT. Wrong packet length
+00:05.099	ID:11	expected beacon ack, got type 1
+00:05.100	ID:11	collision: 1
+00:05.112	ID:1	50 4 1
+00:05.114	ID:3	select not for us
+00:05.115	ID:1	50 4 1
+00:05.121	ID:1	42 3 1
+00:05.123	ID:1	42 3 1
+00:05.126	ID:1	42 3 1
+00:05.132	ID:17	select not for us
+00:05.138	ID:17	expected beacon ack, got type 1
+00:05.139	ID:17	collision: 1
+00:05.147	ID:29	select not for us
+00:05.153	ID:29	expected beacon ack, got type 1
+00:05.154	ID:29	collision: 1
+00:05.174	ID:44	select not for us
+00:05.176	ID:43	select not for us
+00:05.179	ID:44	expected beacon ack, got type 1
+00:05.180	ID:44	collision: 1
+00:05.181	ID:43	expected beacon ack, got type 1
+00:05.183	ID:43	collision: 1
+00:05.185	ID:27	select not for us
+00:05.190	ID:27	expected beacon ack, got type 1
+00:05.191	ID:27	collision: 1
+00:05.216	ID:10	goto sleep after waiting for SELECT. Wrong packet length
+00:05.225	ID:24	goto sleep after waiting for SELECT. Wrong packet length
+00:05.283	ID:1	18 1 2
+00:05.284	ID:3	expected beacon ack, got type 1
+00:05.284	ID:13	expected beacon ack, got type 1
+00:05.285	ID:3	collision: 1
+00:05.285	ID:13	collision: 1
+00:05.286	ID:1	4 0 1
+00:05.288	ID:4	2 1 9
+00:05.295	ID:33	expected beacon, got type 2
+00:05.296	ID:32	2 16 11
+00:05.583	ID:1	46 1 1
+00:05.584	ID:22	expected beacon ack, got type 1
+00:05.584	ID:31	expected beacon ack, got type 1
+00:05.585	ID:22	collision: 1
+00:05.585	ID:31	collision: 1
+00:05.684	ID:28	goto sleep after waiting for SELECT. Wrong packet length
+00:05.704	ID:41	goto sleep after waiting for SELECT. Wrong packet length
+00:05.794	ID:1	sink got a too long beacon
+00:05.796	ID:23	goto sleep after waiting for SELECT. Wrong packet length
+00:05.796	ID:7	goto sleep after waiting for SELECT. Wrong packet length
+00:05.796	ID:36	goto sleep after waiting for SELECT. Wrong packet length
+00:05.796	ID:1	sink got a too long beacon
+00:05.796	ID:40	goto sleep after waiting for SELECT. Wrong packet length
+00:05.798	ID:1	sink got a too long beacon
+00:05.801	ID:2	goto sleep after waiting for SELECT. Wrong packet length
+00:05.801	ID:1	sink got a too long beacon
+00:05.803	ID:1	sink got a too long beacon
+00:05.805	ID:1	sink got a too long beacon
+00:05.807	ID:1	sink got a too long beacon
+00:05.824	ID:6	goto sleep after waiting for BEACON's byte 1 from radio
+00:05.932	ID:1	35 0 1
+00:05.932	ID:15	expected beacon ack, got type 1
+00:05.932	ID:50	expected beacon ack, got type 1
+00:05.932	ID:49	expected beacon ack, got type 1
+00:05.932	ID:37	expected beacon ack, got type 1
+00:05.932	ID:5	expected beacon ack, got type 1
+00:05.933	ID:15	collision: 1
+00:05.933	ID:50	collision: 1
+00:05.933	ID:49	collision: 1
+00:05.934	ID:37	collision: 1
+00:05.934	ID:5	collision: 1
+00:05.934	ID:1	35 0 1
+00:05.937	ID:1	35 0 1
+00:05.939	ID:1	35 0 1
+00:05.942	ID:1	35 0 1
+00:05.948	ID:13	select not for us
+00:05.954	ID:13	expected beacon ack, got type 1
+00:05.955	ID:13	collision: 1
+00:06.034	ID:21	select not for us
+00:06.039	ID:21	expected beacon ack, got type 1
+00:06.040	ID:21	collision: 1
+00:06.060	ID:20	select not for us
+00:06.065	ID:20	expected beacon ack, got type 1
+00:06.067	ID:20	collision: 1
+00:06.106	ID:39	select not for us
+00:06.111	ID:39	expected beacon ack, got type 1
+00:06.113	ID:39	collision: 1
+00:06.194	ID:48	select not for us
+00:06.199	ID:48	expected beacon ack, got type 1
+00:06.200	ID:48	collision: 1
+00:06.207	ID:19	select not for us
+00:06.212	ID:19	expected beacon ack, got type 1
+00:06.213	ID:19	collision: 1
+00:06.217	ID:1	sink got a too long beacon
+00:06.234	ID:1	sink got a too long beacon
+00:06.237	ID:1	sink got a too long beacon
+00:06.239	ID:28	goto sleep after waiting for SELECT. Wrong packet length
+00:06.239	ID:1	sink got a too long beacon
+00:06.241	ID:1	sink got a too long beacon
+00:06.243	ID:1	sink got a too long beacon
+00:06.245	ID:1	sink got a too long beacon
+00:06.248	ID:1	sink got a too long beacon
+00:06.250	ID:1	sink got a too long beacon
+00:06.291	ID:1	sink got a too long beacon
+00:06.294	ID:8	goto sleep after waiting for SELECT. Wrong packet length
+00:06.614	ID:12	goto sleep after waiting for SELECT. Wrong packet length
+00:06.615	ID:18	goto sleep after waiting for SELECT. Wrong packet length
+00:06.842	ID:35	2 35 10
+00:06.843	ID:25	expected beacon ack, got type 1
+00:06.844	ID:25	collision: 1
+00:06.863	ID:40	expected beacon ack, got type 1
+00:06.864	ID:40	collision: 1
+00:06.899	ID:47	2 47 11
+00:06.900	ID:1	38 2 1
+00:06.902	ID:43	goto sleep after waiting for SELECT. Wrong packet length
+00:06.902	ID:13	goto sleep after waiting for SELECT. Wrong packet length
+00:06.902	ID:31	goto sleep after waiting for SELECT. Wrong packet length
+00:06.902	ID:1	38 2 1
+00:06.902	ID:39	goto sleep after waiting for SELECT. Wrong packet length
+00:06.903	ID:48	goto sleep after waiting for SELECT. Wrong packet length
+00:06.903	ID:2	goto sleep after waiting for SELECT. Wrong packet length
+00:06.905	ID:1	38 2 1
+00:06.906	ID:38	2 1 3
+00:06.906	ID:44	beacon ack not for us. For 38, from 1
+00:06.906	ID:6	beacon ack not for us. For 38, from 1
+00:06.907	ID:42	beacon ack not for us. For 38, from 1
+00:06.907	ID:41	expected beacon, got type 3
+00:06.908	ID:44	collision: 1
+00:06.908	ID:6	collision: 1
+00:06.908	ID:42	collision: 1
+00:06.937	ID:33	expected beacon ack, got type 1
+00:06.937	ID:24	expected beacon ack, got type 1
+00:06.938	ID:33	collision: 1
+00:06.938	ID:24	collision: 1
+00:06.970	ID:20	2 40 11
+00:06.971	ID:1	18 1 2
+00:06.974	ID:40	2 1 100
+00:07.013	ID:1	10 1 1
+00:07.015	ID:10	2 1 15
+00:07.044	ID:1	28 2 1
+00:07.046	ID:28	2 1 22
+00:07.051	ID:16	2 32 12
+00:07.053	ID:32	goto sleep after waiting for SELECT. Wrong packet length
+00:07.055	ID:21	2 9 14
+00:07.057	ID:1	9 1 1
+00:07.059	ID:9	2 1 15
+00:07.064	ID:1	20 0 2
+00:07.066	ID:3	select not for us
+00:07.067	ID:1	20 0 2
+00:07.069	ID:40	2 1 94
+00:07.096	ID:3	beacon ack not for us. For 255, from 50
+00:07.096	ID:1	37 0 1
+00:07.097	ID:3	collision: 1
+00:07.098	ID:37	2 1 12
+00:07.145	ID:30	2 15 11
+00:07.181	ID:17	expected beacon ack, got type 3
+00:07.182	ID:17	collision: 1
+00:07.242	ID:1	46 1 1
+00:07.243	ID:40	select not for us
+00:07.244	ID:1	46 1 1
+00:07.246	ID:46	2 1 15
+00:07.370	ID:1	50 4 1
+00:07.371	ID:11	expected beacon ack, got type 1
+00:07.371	ID:19	expected beacon ack, got type 1
+00:07.371	ID:45	expected beacon ack, got type 1
+00:07.371	ID:15	expected beacon ack, got type 1
+00:07.372	ID:11	collision: 1
+00:07.372	ID:19	collision: 1
+00:07.372	ID:15	collision: 1
+00:07.372	ID:45	collision: 1
+00:07.372	ID:50	expected beacon ack, got type 1
+00:07.373	ID:1	24 3 1
+00:07.373	ID:50	collision: 1
+00:07.375	ID:24	2 1 28
+00:07.389	ID:1	8 0 1
+00:07.391	ID:8	2 1 12
+00:07.422	ID:1	48 3 1
+00:07.425	ID:1	48 3 1
+00:07.427	ID:1	48 3 1
+00:07.430	ID:1	48 3 1
+00:07.430	ID:40	select not for us
+00:07.432	ID:42	goto sleep after waiting for SELECT. Wrong packet length
+00:07.432	ID:48	goto sleep after waiting for SELECT. Wrong packet length
+00:07.478	ID:27	beacon ack not for us. For 255, from 18
+00:07.478	ID:1	28 3 1
+00:07.479	ID:27	collision: 1
+00:07.480	ID:28	2 1 29
+00:07.516	ID:23	2 40 14
+00:07.518	ID:1	23 1 2
+00:07.520	ID:10	select not for us
+00:07.521	ID:1	23 1 2
+00:07.522	ID:4	expected beacon, got type 2
+00:07.523	ID:40	2 1 88
+00:07.525	ID:1	10 2 1
+00:07.527	ID:10	2 1 21
+00:07.528	ID:7	expected beacon, got type 3
+00:07.536	ID:1	13 2 1
+00:07.537	ID:34	select not for us
+00:07.538	ID:1	13 2 1
+00:07.540	ID:13	2 1 21
+00:07.543	ID:1	34 2 1
+00:07.544	ID:14	expected beacon, got type 2
+00:07.545	ID:34	2 1 14
+00:07.557	ID:1	36 1 1
+00:07.559	ID:36	2 1 15
+00:07.587	ID:2	2 50 17
+00:07.589	ID:1	50 4 1
+00:07.590	ID:43	select not for us
+00:07.591	ID:1	50 4 1
+00:07.594	ID:50	2 1 104
+00:07.596	ID:43	2 49 21
+00:07.598	ID:1	49 1 1
+00:07.600	ID:49	2 1 15
+00:07.663	ID:1	26 2 1
+00:07.664	ID:24	select not for us
+00:07.665	ID:1	26 2 1
+00:07.667	ID:26	2 1 18
+00:07.668	ID:1	24 4 1
+00:07.670	ID:1	24 4 1
+00:07.671	ID:9	select not for us
+00:07.674	ID:1	9 2 1
+00:07.677	ID:1	9 2 1
+00:07.679	ID:1	9 2 1
+00:07.681	ID:1	9 2 1
+00:07.684	ID:1	9 2 1
+00:07.686	ID:1	9 2 1
+00:07.688	ID:1	9 2 1
+00:07.689	ID:50	select not for us
+00:07.690	ID:1	9 2 1
+00:07.693	ID:1	9 2 1
+00:07.695	ID:50	expected beacon ack, got type 1
+00:07.695	ID:1	9 2 1
+00:07.696	ID:50	collision: 1
+00:07.697	ID:9	2 1 19
+00:07.745	ID:35	expected beacon ack, got type 1
+00:07.746	ID:35	collision: 1
+00:07.758	ID:1	sink got a too long beacon
+00:07.761	ID:1	sink got a too long beacon
+00:07.763	ID:1	sink got a too long beacon
+00:07.765	ID:1	sink got a too long beacon
+00:07.767	ID:1	sink got a too long beacon
+00:07.769	ID:1	sink got a too long beacon
+00:07.782	ID:1	sink got a too long beacon
+00:07.785	ID:1	sink got a too long beacon
+00:07.787	ID:1	sink got a too long beacon
+00:07.789	ID:1	sink got a too long beacon
+00:07.794	ID:39	beacon ack not for us. For 255, from 6
+00:07.795	ID:50	beacon ack not for us. For 255, from 1
+00:07.795	ID:39	collision: 1
+00:07.796	ID:50	collision: 1
+00:07.796	ID:5	select not for us
+00:07.832	ID:28	select not for us
+00:07.840	ID:28	beacon ack not for us. For 255, from 1
+00:07.841	ID:28	collision: 1
+00:07.846	ID:1	44 0 1
+00:07.846	ID:48	expected beacon ack, got type 1
+00:07.847	ID:48	collision: 1
+00:07.848	ID:1	44 0 1
+00:07.850	ID:44	2 1 12
+00:07.890	ID:50	beacon ack not for us. For 255, from 1
+00:07.891	ID:50	collision: 1
+00:07.950	ID:1	43 3 1
+00:07.974	ID:47	beacon ack not for us. For 255, from 30
+00:07.975	ID:47	collision: 1
+00:07.976	ID:41	2 37 11
+00:07.978	ID:1	37 1 1
+00:07.979	ID:50	select not for us
+00:07.980	ID:1	37 1 1
+00:07.982	ID:37	2 1 15
+00:07.985	ID:1	50 5 1
+00:07.987	ID:50	2 1 90
+00:08.004	ID:1	42 3 1
+00:08.006	ID:42	2 1 30
+00:08.023	ID:3	2 20 12
+00:08.027	ID:20	2 13 13
+00:08.028	ID:1	13 3 1
+00:08.030	ID:13	2 1 34
+00:08.030	ID:40	expected beacon, got type 3
+00:08.042	ID:1	45 3 1
+00:08.044	ID:1	45 3 1
+00:08.045	ID:46	expected beacon, got type 2
+00:08.046	ID:45	2 1 25
+00:08.053	ID:16	2 33 14
+00:08.073	ID:1	2 1 2
+00:08.131	ID:33	expected beacon ack, got type 1
+00:08.131	ID:24	expected beacon ack, got type 1
+00:08.132	ID:33	collision: 1
+00:08.132	ID:24	collision: 1
+00:08.149	ID:36	expected beacon, got type 2
+00:08.150	ID:2	2 40 23
+00:08.152	ID:1	31 2 2
+00:08.154	ID:40	2 1 96
+00:08.154	ID:17	expected beacon, got type 3
+00:08.175	ID:9	beacon ack not for us. For 255, from 1
+00:08.176	ID:9	collision: 1
+00:08.177	ID:32	2 15 14
+00:08.181	ID:15	2 50 12
+00:08.183	ID:1	2 1 2
+00:08.185	ID:50	2 1 90
+00:08.207	ID:1	49 2 1
+00:08.209	ID:49	2 1 21
+00:08.236	ID:1	2 4 2
+00:08.238	ID:28	select not for us
+00:08.239	ID:1	2 4 2
+00:08.241	ID:40	2 1 93
+00:08.244	ID:1	28 4 1
+00:08.246	ID:28	2 1 58
+00:08.257	ID:1	7 1 1
+00:08.259	ID:7	2 1 15
+00:08.269	ID:1	41 0 2
+00:08.270	ID:10	select not for us
+00:08.271	ID:1	41 0 2
+00:08.276	ID:10	beacon ack not for us. For 29, from 12
+00:08.276	ID:29	2 12 11
+00:08.277	ID:10	collision: 1
+00:08.299	ID:12	2 23 6
+00:08.311	ID:1	26 3 1
+00:08.313	ID:40	select not for us
+00:08.313	ID:14	select not for us
+00:08.314	ID:1	26 3 1
+00:08.316	ID:1	14 2 1
+00:08.319	ID:1	14 2 1
+00:08.321	ID:14	2 1 20
+00:08.323	ID:23	2 19 18
+00:08.342	ID:19	2 8 9
+00:08.344	ID:1	8 1 1
+00:08.346	ID:8	2 1 15
+00:08.355	ID:1	41 0 2
+00:08.357	ID:50	2 1 96
+00:08.376	ID:1	48 3 1
+00:08.377	ID:45	expected beacon, got type 2
+00:08.377	ID:13	expected beacon, got type 2
+00:08.378	ID:48	2 1 37
+00:08.398	ID:1	34 3 1
+00:08.423	ID:18	2 40 15
+00:08.425	ID:1	18 2 2
+00:08.427	ID:40	2 1 92
+00:08.432	ID:1	2 3 2
+00:08.434	ID:28	select not for us
+00:08.435	ID:1	2 3 2
+00:08.437	ID:50	2 1 90
+00:08.440	ID:1	28 5 1
+00:08.442	ID:28	2 1 53
+00:08.468	ID:1	24 4 1
+00:08.470	ID:24	2 1 61
+00:08.501	ID:1	sink got a too long beacon
+00:08.508	ID:1	sink got a too long beacon
+00:08.510	ID:1	sink got a too long beacon
+00:08.512	ID:1	sink got a too long beacon
+00:08.514	ID:1	sink got a too long beacon
+00:08.521	ID:1	15 0 2
+00:08.522	ID:43	expected beacon ack, got type 9
+00:08.523	ID:50	2 1 91
+00:08.523	ID:43	collision: 1
+00:08.547	ID:1	37 2 1
+00:08.550	ID:1	37 2 1
+00:08.552	ID:37	2 1 21
+00:08.572	ID:11	2 25 11
+00:08.584	ID:25	2 5 13
+00:08.602	ID:1	9 3 1
+00:08.605	ID:1	9 3 1
+00:08.607	ID:1	9 3 1
+00:08.609	ID:1	9 3 1
+00:08.612	ID:1	9 3 1
+00:08.613	ID:28	select not for us
+00:08.614	ID:1	9 3 1
+00:08.616	ID:1	9 3 1
+00:08.618	ID:9	2 1 27
+00:08.622	ID:1	13 4 1
+00:08.624	ID:13	2 1 94
+00:08.631	ID:46	select not for us
+00:08.633	ID:48	select not for us
+00:08.636	ID:46	expected beacon ack, got type 1
+00:08.638	ID:46	collision: 1
+00:08.639	ID:48	expected beacon ack, got type 1
+00:08.640	ID:48	collision: 1
+00:08.656	ID:44	goto sleep after waiting for SELECT. Wrong packet length
+00:08.727	ID:49	expected beacon, got type 3
+00:08.728	ID:1	39 1 1
+00:08.731	ID:10	select not for us
+00:08.732	ID:1	39 1 1
+00:08.736	ID:50	select not for us
+00:08.738	ID:13	select not for us
+00:08.740	ID:10	expected beacon ack, got type 1
+00:08.740	ID:1	sink got a too long beacon
+00:08.742	ID:10	collision: 1
+00:08.745	ID:13	beacon ack not for us. For 255, from 1
+00:08.746	ID:13	collision: 1
+00:08.753	ID:1	45 4 1
+00:08.755	ID:1	45 4 1
+00:08.757	ID:45	2 1 48
+00:08.776	ID:1	36 2 1
+00:08.778	ID:36	2 1 21
+00:08.801	ID:22	2 6 12
+00:08.803	ID:1	6 1 1
+00:08.805	ID:6	2 1 15
+00:08.855	ID:13	select not for us
+00:08.858	ID:1	sink got a too long beacon
+00:08.860	ID:1	sink got a too long beacon
+00:08.860	ID:23	goto sleep after waiting for SELECT. Wrong packet length
+00:08.861	ID:26	goto sleep after waiting for SELECT. Wrong packet length
+00:08.865	ID:13	beacon ack not for us. For 255, from 1
+00:08.865	ID:41	expected beacon ack, got type 1
+00:08.866	ID:13	collision: 1
+00:08.866	ID:41	collision: 1
+00:08.899	ID:1	48 4 1
+00:08.899	ID:24	expected beacon ack, got type 1
+00:08.900	ID:40	select not for us
+00:08.900	ID:24	collision: 1
+00:08.901	ID:1	48 4 1
+00:08.904	ID:1	48 4 1
+00:08.906	ID:1	48 4 1
+00:08.909	ID:1	48 4 1
+00:08.910	ID:32	select not for us
+00:08.912	ID:1	48 4 1
+00:08.915	ID:1	48 4 1
+00:08.915	ID:32	expected beacon ack, got type 1
+00:08.916	ID:32	collision: 1
+00:08.917	ID:1	48 4 1
+00:08.919	ID:1	48 4 1
+00:08.922	ID:1	48 4 1
+00:08.928	ID:27	2 16 10
+00:08.930	ID:48	goto sleep after waiting for BEACON's byte 2 from radio
+00:08.932	ID:15	2 50 12
+00:08.934	ID:1	15 1 2
+00:08.936	ID:50	2 1 102
+00:08.949	ID:34	expected beacon, got type 2
+00:08.950	ID:31	2 43 13
+00:08.952	ID:1	43 3 1
+00:08.954	ID:43	2 1 21
+00:08.973	ID:1	13 5 1
+00:08.975	ID:13	2 1 98
+00:08.980	ID:18	2 3 20
+00:08.996	ID:8	select not for us
+00:08.998	ID:42	beacon ack not for us. For 255, from 1
+00:08.999	ID:42	collision: 1
+00:09.003	ID:1	45 5 1
+00:09.004	ID:28	select not for us
+00:09.005	ID:1	45 5 1
+00:09.006	ID:8	expected beacon ack, got type 1
+00:09.006	ID:3	expected beacon ack, got type 1
+00:09.007	ID:9	select not for us
+00:09.007	ID:8	collision: 1
+00:09.007	ID:3	collision: 1
+00:09.009	ID:2	2 40 40
+00:09.010	ID:1	9 4 1
+00:09.013	ID:1	9 4 1
+00:09.013	ID:40	expected beacon ack, got type 1
+00:09.014	ID:40	collision: 1
+00:09.015	ID:9	2 1 51
+00:09.039	ID:1	37 3 1
+00:09.046	ID:1	7 2 1
+00:09.070	ID:1	24 5 1
+00:09.072	ID:24	2 1 61
+00:09.082	ID:33	2 13 10
+00:09.084	ID:1	23 0 2
+00:09.086	ID:13	2 1 108
+00:09.102	ID:17	2 40 12
+00:09.104	ID:1	2 5 2
+00:09.106	ID:40	2 1 97
+00:09.130	ID:1	10 3 1
+00:09.132	ID:10	2 1 35
+00:09.148	ID:1	46 2 1
+00:09.151	ID:1	46 2 1
+00:09.153	ID:1	46 2 1
+00:09.155	ID:46	2 1 21
+00:09.158	ID:1	14 3 1
+00:09.160	ID:14	2 1 31
+00:09.168	ID:1	49 3 1
+00:09.170	ID:1	49 3 1
+00:09.172	ID:9	select not for us
+00:09.173	ID:1	49 3 1
+00:09.174	ID:28	expected beacon, got type 2
+00:09.175	ID:13	beacon ack not for us. For 49, from 1
+00:09.175	ID:49	2 1 34
+00:09.176	ID:13	collision: 1
+00:09.177	ID:1	9 5 1
+00:09.179	ID:9	2 1 49
+00:09.189	ID:1	17 0 2
+00:09.192	ID:40	2 1 105
+00:09.203	ID:1	19 0 2
+00:09.204	ID:50	select not for us
+00:09.205	ID:1	19 0 2
+00:09.207	ID:24	2 1 60
+00:09.214	ID:1	45 5 1
+00:09.216	ID:45	2 1 48
+00:09.250	ID:21	2 48 18
+00:09.252	ID:1	48 4 1
+00:09.254	ID:48	2 1 117
+00:09.262	ID:1	20 1 2
+00:09.265	ID:13	2 1 117
+00:09.296	ID:25	expected beacon ack, got type 1
+00:09.297	ID:25	collision: 1
+00:09.298	ID:19	2 40 11
+00:09.305	ID:36	expected beacon, got type 2
+00:09.306	ID:11	2 50 13
+00:09.308	ID:1	11 2 2
+00:09.310	ID:50	2 1 101
+00:09.335	ID:23	2 24 24
+00:09.337	ID:1	2 2 2
+00:09.339	ID:28	select not for us
+00:09.339	ID:1	2 2 2
+00:09.341	ID:24	2 1 56
+00:09.342	ID:48	expected beacon, got type 3
+00:09.356	ID:1	33 0 2
+00:09.358	ID:13	2 1 119
+00:09.363	ID:18	2 10 33
+00:09.365	ID:1	10 4 1
+00:09.367	ID:10	2 1 100
+00:09.369	ID:42	expected beacon, got type 2
+00:09.382	ID:40	expected beacon, got type 3
+00:09.382	ID:29	2 20 14
+00:09.390	ID:20	2 9 18
+00:09.392	ID:1	21 0 2
+00:09.394	ID:9	2 1 50
+00:09.415	ID:1	48 5 1
+00:09.417	ID:48	2 1 117
+00:09.424	ID:30	2 50 14
+00:09.425	ID:1	30 1 2
+00:09.427	ID:13	select not for us
+00:09.428	ID:1	30 1 2
+00:09.430	ID:50	2 1 93
+00:09.434	ID:1	49 4 1
+00:09.435	ID:26	select not for us
+00:09.436	ID:1	49 4 1
+00:09.438	ID:49	2 1 86
+00:09.441	ID:1	26 3 1
+00:09.443	ID:26	2 1 27
+00:09.458	ID:1	43 4 1
+00:09.460	ID:43	2 1 35
+00:09.474	ID:1	10 5 1
+00:09.475	ID:47	select not for us
+00:09.476	ID:1	10 5 1
+00:09.478	ID:6	expected beacon, got type 2
+00:09.478	ID:10	2 1 98
+00:09.485	ID:1	31 2 2
+00:09.486	ID:40	select not for us
+00:09.487	ID:1	31 2 2
+00:09.490	ID:1	31 2 2
+00:09.491	ID:14	expected beacon, got type 2
+00:09.492	ID:40	expected beacon ack, got type 3
+00:09.492	ID:48	2 1 101
+00:09.493	ID:40	collision: 1
+00:09.531	ID:1	34 3 1
+00:09.541	ID:24	expected beacon ack, got type 1
+00:09.542	ID:7	beacon ack not for us. For 255, from 1
+00:09.542	ID:24	collision: 1
+00:09.543	ID:7	collision: 1
+00:09.548	ID:1	3 1 2
+00:09.550	ID:9	2 1 70
+00:09.717	ID:32	expected beacon ack, got type 9
+00:09.718	ID:32	collision: 1
+00:09.840	ID:31	goto sleep after waiting for SELECT. Wrong packet length

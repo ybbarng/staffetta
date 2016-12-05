@@ -214,7 +214,7 @@ int staffetta_send_packet(void) {
 	    if (strobe[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 		radio_flush_rx();
 		goto_idle();
-		printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+		//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 		return RET_FAIL_RX_BUFF;
 	    }
 	    while (bytes_read < 10) {
@@ -225,7 +225,7 @@ int staffetta_send_packet(void) {
 		    if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t1 + RTIMER_ARCH_SECOND/200)) {
 				radio_flush_rx();
 				goto_idle();
-				printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+				//printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 				return RET_FAIL_RX_BUFF;
 		    }
 		};
@@ -265,7 +265,7 @@ int staffetta_send_packet(void) {
 			leds_off(LEDS_GREEN);
 			radio_flush_rx();
 			goto_idle();
-			PRINTF("sender is closer to the sink than me\n");
+			//PRINTF("sender is closer to the sink than me\n");
 			return RET_WRONG_GRADIENT;
 		    }
 #endif
@@ -275,7 +275,7 @@ int staffetta_send_packet(void) {
 				leds_off(LEDS_GREEN);
 				radio_flush_rx();
 				goto_idle();
-				printf("expected beacon, got type %d\n",strobe[PKT_TYPE]);
+				//printf("expected beacon, got type %d\n",strobe[PKT_TYPE]);
 				return RET_WRONG_TYPE;
 		    }
 		}
@@ -310,7 +310,7 @@ int staffetta_send_packet(void) {
 				if (select[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 			    	radio_flush_rx();
 			    	goto_idle();
-			    	printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+			    	//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 			    	return RET_FAIL_RX_BUFF;
 				}
 				//PRINTF("len %u\n",strobe[PKT_LEN]);
@@ -322,7 +322,7 @@ int staffetta_send_packet(void) {
 						if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t2 + RTIMER_ARCH_SECOND/200)) {
 					    	radio_flush_rx();
 					    	goto_idle();
-					    	printf("goto sleep after waiting for SELECT's byte %u from radio\n",bytes_read);
+					    	//printf("goto sleep after waiting for SELECT's byte %u from radio\n",bytes_read);
 					    	return RET_FAIL_RX_BUFF;
 						}
 				    };
@@ -348,7 +348,7 @@ int staffetta_send_packet(void) {
 		//Save received data
 		if((current_state==select_received)&&(select[PKT_DST]!=node_id)){
 	    	//if we received a select and it is not for us, trash the packet.
-	    	printf("select not for us\n");
+	    	//printf("select not for us\n");
 		} else {
 	    	//otherwise save the packet
 	    	add_data(strobe[PKT_DATA], strobe[PKT_TTL]+1, strobe[PKT_SEQ]);
@@ -415,7 +415,7 @@ int staffetta_send_packet(void) {
 				if (strobe_ack[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 			   		radio_flush_rx();
 		    		goto_idle();
-			   		printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+			   		//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 			   		return RET_FAIL_RX_BUFF;
 				}
 				//debug = strobe_ack[PKT_LEN];
@@ -427,7 +427,7 @@ int staffetta_send_packet(void) {
 						if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t2 + RTIMER_ARCH_SECOND/200)) {
 				    		radio_flush_rx();
 				    		goto_idle();
-				    		printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+				    		//printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 				    		return RET_FAIL_RX_BUFF;
 						}
 			    	};
@@ -468,16 +468,16 @@ int staffetta_send_packet(void) {
 			    	if ((strobe_ack[PKT_DST] == node_id)&&(strobe_ack[PKT_DATA] == strobe[PKT_DATA] )) {
 						current_state = beacon_sent;
 						//radio_flush_tx();
-						PRINTF("beacon ack for us from %d\n", strobe_ack[PKT_SRC]);
+						//PRINTF("beacon ack for us from %d\n", strobe_ack[PKT_SRC]);
 			    	} else {
-						printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
+						//printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
 						collisions++;
-						printf("collision");
+						printf("collision\n");
 			    	}
 				} else {
-			    	printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
+			    	//printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
 			    	collisions++;
-				printf("collision");
+				printf("collision\n");
 				}
 		    }
 		}
@@ -587,7 +587,7 @@ void sink_listen(void) {
 				leds_off(LEDS_GREEN);
 				radio_flush_rx();
 				current_state=idle;
-				printf("sink got a too long beacon\n");
+				//printf("sink got a too long beacon\n");
 				continue;
 		    }
 		    debug = strobe[PKT_LEN];
@@ -600,7 +600,7 @@ void sink_listen(void) {
 					leds_off(LEDS_GREEN);
 					radio_flush_rx();
 					current_state=idle;
-					printf("sink goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+					//printf("sink goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 					continue;
 			    	}
 				};

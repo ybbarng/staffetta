@@ -21,7 +21,7 @@
 
 /*------------------------- OPTIONS --------------------------------------------------*/
 
-#define PAKETS_PER_NODE 	    6                 // Initial queue size
+#define PAKETS_PER_NODE 	    10                 // Initial queue size
 #define WITH_CRC 		          1                 // Check packet CRC
 #define IS_SINK 		          (node_id == 1)    // Define condition to be a sink node
 //#define IS_SINK 		        (node_id < 4)     // Mobile sink on flocklab

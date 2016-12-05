@@ -495,7 +495,6 @@ int staffetta_send_packet(void) {
 		select[PKT_DST] = strobe_ack[PKT_SRC];
 		radio_flush_tx();
 		FASTSPI_WRITE_FIFO(select, STAFFETTA_PKT_LEN+1);
-		printf("5 %d %d\n", select[PKT_DST], select[PKT_SRC]);
 		FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
 		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
@@ -543,6 +542,10 @@ int staffetta_send_packet(void) {
 #endif
 		if (!IS_SINK) {
 		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
+    			uint32_t power = (energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17400) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18800) / RTIMER_ARCH_SECOND * 3;
+			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 1000 / RTIMER_ARCH_SECOND;
+			uint32_t elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
+			printf("6 %ld %ld\n", power, (on_time * 1000) / elapsed_time);
 		}
 	}
 	radio_flush_rx();

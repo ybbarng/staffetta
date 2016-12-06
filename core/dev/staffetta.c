@@ -541,10 +541,12 @@ int staffetta_send_packet(void) {
 		num_wakeups = 10;
 #endif
 		if (!IS_SINK) {
+		    	// 2 src frequency: When a beacon ack from 'src' is received, report my wakeup 'frequency'.
 		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
     			uint32_t power = (energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17400) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18800) / RTIMER_ARCH_SECOND * 3;
 			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 1000 / RTIMER_ARCH_SECOND;
 			uint32_t elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
+		    	// 6 power duty-cycle: Report my 'power' consumption and 'duty-cycle'.
 			printf("6 %ld %ld\n", power, (on_time * 1000) / elapsed_time);
 		}
 	}
@@ -689,8 +691,10 @@ void staffetta_print_stats(void){
     elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
     if (!(IS_SINK)){
 #if ORW_GRADIENT
+		// 3 duty-cycle avg_edc
 		printf("3 %ld %ld\n",(on_time*1000)/elapsed_time,avg_edc);
 #else
+		// 3 duty-cycle q_size
 		printf("3 %ld %d\n",(on_time*1000)/elapsed_time,q_size);
 #endif
 	}
@@ -698,6 +702,7 @@ void staffetta_print_stats(void){
 }
 
 void staffetta_add_data(uint8_t _seq){
+    // 4 node_id seq: Add data with 'seq' number to node 'node_id'.
     printf("4 %d %d\n",node_id,_seq);
     add_data(node_id,0,_seq);
 }

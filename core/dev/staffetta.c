@@ -498,6 +498,8 @@ int staffetta_send_packet(void) {
 		FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
 		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
+		// 5 src dst: Send packet from 'src' to 'dst'
+		printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
 		//t2 = RTIMER_NOW ();while(RTIMER_CLOCK_LT(RTIMER_NOW(),t2+32)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
 #endif
 #if WITH_AGGREGATE

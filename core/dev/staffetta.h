@@ -27,9 +27,9 @@
 //#define IS_SINK 		        (node_id < 4)     // Mobile sink on flocklab
 #define WITH_SELECT 		      1                 // enable 3-way handshake (in case of multiple forwarders, initiator can choose)
 
-#define WITH_GRADIENT 		    0                 // ensure that messages follows a gradient to the sink (number of wakeups)
+#define WITH_GRADIENT 		    1                 // ensure that messages follows a gradient to the sink (number of wakeups)
 #define BCP_GRADIENT		      0                 // use the queue size as gradient (BCP)
-#define ORW_GRADIENT		      1                 // use the expected duty cycle as gradient (ORW)
+#define ORW_GRADIENT		      0                 // use the expected duty cycle as gradient (ORW)
 #define DYN_DC 			          1                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
 
 #define FAST_FORWARD 		      1                 // forward as soon as you can (not dummy messages)

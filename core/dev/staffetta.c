@@ -47,6 +47,21 @@ static enum mac_state current_state = disabled;
 
 static struct pt pt;
 
+static uint8_t hop_count = 0;
+
+static inline void count_hop_num(void) {
+    //printf("Node number: %u\n", node_id);
+    if(node_id == 1)
+	hop_count = 0;
+    if((node_id == 2) || (node_id == 4))
+	hop_count = 1;
+    if((node_id == 3) || (node_id == 5) || (node_id == 7))
+	hop_count = 2;
+    if((node_id == 6) || (node_id == 8))
+	hop_count = 3;
+    if(node_id == 9)
+	hop_count = 4;
+}
 /* --------------------------- RADIO FUNCTIONS ---------------------- */
 
 static inline void radio_flush_tx(void) {
@@ -256,11 +271,16 @@ int staffetta_send_packet(void) {
 	    //strobe received, process it
 #if WITH_GRADIENT
 #if BCP_GRADIENT
+	    printf("BCP_GRADIENT mode rx\n");
 	    if(strobe[PKT_GRADIENT] < q_size){
 #elif ORW_GRADIENT
+		printf("ORW_GRADIENT mode rx\n");
 		if(strobe[PKT_GRADIENT] < avg_edc){
 #else
-		    if(strobe[PKT_GRADIENT] > num_wakeups){
+		    printf("normal mode rx\n");
+		    count_hop_num();
+		    if(strobe[PKT_GRADIENT] > hop_count){
+		    //if(strobe[PKT_GRADIENT] > num_wakeups){
 #endif
 			leds_off(LEDS_GREEN);
 			radio_flush_rx();
@@ -287,6 +307,7 @@ int staffetta_send_packet(void) {
 		strobe_ack[PKT_SEQ] = strobe[PKT_SEQ];
 		strobe_ack[PKT_TTL] = strobe[PKT_TTL];
 #if ORW_GRADIENT
+		printf("ORW_GRADIENT mode strobe_ack queue size limit to 255\n");
 		strobe_ack[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #endif
 #if WITH_AGGREGATE
@@ -381,11 +402,16 @@ int staffetta_send_packet(void) {
     strobe[PKT_TTL] = read_ttl();
     strobe[PKT_SEQ] = read_seq();
 #if BCP_GRADIENT
+    printf("BCP GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(q_size,255)); // we limit the queue size to 255
 #elif ORW_GRADIENT
+    printf("ORW GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #else
-    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+    printf("normal mode strobe queue size limit to 25\n");
+    //strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+    count_hop_num();
+    strobe[PKT_GRADIENT] = (uint8_t)(MIN(hop_count,25));
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;
@@ -498,6 +524,8 @@ int staffetta_send_packet(void) {
 		FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
 		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
+		// 5 src dst: Send packet from 'src' to 'dst'
+		printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
 		//t2 = RTIMER_NOW ();while(RTIMER_CLOCK_LT(RTIMER_NOW(),t2+32)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
 #endif
 #if WITH_AGGREGATE
@@ -541,10 +569,12 @@ int staffetta_send_packet(void) {
 		num_wakeups = 10;
 #endif
 		if (!IS_SINK) {
+		    	// 2 src frequency: When a beacon ack from 'src' is received, report my wakeup 'frequency'.
 		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
     			uint32_t power = (energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17400) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18800) / RTIMER_ARCH_SECOND * 3;
 			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 1000 / RTIMER_ARCH_SECOND;
 			uint32_t elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
+		    	// 6 power duty-cycle: Report my 'power' consumption and 'duty-cycle'.
 			printf("6 %ld %ld\n", power, (on_time * 1000) / elapsed_time);
 		}
 	}
@@ -689,8 +719,10 @@ void staffetta_print_stats(void){
     elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
     if (!(IS_SINK)){
 #if ORW_GRADIENT
+		// 3 duty-cycle avg_edc
 		printf("3 %ld %ld\n",(on_time*1000)/elapsed_time,avg_edc);
 #else
+		// 3 duty-cycle q_size
 		printf("3 %ld %d\n",(on_time*1000)/elapsed_time,q_size);
 #endif
 	}
@@ -698,6 +730,7 @@ void staffetta_print_stats(void){
 }
 
 void staffetta_add_data(uint8_t _seq){
+    // 4 node_id seq: Add data with 'seq' number to node 'node_id'.
     printf("4 %d %d\n",node_id,_seq);
     add_data(node_id,0,_seq);
 }

@@ -47,6 +47,21 @@ static enum mac_state current_state = disabled;
 
 static struct pt pt;
 
+static uint8_t hop_count = 0;
+
+static inline void count_hop_num(void) {
+    //printf("Node number: %u\n", node_id);
+    if(node_id == 1)
+	hop_count = 0;
+    if((node_id == 2) || (node_id == 4))
+	hop_count = 1;
+    if((node_id == 3) || (node_id == 5) || (node_id == 7))
+	hop_count = 2;
+    if((node_id == 6) || (node_id == 8))
+	hop_count = 3;
+    if(node_id == 9)
+	hop_count = 4;
+}
 /* --------------------------- RADIO FUNCTIONS ---------------------- */
 
 static inline void radio_flush_tx(void) {
@@ -256,11 +271,16 @@ int staffetta_send_packet(void) {
 	    //strobe received, process it
 #if WITH_GRADIENT
 #if BCP_GRADIENT
+	    printf("BCP_GRADIENT mode rx\n");
 	    if(strobe[PKT_GRADIENT] < q_size){
 #elif ORW_GRADIENT
+		printf("ORW_GRADIENT mode rx\n");
 		if(strobe[PKT_GRADIENT] < avg_edc){
 #else
-		    if(strobe[PKT_GRADIENT] > num_wakeups){
+		    printf("normal mode rx\n");
+		    count_hop_num();
+		    if(strobe[PKT_GRADIENT] > hop_count){
+		    //if(strobe[PKT_GRADIENT] > num_wakeups){
 #endif
 			leds_off(LEDS_GREEN);
 			radio_flush_rx();
@@ -287,6 +307,7 @@ int staffetta_send_packet(void) {
 		strobe_ack[PKT_SEQ] = strobe[PKT_SEQ];
 		strobe_ack[PKT_TTL] = strobe[PKT_TTL];
 #if ORW_GRADIENT
+		printf("ORW_GRADIENT mode strobe_ack queue size limit to 255\n");
 		strobe_ack[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #endif
 #if WITH_AGGREGATE
@@ -381,11 +402,16 @@ int staffetta_send_packet(void) {
     strobe[PKT_TTL] = read_ttl();
     strobe[PKT_SEQ] = read_seq();
 #if BCP_GRADIENT
+    printf("BCP GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(q_size,255)); // we limit the queue size to 255
 #elif ORW_GRADIENT
+    printf("ORW GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #else
-    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+    printf("normal mode strobe queue size limit to 25\n");
+    //strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+    count_hop_num();
+    strobe[PKT_GRADIENT] = (uint8_t)(MIN(hop_count,25));
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;

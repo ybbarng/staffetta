@@ -134,7 +134,7 @@ struct staffetta_hdr {
 #define STROBE_WAIT_TIME	    (RTIMER_ARCH_SECOND/700) 	 // 2ms
 #define ON_TIME 		          (RTIMER_ARCH_SECOND/300) 	 // 3ms
 #define OFF_TIME 		          (PERIOD-ON_TIME)		       // 995ms
-#define BACKOFF_TIME 		      (2*ON_TIME)			             // 5ms
+#define BACKOFF_TIME 		      (ON_TIME)			             // 5ms
 
 struct staffettamac_config {
   rtimer_clock_t on_time;

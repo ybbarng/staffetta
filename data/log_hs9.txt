@@ -1,0 +1,850 @@
+00:00.339	ID:8	Contiki 2.4 started. Node id is set to 8.
+00:00.341	ID:8	Starting 'Staffetta test'
+00:00.343	ID:8	4 8 0
+00:00.344	ID:8	4 8 1
+00:00.344	ID:8	4 8 2
+00:00.345	ID:8	4 8 3
+00:00.346	ID:8	4 8 4
+00:00.347	ID:8	4 8 5
+00:00.348	ID:8	4 8 6
+00:00.349	ID:8	4 8 7
+00:00.350	ID:8	4 8 8
+00:00.351	ID:8	4 8 9
+00:00.503	ID:2	Contiki 2.4 started. Node id is set to 2.
+00:00.505	ID:2	Starting 'Staffetta test'
+00:00.506	ID:2	4 2 0
+00:00.507	ID:2	4 2 1
+00:00.508	ID:2	4 2 2
+00:00.509	ID:2	4 2 3
+00:00.510	ID:2	4 2 4
+00:00.510	ID:2	4 2 5
+00:00.511	ID:2	4 2 6
+00:00.512	ID:2	4 2 7
+00:00.513	ID:2	4 2 8
+00:00.514	ID:2	4 2 9
+00:00.517	ID:6	Contiki 2.4 started. Node id is set to 6.
+00:00.519	ID:6	Starting 'Staffetta test'
+00:00.521	ID:6	4 6 0
+00:00.521	ID:6	4 6 1
+00:00.522	ID:6	4 6 2
+00:00.523	ID:6	4 6 3
+00:00.524	ID:6	4 6 4
+00:00.525	ID:6	4 6 5
+00:00.526	ID:6	4 6 6
+00:00.527	ID:6	4 6 7
+00:00.528	ID:6	4 6 8
+00:00.529	ID:6	4 6 9
+00:00.615	ID:4	Contiki 2.4 started. Node id is set to 4.
+00:00.617	ID:4	Starting 'Staffetta test'
+00:00.618	ID:4	4 4 0
+00:00.619	ID:4	4 4 1
+00:00.620	ID:4	4 4 2
+00:00.621	ID:4	4 4 3
+00:00.622	ID:4	4 4 4
+00:00.623	ID:4	4 4 5
+00:00.624	ID:4	4 4 6
+00:00.624	ID:4	4 4 7
+00:00.625	ID:4	4 4 8
+00:00.626	ID:4	4 4 9
+00:00.649	ID:1	Contiki 2.4 started. Node id is set to 1.
+00:00.651	ID:1	Starting 'Staffetta test'
+00:00.652	ID:1	4 1 0
+00:00.653	ID:1	4 1 1
+00:00.654	ID:1	4 1 2
+00:00.655	ID:1	4 1 3
+00:00.656	ID:1	4 1 4
+00:00.656	ID:1	4 1 5
+00:00.657	ID:1	4 1 6
+00:00.658	ID:1	4 1 7
+00:00.659	ID:1	4 1 8
+00:00.660	ID:1	4 1 9
+00:00.661	ID:1	Sink active
+00:00.668	ID:7	Contiki 2.4 started. Node id is set to 7.
+00:00.670	ID:7	Starting 'Staffetta test'
+00:00.672	ID:7	4 7 0
+00:00.673	ID:7	4 7 1
+00:00.673	ID:7	4 7 2
+00:00.674	ID:7	4 7 3
+00:00.675	ID:7	4 7 4
+00:00.676	ID:7	4 7 5
+00:00.677	ID:7	4 7 6
+00:00.678	ID:7	4 7 7
+00:00.679	ID:7	4 7 8
+00:00.680	ID:7	4 7 9
+00:00.975	ID:9	Contiki 2.4 started. Node id is set to 9.
+00:00.977	ID:9	Starting 'Staffetta test'
+00:00.978	ID:9	4 9 0
+00:00.979	ID:9	4 9 1
+00:00.980	ID:9	4 9 2
+00:00.981	ID:9	4 9 3
+00:00.982	ID:5	Contiki 2.4 started. Node id is set to 5.
+00:00.982	ID:9	4 9 4
+00:00.983	ID:9	4 9 5
+00:00.984	ID:9	4 9 6
+00:00.984	ID:5	Starting 'Staffetta test'
+00:00.985	ID:9	4 9 7
+00:00.985	ID:5	4 5 0
+00:00.985	ID:9	4 9 8
+00:00.986	ID:5	4 5 1
+00:00.986	ID:9	4 9 9
+00:00.987	ID:5	4 5 2
+00:00.988	ID:5	4 5 3
+00:00.989	ID:5	4 5 4
+00:00.989	ID:5	4 5 5
+00:00.990	ID:5	4 5 6
+00:00.991	ID:5	4 5 7
+00:00.992	ID:5	4 5 8
+00:00.993	ID:5	4 5 9
+00:01.166	ID:3	Contiki 2.4 started. Node id is set to 3.
+00:01.168	ID:3	Starting 'Staffetta test'
+00:01.169	ID:3	4 3 0
+00:01.170	ID:3	4 3 1
+00:01.171	ID:3	4 3 2
+00:01.172	ID:3	4 3 3
+00:01.173	ID:3	4 3 4
+00:01.174	ID:3	4 3 5
+00:01.175	ID:3	4 3 6
+00:01.175	ID:3	4 3 7
+00:01.176	ID:3	4 3 8
+00:01.177	ID:3	4 3 9
+00:01.383	ID:2	normal mode strobe queue size limit to 25
+00:01.385	ID:1	2 0 1
+00:01.386	ID:2	5 2 1
+00:01.388	ID:2	2 1 12
+00:01.391	ID:2	6 711 13
+00:01.533	ID:7	normal mode strobe queue size limit to 25
+00:01.541	ID:8	normal mode rx
+00:01.562	ID:6	normal mode strobe queue size limit to 25
+00:01.605	ID:4	normal mode strobe queue size limit to 25
+00:01.607	ID:1	4 0 1
+00:01.609	ID:1	4 0 1
+00:01.612	ID:1	4 0 1
+00:01.614	ID:1	4 0 1
+00:01.616	ID:1	4 0 1
+00:01.618	ID:1	4 0 1
+00:01.619	ID:4	5 4 1
+00:01.621	ID:4	2 1 11
+00:01.624	ID:4	6 1356 23
+00:01.949	ID:5	normal mode rx
+00:02.047	ID:2	normal mode strobe queue size limit to 25
+00:02.049	ID:1	2 1 1
+00:02.050	ID:2	5 2 1
+00:02.052	ID:2	2 1 15
+00:02.055	ID:2	6 1425 16
+00:02.063	ID:3	normal mode rx
+00:02.129	ID:9	normal mode rx
+00:02.519	ID:4	normal mode strobe queue size limit to 25
+00:02.521	ID:1	4 1 1
+00:02.522	ID:4	5 4 1
+00:02.524	ID:4	2 1 14
+00:02.527	ID:4	6 2070 18
+00:02.689	ID:7	normal mode strobe queue size limit to 25
+00:02.691	ID:8	normal mode rx
+00:02.836	ID:2	normal mode strobe queue size limit to 25
+00:02.838	ID:1	2 2 1
+00:02.839	ID:2	5 2 1
+00:02.841	ID:2	2 1 20
+00:02.844	ID:2	6 2139 15
+00:02.878	ID:5	normal mode strobe queue size limit to 25
+00:03.027	ID:9	normal mode strobe queue size limit to 25
+00:03.039	ID:6	normal mode rx
+00:03.041	ID:9	collision
+00:03.148	ID:3	normal mode strobe queue size limit to 25
+00:03.268	ID:2	normal mode rx
+00:03.339	ID:4	normal mode strobe queue size limit to 25
+00:03.652	ID:7	normal mode rx
+00:03.790	ID:3	collision
+00:03.793	ID:1	4 2 1
+00:03.794	ID:4	5 4 1
+00:03.796	ID:4	2 1 5
+00:03.799	ID:4	6 28275 157
+00:03.875	ID:2	normal mode strobe queue size limit to 25
+00:03.878	ID:1	2 3 1
+00:03.878	ID:2	5 2 1
+00:03.880	ID:2	2 1 29
+00:03.883	ID:2	6 3057 16
+00:03.915	ID:8	normal mode strobe queue size limit to 25
+00:04.020	ID:5	normal mode rx
+00:04.068	ID:9	normal mode rx
+00:04.203	ID:2	normal mode strobe queue size limit to 25
+00:04.206	ID:1	2 4 1
+00:04.206	ID:2	5 2 1
+00:04.208	ID:2	2 1 59
+00:04.211	ID:2	6 3771 17
+00:04.391	ID:2	normal mode strobe queue size limit to 25
+00:04.393	ID:1	2 5 1
+00:04.394	ID:2	5 2 1
+00:04.396	ID:2	2 1 59
+00:04.399	ID:2	6 4479 20
+00:04.510	ID:7	normal mode strobe queue size limit to 25
+00:04.578	ID:2	normal mode strobe queue size limit to 25
+00:04.581	ID:1	2 6 1
+00:04.581	ID:2	5 2 1
+00:04.583	ID:2	2 1 59
+00:04.586	ID:2	6 5196 22
+00:04.782	ID:2	normal mode strobe queue size limit to 25
+00:04.790	ID:3	normal mode rx
+00:04.835	ID:6	normal mode strobe queue size limit to 25
+00:04.977	ID:2	normal mode strobe queue size limit to 25
+00:05.024	ID:8	normal mode strobe queue size limit to 25
+00:05.025	ID:7	collision
+00:05.027	ID:1	2 7 1
+00:05.030	ID:1	2 7 1
+00:05.032	ID:1	2 7 1
+00:05.034	ID:1	2 7 1
+00:05.036	ID:1	2 7 1
+00:05.039	ID:1	2 7 1
+00:05.041	ID:1	2 7 1
+00:05.043	ID:1	2 7 1
+00:05.137	ID:9	normal mode rx
+00:05.139	ID:8	collision
+00:05.182	ID:5	normal mode strobe queue size limit to 25
+00:05.212	ID:2	normal mode rx
+00:05.337	ID:2	normal mode rx
+00:05.508	ID:2	normal mode rx
+00:05.682	ID:2	normal mode rx
+00:05.687	ID:3	normal mode strobe queue size limit to 25
+00:05.807	ID:5	collision
+00:05.902	ID:4	normal mode strobe queue size limit to 25
+00:05.904	ID:4	collision
+00:05.955	ID:7	normal mode strobe queue size limit to 25
+00:05.994	ID:3	collision
+00:06.085	ID:6	normal mode strobe queue size limit to 25
+00:06.164	ID:2	normal mode strobe queue size limit to 25
+00:06.295	ID:6	collision
+00:06.298	ID:1	2 7 1
+00:06.314	ID:8	normal mode rx
+00:06.316	ID:7	5 7 8
+00:06.318	ID:7	2 8 5
+00:06.320	ID:8	normal mode strobe queue size limit to 25
+00:06.321	ID:7	6 53277 167
+00:06.493	ID:2	normal mode strobe queue size limit to 25
+00:06.494	ID:2	collision
+00:06.643	ID:5	normal mode rx
+00:06.680	ID:2	normal mode strobe queue size limit to 25
+00:06.682	ID:1	2 7 1
+00:06.836	ID:2	normal mode strobe queue size limit to 25
+00:06.838	ID:3	normal mode rx
+00:06.838	ID:1	2 7 1
+00:07.039	ID:2	normal mode strobe queue size limit to 25
+00:07.042	ID:1	2 7 1
+00:07.042	ID:2	5 2 1
+00:07.044	ID:2	2 1 59
+00:07.047	ID:2	6 22902 62
+00:07.203	ID:2	normal mode strobe queue size limit to 25
+00:07.321	ID:8	2 8 10
+00:07.322	ID:1	2 8 1
+00:07.322	ID:2	5 2 1
+00:07.324	ID:2	2 1 20
+00:07.325	ID:8	6 74082 188
+00:07.328	ID:2	6 30171 78
+00:07.379	ID:9	normal mode strobe queue size limit to 25
+00:07.431	ID:6	normal mode rx
+00:07.675	ID:5	normal mode strobe queue size limit to 25
+00:07.789	ID:3	normal mode strobe queue size limit to 25
+00:07.870	ID:4	normal mode strobe queue size limit to 25
+00:07.873	ID:1	4 3 1
+00:07.873	ID:4	5 4 1
+00:07.875	ID:4	2 1 6
+00:07.878	ID:4	6 29643 72
+00:08.381	ID:9	2 9 10
+00:08.384	ID:9	6 59427 142
+00:08.400	ID:3	collision
+00:08.415	ID:8	normal mode rx
+00:08.439	ID:7	normal mode strobe queue size limit to 25
+00:08.484	ID:6	normal mode strobe queue size limit to 25
+00:08.899	ID:2	normal mode strobe queue size limit to 25
+00:09.175	ID:5	normal mode strobe queue size limit to 25
+00:09.304	ID:3	normal mode strobe queue size limit to 25
+00:09.441	ID:7	2 7 5
+00:09.445	ID:7	6 110229 222
+00:09.486	ID:6	2 6 10
+00:09.487	ID:1	2 9 1
+00:09.487	ID:2	5 2 1
+00:09.489	ID:2	2 1 4
+00:09.489	ID:6	6 120948 239
+00:09.493	ID:2	6 64221 126
+00:09.590	ID:9	normal mode strobe queue size limit to 25
+00:10.177	ID:5	2 5 10
+00:10.177	ID:8	normal mode rx
+00:10.180	ID:5	6 145869 281
+00:10.306	ID:3	2 3 10
+00:10.310	ID:3	6 147558 286
+00:10.530	ID:6	normal mode rx
+00:10.592	ID:9	2 9 10
+00:10.596	ID:9	6 116373 214
+00:11.048	ID:8	normal mode strobe queue size limit to 25
+00:11.210	ID:3	normal mode strobe queue size limit to 25
+00:11.284	ID:8	collision
+00:11.324	ID:4	normal mode strobe queue size limit to 25
+00:11.326	ID:1	4 4 1
+00:11.328	ID:1	4 4 1
+00:11.330	ID:1	4 4 1
+00:11.333	ID:1	4 4 1
+00:11.335	ID:1	4 4 1
+00:11.337	ID:1	4 4 1
+00:11.339	ID:1	4 4 1
+00:11.342	ID:1	4 4 1
+00:11.342	ID:4	5 4 1
+00:11.344	ID:4	2 1 6
+00:11.347	ID:4	6 31371 51
+00:11.367	ID:6	normal mode rx
+00:11.369	ID:7	normal mode strobe queue size limit to 25
+00:11.602	ID:2	normal mode strobe queue size limit to 25
+00:11.707	ID:9	normal mode strobe queue size limit to 25
+00:12.171	ID:3	normal mode strobe queue size limit to 25
+00:12.280	ID:6	normal mode rx
+00:12.282	ID:9	collision
+00:12.371	ID:7	2 7 5
+00:12.375	ID:7	6 167190 253
+00:12.425	ID:5	normal mode strobe queue size limit to 25
+00:12.463	ID:8	normal mode rx
+00:12.738	ID:4	normal mode strobe queue size limit to 25
+00:12.740	ID:1	4 5 1
+00:12.740	ID:4	5 4 1
+00:12.742	ID:4	2 1 7
+00:12.745	ID:4	6 32088 46
+00:13.125	ID:3	normal mode strobe queue size limit to 25
+00:13.300	ID:5	normal mode strobe queue size limit to 25
+00:13.481	ID:9	normal mode strobe queue size limit to 25
+00:14.126	ID:3	2 3 10
+00:14.130	ID:3	6 221310 302
+00:14.173	ID:8	normal mode rx
+00:14.301	ID:5	2 5 10
+00:14.305	ID:5	6 205995 274
+00:14.359	ID:6	normal mode rx
+00:14.482	ID:9	2 9 10
+00:14.486	ID:9	6 206259 270
+00:14.877	ID:7	normal mode strobe queue size limit to 25
+00:15.112	ID:5	normal mode strobe queue size limit to 25
+00:15.118	ID:6	normal mode rx
+00:15.296	ID:3	normal mode strobe queue size limit to 25
+00:15.317	ID:4	normal mode rx
+00:15.345	ID:8	normal mode rx
+00:15.371	ID:9	normal mode strobe queue size limit to 25
+00:16.237	ID:5	normal mode strobe queue size limit to 25
+00:16.298	ID:3	2 3 10
+00:16.302	ID:3	6 278256 325
+00:16.335	ID:6	normal mode rx
+00:16.336	ID:9	collision
+00:16.337	ID:5	5 5 6
+00:16.339	ID:5	2 6 9
+00:16.341	ID:6	normal mode strobe queue size limit to 25
+00:16.343	ID:5	6 225996 260
+00:16.399	ID:8	normal mode strobe queue size limit to 25
+00:16.675	ID:4	normal mode strobe queue size limit to 25
+00:16.677	ID:1	4 6 1
+00:16.680	ID:1	4 6 1
+00:16.682	ID:1	4 6 1
+00:16.684	ID:1	4 6 1
+00:16.686	ID:1	4 6 1
+00:16.689	ID:1	4 6 1
+00:16.691	ID:1	4 6 1
+00:16.693	ID:1	4 6 1
+00:16.695	ID:1	4 6 1
+00:16.698	ID:1	4 6 1
+00:16.698	ID:4	5 4 1
+00:16.700	ID:4	2 1 6
+00:16.703	ID:4	6 34227 37
+00:17.342	ID:6	2 6 10
+00:17.346	ID:6	6 179175 188
+00:17.371	ID:5	normal mode rx
+00:17.401	ID:8	2 8 10
+00:17.405	ID:8	6 146661 152
+00:17.445	ID:3	normal mode strobe queue size limit to 25
+00:17.588	ID:7	normal mode strobe queue size limit to 25
+00:18.229	ID:5	normal mode strobe queue size limit to 25
+00:18.322	ID:8	normal mode rx
+00:18.328	ID:8	normal mode strobe queue size limit to 25
+00:18.329	ID:8	collision
+00:18.359	ID:6	normal mode rx
+00:18.446	ID:3	2 3 10
+00:18.450	ID:3	6 335196 343
+00:18.504	ID:9	normal mode strobe queue size limit to 25
+00:18.525	ID:5	collision
+00:18.581	ID:4	normal mode strobe queue size limit to 25
+00:18.584	ID:1	4 7 1
+00:18.584	ID:4	5 4 1
+00:18.586	ID:4	2 1 37
+00:18.589	ID:4	6 34944 34
+00:18.909	ID:4	normal mode strobe queue size limit to 25
+00:18.912	ID:1	4 8 1
+00:18.912	ID:4	5 4 1
+00:18.914	ID:4	2 1 37
+00:18.918	ID:4	6 35661 34
+00:19.245	ID:4	normal mode strobe queue size limit to 25
+00:19.248	ID:1	4 9 1
+00:19.248	ID:4	5 4 1
+00:19.250	ID:4	2 1 44
+00:19.253	ID:4	6 36375 34
+00:19.460	ID:3	normal mode strobe queue size limit to 25
+00:19.472	ID:4	normal mode strobe queue size limit to 25
+00:19.506	ID:9	2 9 10
+00:19.510	ID:9	6 318252 304
+00:19.556	ID:8	normal mode strobe queue size limit to 25
+00:19.602	ID:6	normal mode rx
+00:19.605	ID:5	normal mode rx
+00:19.722	ID:4	normal mode strobe queue size limit to 25
+00:19.995	ID:4	normal mode strobe queue size limit to 25
+00:20.214	ID:4	normal mode strobe queue size limit to 25
+00:20.237	ID:7	normal mode rx
+00:20.441	ID:4	normal mode strobe queue size limit to 25
+00:20.476	ID:6	normal mode strobe queue size limit to 25
+00:20.520	ID:9	normal mode rx
+00:20.526	ID:9	normal mode strobe queue size limit to 25
+00:20.530	ID:9	collision
+00:20.601	ID:3	normal mode strobe queue size limit to 25
+00:20.620	ID:4	normal mode strobe queue size limit to 25
+00:20.807	ID:5	normal mode strobe queue size limit to 25
+00:20.824	ID:4	normal mode strobe queue size limit to 25
+00:21.042	ID:4	normal mode strobe queue size limit to 25
+00:21.102	ID:2	normal mode strobe queue size limit to 25
+00:21.253	ID:4	normal mode strobe queue size limit to 25
+00:21.433	ID:4	normal mode strobe queue size limit to 25
+00:21.512	ID:9	normal mode strobe queue size limit to 25
+00:21.555	ID:3	collision
+00:21.610	ID:8	normal mode strobe queue size limit to 25
+00:21.659	ID:4	normal mode strobe queue size limit to 25
+00:21.809	ID:5	2 5 9
+00:21.813	ID:5	6 300486 255
+00:21.863	ID:4	normal mode strobe queue size limit to 25
+00:22.128	ID:4	normal mode strobe queue size limit to 25
+00:22.363	ID:4	normal mode strobe queue size limit to 25
+00:22.513	ID:9	2 9 10
+00:22.517	ID:9	6 375867 309
+00:22.581	ID:4	normal mode strobe queue size limit to 25
+00:22.612	ID:8	2 8 10
+00:22.616	ID:8	6 259614 206
+00:22.663	ID:6	normal mode strobe queue size limit to 25
+00:22.689	ID:3	normal mode rx
+00:22.800	ID:4	normal mode strobe queue size limit to 25
+00:23.011	ID:4	normal mode strobe queue size limit to 25
+00:23.176	ID:5	normal mode rx
+00:23.238	ID:4	normal mode strobe queue size limit to 25
+00:23.464	ID:4	normal mode strobe queue size limit to 25
+00:23.603	ID:8	normal mode strobe queue size limit to 25
+00:23.665	ID:6	2 6 10
+00:23.669	ID:6	6 240045 183
+00:23.685	ID:9	normal mode rx
+00:23.688	ID:2	normal mode strobe queue size limit to 25
+00:23.706	ID:4	normal mode strobe queue size limit to 25
+00:23.917	ID:4	normal mode strobe queue size limit to 25
+00:23.937	ID:3	normal mode strobe queue size limit to 25
+00:24.175	ID:4	normal mode strobe queue size limit to 25
+00:24.283	ID:7	normal mode strobe queue size limit to 25
+00:24.349	ID:7	collision
+00:24.550	ID:4	normal mode strobe queue size limit to 25
+00:24.557	ID:5	normal mode strobe queue size limit to 25
+00:24.581	ID:5	collision
+00:24.769	ID:4	normal mode strobe queue size limit to 25
+00:24.899	ID:6	normal mode rx
+00:24.934	ID:9	normal mode strobe queue size limit to 25
+00:24.980	ID:4	normal mode strobe queue size limit to 25
+00:25.159	ID:4	normal mode strobe queue size limit to 25
+00:25.394	ID:4	normal mode strobe queue size limit to 25
+00:25.597	ID:4	normal mode strobe queue size limit to 25
+00:25.718	ID:3	normal mode strobe queue size limit to 25
+00:25.737	ID:5	normal mode strobe queue size limit to 25
+00:25.769	ID:4	normal mode rx
+00:25.782	ID:8	normal mode rx
+00:25.858	ID:6	normal mode rx
+00:25.935	ID:9	2 9 10
+00:25.939	ID:9	6 39963 307
+00:25.989	ID:4	normal mode rx
+00:26.208	ID:4	normal mode rx
+00:26.394	ID:4	normal mode rx
+00:26.510	ID:7	normal mode strobe queue size limit to 25
+00:26.627	ID:8	normal mode rx
+00:26.641	ID:6	normal mode rx
+00:26.754	ID:9	normal mode strobe queue size limit to 25
+00:26.784	ID:4	normal mode strobe queue size limit to 25
+00:27.058	ID:4	normal mode strobe queue size limit to 25
+00:27.292	ID:4	normal mode strobe queue size limit to 25
+00:27.518	ID:5	normal mode strobe queue size limit to 25
+00:27.559	ID:4	normal mode rx
+00:27.751	ID:8	normal mode rx
+00:27.756	ID:9	2 9 10
+00:27.759	ID:9	6 96915 324
+00:27.765	ID:6	normal mode rx
+00:27.796	ID:3	normal mode strobe queue size limit to 25
+00:27.816	ID:4	normal mode strobe queue size limit to 25
+00:28.034	ID:4	normal mode strobe queue size limit to 25
+00:28.166	ID:7	normal mode strobe queue size limit to 25
+00:28.216	ID:4	normal mode rx
+00:28.402	ID:4	normal mode rx
+00:28.438	ID:2	normal mode rx
+00:28.613	ID:4	normal mode rx
+00:28.625	ID:6	normal mode rx
+00:28.643	ID:5	normal mode strobe queue size limit to 25
+00:28.808	ID:4	normal mode rx
+00:28.838	ID:8	normal mode rx
+00:28.844	ID:8	normal mode strobe queue size limit to 25
+00:28.845	ID:8	collision
+00:28.848	ID:9	normal mode strobe queue size limit to 25
+00:29.067	ID:4	normal mode rx
+00:29.168	ID:7	2 7 5
+00:29.171	ID:7	6 305808 190
+00:29.324	ID:4	normal mode strobe queue size limit to 25
+00:29.562	ID:3	normal mode strobe queue size limit to 25
+00:29.589	ID:4	normal mode strobe queue size limit to 25
+00:29.742	ID:6	normal mode rx
+00:29.769	ID:4	normal mode strobe queue size limit to 25
+00:29.849	ID:9	2 9 10
+00:29.853	ID:9	6 153861 335
+00:30.003	ID:5	normal mode strobe queue size limit to 25
+00:30.035	ID:5	collision
+00:30.095	ID:8	normal mode strobe queue size limit to 25
+00:30.206	ID:4	normal mode strobe queue size limit to 25
+00:30.433	ID:4	normal mode strobe queue size limit to 25
+00:30.564	ID:3	2 3 10
+00:30.568	ID:3	6 218121 368
+00:30.613	ID:4	normal mode strobe queue size limit to 25
+00:30.773	ID:6	normal mode strobe queue size limit to 25
+00:30.800	ID:4	normal mode strobe queue size limit to 25
+00:30.878	ID:5	normal mode strobe queue size limit to 25
+00:31.020	ID:9	normal mode strobe queue size limit to 25
+00:31.021	ID:8	collision
+00:31.021	ID:6	collision
+00:31.028	ID:4	normal mode rx
+00:31.142	ID:2	normal mode rx
+00:31.191	ID:4	normal mode rx
+00:31.419	ID:4	normal mode rx
+00:31.494	ID:7	normal mode strobe queue size limit to 25
+00:31.562	ID:3	normal mode strobe queue size limit to 25
+00:31.597	ID:4	normal mode strobe queue size limit to 25
+00:31.847	ID:4	normal mode strobe queue size limit to 25
+00:31.879	ID:5	2 5 9
+00:31.883	ID:5	6 45327 251
+00:32.021	ID:9	2 9 10
+00:32.025	ID:9	6 210798 344
+00:32.106	ID:7	collision
+00:32.165	ID:6	normal mode rx
+00:32.267	ID:8	normal mode strobe queue size limit to 25
+00:32.347	ID:4	normal mode strobe queue size limit to 25
+00:32.613	ID:4	normal mode strobe queue size limit to 25
+00:32.855	ID:4	normal mode strobe queue size limit to 25
+00:32.990	ID:9	normal mode rx
+00:33.018	ID:5	normal mode strobe queue size limit to 25
+00:33.024	ID:6	normal mode rx
+00:33.026	ID:3	normal mode rx
+00:33.026	ID:5	5 5 6
+00:33.028	ID:5	2 6 10
+00:33.030	ID:6	normal mode strobe queue size limit to 25
+00:33.032	ID:5	6 46332 243
+00:33.120	ID:4	normal mode strobe queue size limit to 25
+00:33.313	ID:2	normal mode strobe queue size limit to 25
+00:33.370	ID:4	normal mode strobe queue size limit to 25
+00:33.628	ID:4	normal mode strobe queue size limit to 25
+00:33.831	ID:4	normal mode strobe queue size limit to 25
+00:34.032	ID:6	2 6 10
+00:34.035	ID:6	6 313440 165
+00:34.042	ID:4	normal mode strobe queue size limit to 25
+00:34.046	ID:3	normal mode strobe queue size limit to 25
+00:34.157	ID:8	normal mode strobe queue size limit to 25
+00:34.161	ID:9	normal mode rx
+00:34.222	ID:5	normal mode strobe queue size limit to 25
+00:34.464	ID:4	normal mode rx
+00:34.580	ID:7	normal mode strobe queue size limit to 25
+00:34.730	ID:4	normal mode rx
+00:34.980	ID:4	normal mode rx
+00:35.048	ID:3	2 3 10
+00:35.052	ID:3	6 310233 368
+00:35.121	ID:9	normal mode strobe queue size limit to 25
+00:35.223	ID:5	2 5 10
+00:35.227	ID:5	6 103278 257
+00:35.235	ID:8	normal mode rx
+00:35.242	ID:8	normal mode strobe queue size limit to 25
+00:35.243	ID:8	collision
+00:35.339	ID:4	normal mode strobe queue size limit to 25
+00:35.550	ID:4	normal mode strobe queue size limit to 25
+00:35.777	ID:4	normal mode strobe queue size limit to 25
+00:35.956	ID:4	normal mode strobe queue size limit to 25
+00:36.000	ID:3	normal mode strobe queue size limit to 25
+00:36.081	ID:5	normal mode strobe queue size limit to 25
+00:36.087	ID:3	collision
+00:36.123	ID:9	2 9 10
+00:36.127	ID:9	6 268449 333
+00:36.223	ID:4	normal mode rx
+00:36.343	ID:6	normal mode rx
+00:36.439	ID:8	normal mode strobe queue size limit to 25
+00:36.480	ID:4	normal mode strobe queue size limit to 25
+00:36.706	ID:4	normal mode strobe queue size limit to 25
+00:36.885	ID:7	normal mode rx
+00:36.925	ID:4	normal mode strobe queue size limit to 25
+00:37.148	ID:3	normal mode strobe queue size limit to 25
+00:37.199	ID:4	normal mode strobe queue size limit to 25
+00:37.199	ID:9	normal mode rx
+00:37.454	ID:6	normal mode rx
+00:37.456	ID:4	normal mode strobe queue size limit to 25
+00:37.503	ID:5	normal mode strobe queue size limit to 25
+00:37.723	ID:4	normal mode rx
+00:37.949	ID:4	normal mode rx
+00:38.121	ID:4	normal mode rx
+00:38.137	ID:9	normal mode strobe queue size limit to 25
+00:38.211	ID:2	normal mode strobe queue size limit to 25
+00:38.363	ID:4	normal mode strobe queue size limit to 25
+00:38.407	ID:8	normal mode strobe queue size limit to 25
+00:38.408	ID:9	collision
+00:38.408	ID:5	collision
+00:38.468	ID:6	normal mode strobe queue size limit to 25
+00:38.635	ID:7	normal mode rx
+00:38.636	ID:4	normal mode strobe queue size limit to 25
+00:38.640	ID:3	normal mode rx
+00:38.808	ID:4	normal mode strobe queue size limit to 25
+00:38.988	ID:4	normal mode strobe queue size limit to 25
+00:39.159	ID:4	normal mode strobe queue size limit to 25
+00:39.339	ID:5	normal mode rx
+00:39.355	ID:4	normal mode strobe queue size limit to 25
+00:39.409	ID:8	2 8 10
+00:39.413	ID:8	6 70392 210
+00:39.441	ID:9	normal mode rx
+00:39.531	ID:3	normal mode strobe queue size limit to 25
+00:39.581	ID:4	normal mode strobe queue size limit to 25
+00:39.847	ID:4	normal mode strobe queue size limit to 25
+00:40.042	ID:4	normal mode strobe queue size limit to 25
+00:40.204	ID:6	normal mode rx
+00:40.222	ID:4	normal mode strobe queue size limit to 25
+00:40.386	ID:5	normal mode strobe queue size limit to 25
+00:40.418	ID:4	normal mode rx
+00:40.446	ID:8	normal mode rx
+00:40.448	ID:7	normal mode rx
+00:40.493	ID:2	normal mode strobe queue size limit to 25
+00:40.589	ID:4	normal mode strobe queue size limit to 25
+00:40.590	ID:9	normal mode strobe queue size limit to 25
+00:40.839	ID:4	normal mode strobe queue size limit to 25
+00:41.034	ID:4	normal mode strobe queue size limit to 25
+00:41.164	ID:3	normal mode strobe queue size limit to 25
+00:41.195	ID:6	normal mode rx
+00:41.222	ID:4	normal mode strobe queue size limit to 25
+00:41.417	ID:5	normal mode strobe queue size limit to 25
+00:41.532	ID:8	normal mode rx
+00:41.592	ID:9	2 9 10
+00:41.596	ID:9	6 341814 320
+00:41.691	ID:4	normal mode strobe queue size limit to 25
+00:41.902	ID:4	normal mode strobe queue size limit to 25
+00:42.086	ID:6	normal mode rx
+00:42.105	ID:4	normal mode strobe queue size limit to 25
+00:42.284	ID:4	normal mode strobe queue size limit to 25
+00:42.306	ID:8	normal mode strobe queue size limit to 25
+00:42.362	ID:5	normal mode rx
+00:42.456	ID:4	normal mode strobe queue size limit to 25
+00:42.559	ID:9	normal mode rx
+00:42.658	ID:7	normal mode strobe queue size limit to 25
+00:42.675	ID:4	normal mode rx
+00:42.719	ID:2	normal mode strobe queue size limit to 25
+00:42.879	ID:4	normal mode rx
+00:43.050	ID:4	normal mode rx
+00:43.156	ID:6	normal mode strobe queue size limit to 25
+00:43.156	ID:3	normal mode strobe queue size limit to 25
+00:43.284	ID:4	normal mode strobe queue size limit to 25
+00:43.337	ID:8	normal mode strobe queue size limit to 25
+00:43.338	ID:7	collision
+00:43.511	ID:4	normal mode strobe queue size limit to 25
+00:43.706	ID:4	normal mode strobe queue size limit to 25
+00:43.980	ID:4	normal mode strobe queue size limit to 25
+00:44.157	ID:6	2 6 10
+00:44.157	ID:3	2 3 10
+00:44.161	ID:6	6 34584 173
+00:44.161	ID:3	6 89526 361
+00:44.199	ID:4	normal mode strobe queue size limit to 25
+00:44.238	ID:5	normal mode rx
+00:44.339	ID:8	2 8 10
+00:44.343	ID:8	6 142941 216
+00:44.378	ID:4	normal mode strobe queue size limit to 25
+00:44.441	ID:9	normal mode strobe queue size limit to 25
+00:44.613	ID:4	normal mode strobe queue size limit to 25
+00:44.847	ID:4	normal mode strobe queue size limit to 25
+00:44.875	ID:2	normal mode strobe queue size limit to 25
+00:45.034	ID:4	normal mode strobe queue size limit to 25
+00:45.093	ID:3	normal mode strobe queue size limit to 25
+00:45.111	ID:7	normal mode strobe queue size limit to 25
+00:45.301	ID:4	normal mode rx
+00:45.431	ID:8	normal mode strobe queue size limit to 25
+00:45.433	ID:8	collision
+00:45.443	ID:9	2 9 10
+00:45.447	ID:9	6 6063 315
+00:45.448	ID:5	normal mode strobe queue size limit to 25
+00:45.496	ID:4	normal mode rx
+00:45.691	ID:4	normal mode rx
+00:45.956	ID:4	normal mode rx
+00:46.095	ID:3	2 3 10
+00:46.099	ID:3	6 146478 368
+00:46.160	ID:4	normal mode rx
+00:46.226	ID:6	normal mode rx
+00:46.360	ID:8	normal mode strobe queue size limit to 25
+00:46.370	ID:4	normal mode strobe queue size limit to 25
+00:46.395	ID:9	normal mode rx
+00:46.605	ID:4	normal mode strobe queue size limit to 25
+00:46.870	ID:4	normal mode strobe queue size limit to 25
+00:46.986	ID:7	normal mode strobe queue size limit to 25
+00:47.036	ID:4	normal mode rx
+00:47.085	ID:3	normal mode strobe queue size limit to 25
+00:47.167	ID:5	normal mode strobe queue size limit to 25
+00:47.390	ID:6	normal mode strobe queue size limit to 25
+00:47.394	ID:6	collision
+00:47.441	ID:9	normal mode strobe queue size limit to 25
+00:47.465	ID:5	collision
+00:47.465	ID:7	collision
+00:47.578	ID:2	normal mode strobe queue size limit to 25
+00:47.699	ID:4	normal mode strobe queue size limit to 25
+00:47.902	ID:4	normal mode strobe queue size limit to 25
+00:48.074	ID:4	normal mode strobe queue size limit to 25
+00:48.156	ID:6	normal mode rx
+00:48.292	ID:4	normal mode strobe queue size limit to 25
+00:48.335	ID:3	normal mode strobe queue size limit to 25
+00:48.443	ID:9	2 9 10
+00:48.447	ID:9	6 63312 317
+00:48.472	ID:4	normal mode strobe queue size limit to 25
+00:48.479	ID:5	normal mode strobe queue size limit to 25
+00:48.503	ID:8	normal mode rx
+00:48.667	ID:4	normal mode strobe queue size limit to 25
+00:48.870	ID:4	normal mode strobe queue size limit to 25
+00:48.986	ID:7	normal mode strobe queue size limit to 25
+00:49.042	ID:4	normal mode rx
+00:49.246	ID:4	normal mode rx
+00:49.337	ID:3	2 3 10
+00:49.341	ID:3	6 221556 371
+00:49.348	ID:9	normal mode strobe queue size limit to 25
+00:49.353	ID:8	normal mode rx
+00:49.375	ID:6	normal mode rx
+00:49.442	ID:4	normal mode rx
+00:49.503	ID:5	normal mode strobe queue size limit to 25
+00:49.613	ID:4	normal mode rx
+00:49.800	ID:4	normal mode rx
+00:49.978	ID:2	normal mode rx
+00:49.980	ID:4	normal mode rx
+00:49.988	ID:7	2 7 5
+00:49.992	ID:7	6 127890 187
+00:50.169	ID:4	normal mode rx
+00:50.226	ID:3	normal mode strobe queue size limit to 25
+00:50.350	ID:9	2 9 10
+00:50.354	ID:9	6 120267 325
+00:50.379	ID:4	normal mode rx
+00:50.453	ID:6	normal mode rx
+00:50.455	ID:5	collision
+00:50.493	ID:8	normal mode strobe queue size limit to 25
+00:50.574	ID:4	normal mode strobe queue size limit to 25
+00:50.753	ID:4	normal mode strobe queue size limit to 25
+00:50.949	ID:4	normal mode strobe queue size limit to 25
+00:51.222	ID:4	normal mode strobe queue size limit to 25
+00:51.403	ID:9	normal mode rx
+00:51.425	ID:4	normal mode strobe queue size limit to 25
+00:51.468	ID:3	normal mode strobe queue size limit to 25
+00:51.507	ID:6	normal mode rx
+00:51.589	ID:5	normal mode strobe queue size limit to 25
+00:51.630	ID:4	normal mode rx
+00:51.831	ID:4	normal mode rx
+00:52.027	ID:4	normal mode rx
+00:52.057	ID:7	normal mode strobe queue size limit to 25
+00:52.238	ID:4	normal mode rx
+00:52.268	ID:8	normal mode rx
+00:52.269	ID:7	collision
+00:52.270	ID:9	normal mode rx
+00:52.359	ID:6	normal mode strobe queue size limit to 25
+00:52.384	ID:3	normal mode rx
+00:52.417	ID:4	normal mode strobe queue size limit to 25
+00:52.438	ID:2	normal mode strobe queue size limit to 25
+00:52.644	ID:4	normal mode strobe queue size limit to 25
+00:52.902	ID:4	normal mode strobe queue size limit to 25
+00:53.167	ID:4	normal mode strobe queue size limit to 25
+00:53.202	ID:3	normal mode rx
+00:53.321	ID:8	normal mode strobe queue size limit to 25
+00:53.356	ID:8	collision
+00:53.360	ID:6	2 6 10
+00:53.364	ID:6	6 93657 163
+00:53.370	ID:5	normal mode strobe queue size limit to 25
+00:53.371	ID:4	normal mode rx
+00:53.542	ID:4	normal mode rx
+00:53.771	ID:4	normal mode rx
+00:53.933	ID:4	normal mode rx
+00:53.947	ID:7	normal mode strobe queue size limit to 25
+00:54.122	ID:5	collision
+00:54.196	ID:8	normal mode rx
+00:54.281	ID:6	normal mode strobe queue size limit to 25
+00:54.326	ID:9	normal mode rx
+00:54.367	ID:3	normal mode strobe queue size limit to 25
+00:54.394	ID:4	normal mode strobe queue size limit to 25
+00:54.597	ID:4	normal mode strobe queue size limit to 25
+00:54.704	ID:2	normal mode rx
+00:54.808	ID:4	normal mode strobe queue size limit to 25
+00:54.925	ID:5	normal mode strobe queue size limit to 25
+00:54.981	ID:4	normal mode rx
+00:55.192	ID:4	normal mode rx
+00:55.226	ID:6	normal mode rx
+00:55.227	ID:5	collision
+00:55.274	ID:8	normal mode strobe queue size limit to 25
+00:55.277	ID:9	normal mode strobe queue size limit to 25
+00:55.278	ID:8	collision
+00:55.279	ID:9	collision
+00:55.280	ID:9	collision
+00:55.363	ID:4	normal mode strobe queue size limit to 25
+00:55.542	ID:4	normal mode strobe queue size limit to 25
+00:55.745	ID:4	normal mode strobe queue size limit to 25
+00:55.799	ID:7	normal mode strobe queue size limit to 25
+00:55.965	ID:4	normal mode rx
+00:56.103	ID:8	normal mode rx
+00:56.191	ID:4	normal mode strobe queue size limit to 25
+00:56.234	ID:3	normal mode strobe queue size limit to 25
+00:56.245	ID:5	normal mode strobe queue size limit to 25
+00:56.376	ID:3	collision
+00:56.402	ID:9	normal mode strobe queue size limit to 25
+00:56.457	ID:4	normal mode rx
+00:56.722	ID:4	normal mode rx
+00:56.807	ID:7	3 178 10
+00:56.808	ID:7	4 7 10
+00:56.896	ID:4	normal mode rx
+00:57.097	ID:4	normal mode strobe queue size limit to 25
+00:57.150	ID:9	collision
+00:57.246	ID:5	2 5 10
+00:57.250	ID:5	6 60855 266
+00:57.331	ID:4	normal mode strobe queue size limit to 25
+00:57.421	ID:3	normal mode strobe queue size limit to 25
+00:57.597	ID:4	normal mode strobe queue size limit to 25
+00:57.603	ID:6	normal mode rx
+00:57.769	ID:4	normal mode strobe queue size limit to 25
+00:57.782	ID:2	normal mode strobe queue size limit to 25
+00:57.988	ID:4	normal mode strobe queue size limit to 25
+00:58.020	ID:9	normal mode strobe queue size limit to 25
+00:58.049	ID:7	normal mode strobe queue size limit to 25
+00:58.190	ID:5	normal mode strobe queue size limit to 25
+00:58.245	ID:4	normal mode rx
+00:58.504	ID:4	normal mode rx
+00:58.672	ID:6	normal mode rx
+00:58.761	ID:4	normal mode rx
+00:58.820	ID:3	normal mode strobe queue size limit to 25
+00:58.854	ID:4	3 32 0
+00:58.855	ID:4	4 4 10
+00:59.005	ID:4	normal mode rx
+00:59.021	ID:9	2 9 10
+00:59.025	ID:9	6 221499 307
+00:59.050	ID:7	2 7 5
+00:59.054	ID:7	6 230388 189
+00:59.128	ID:5	normal mode strobe queue size limit to 25
+00:59.175	ID:4	normal mode rx
+00:59.370	ID:4	normal mode rx
+00:59.377	ID:8	normal mode rx
+00:59.559	ID:4	normal mode rx
+00:59.724	ID:4	normal mode rx
+00:59.804	ID:6	normal mode rx
+00:59.806	ID:5	collision
+00:59.894	ID:4	normal mode strobe queue size limit to 25
+00:59.896	ID:1	4 10 1
+00:59.897	ID:4	5 4 1
+00:59.899	ID:4	2 1 44
+00:59.902	ID:4	6 108495 32
+00:59.902	ID:9	normal mode strobe queue size limit to 25
+01:00.136	ID:4	normal mode strobe queue size limit to 25
+01:00.274	ID:8	normal mode rx
+01:00.308	ID:4	normal mode strobe queue size limit to 25
+01:00.511	ID:5	3 265 8
+01:00.512	ID:5	4 5 10
+01:00.566	ID:4	normal mode strobe queue size limit to 25
+01:00.578	ID:3	normal mode strobe queue size limit to 25
+01:00.611	ID:7	normal mode strobe queue size limit to 25
+01:00.744	ID:2	normal mode rx
+01:00.784	ID:5	normal mode strobe queue size limit to 25
+01:00.808	ID:4	normal mode strobe queue size limit to 25
+01:00.904	ID:9	2 9 10
+01:00.908	ID:9	6 278451 315
+01:00.913	ID:6	normal mode strobe queue size limit to 25
+01:01.043	ID:4	normal mode rx

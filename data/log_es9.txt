@@ -1,0 +1,1287 @@
+00:00.340	ID:8	Contiki 2.4 started. Node id is set to 8.
+00:00.342	ID:8	Starting 'Staffetta test'
+00:00.343	ID:8	4 8 0
+00:00.344	ID:8	4 8 1
+00:00.345	ID:8	4 8 2
+00:00.346	ID:8	4 8 3
+00:00.347	ID:8	4 8 4
+00:00.348	ID:8	4 8 5
+00:00.348	ID:8	4 8 6
+00:00.349	ID:8	4 8 7
+00:00.350	ID:8	4 8 8
+00:00.351	ID:8	4 8 9
+00:00.503	ID:2	Contiki 2.4 started. Node id is set to 2.
+00:00.505	ID:2	Starting 'Staffetta test'
+00:00.507	ID:2	4 2 0
+00:00.507	ID:2	4 2 1
+00:00.508	ID:2	4 2 2
+00:00.509	ID:2	4 2 3
+00:00.510	ID:2	4 2 4
+00:00.511	ID:2	4 2 5
+00:00.512	ID:2	4 2 6
+00:00.513	ID:2	4 2 7
+00:00.514	ID:2	4 2 8
+00:00.515	ID:2	4 2 9
+00:00.518	ID:6	Contiki 2.4 started. Node id is set to 6.
+00:00.520	ID:6	Starting 'Staffetta test'
+00:00.521	ID:6	4 6 0
+00:00.522	ID:6	4 6 1
+00:00.523	ID:6	4 6 2
+00:00.524	ID:6	4 6 3
+00:00.525	ID:6	4 6 4
+00:00.526	ID:6	4 6 5
+00:00.526	ID:6	4 6 6
+00:00.527	ID:6	4 6 7
+00:00.528	ID:6	4 6 8
+00:00.529	ID:6	4 6 9
+00:00.615	ID:4	Contiki 2.4 started. Node id is set to 4.
+00:00.618	ID:4	Starting 'Staffetta test'
+00:00.619	ID:4	4 4 0
+00:00.620	ID:4	4 4 1
+00:00.621	ID:4	4 4 2
+00:00.621	ID:4	4 4 3
+00:00.622	ID:4	4 4 4
+00:00.623	ID:4	4 4 5
+00:00.624	ID:4	4 4 6
+00:00.625	ID:4	4 4 7
+00:00.626	ID:4	4 4 8
+00:00.627	ID:4	4 4 9
+00:00.649	ID:1	Contiki 2.4 started. Node id is set to 1.
+00:00.651	ID:1	Starting 'Staffetta test'
+00:00.653	ID:1	4 1 0
+00:00.653	ID:1	4 1 1
+00:00.654	ID:1	4 1 2
+00:00.655	ID:1	4 1 3
+00:00.656	ID:1	4 1 4
+00:00.657	ID:1	4 1 5
+00:00.658	ID:1	4 1 6
+00:00.659	ID:1	4 1 7
+00:00.660	ID:1	4 1 8
+00:00.661	ID:1	4 1 9
+00:00.661	ID:1	Sink active
+00:00.669	ID:7	Contiki 2.4 started. Node id is set to 7.
+00:00.671	ID:7	Starting 'Staffetta test'
+00:00.672	ID:7	4 7 0
+00:00.673	ID:7	4 7 1
+00:00.674	ID:7	4 7 2
+00:00.675	ID:7	4 7 3
+00:00.676	ID:7	4 7 4
+00:00.677	ID:7	4 7 5
+00:00.677	ID:7	4 7 6
+00:00.678	ID:7	4 7 7
+00:00.679	ID:7	4 7 8
+00:00.680	ID:7	4 7 9
+00:00.976	ID:9	Contiki 2.4 started. Node id is set to 9.
+00:00.978	ID:9	Starting 'Staffetta test'
+00:00.979	ID:9	4 9 0
+00:00.980	ID:9	4 9 1
+00:00.981	ID:9	4 9 2
+00:00.982	ID:9	4 9 3
+00:00.982	ID:5	Contiki 2.4 started. Node id is set to 5.
+00:00.982	ID:9	4 9 4
+00:00.983	ID:9	4 9 5
+00:00.984	ID:9	4 9 6
+00:00.984	ID:5	Starting 'Staffetta test'
+00:00.985	ID:9	4 9 7
+00:00.986	ID:5	4 5 0
+00:00.986	ID:9	4 9 8
+00:00.986	ID:5	4 5 1
+00:00.987	ID:9	4 9 9
+00:00.987	ID:5	4 5 2
+00:00.988	ID:5	4 5 3
+00:00.989	ID:5	4 5 4
+00:00.990	ID:5	4 5 5
+00:00.991	ID:5	4 5 6
+00:00.992	ID:5	4 5 7
+00:00.993	ID:5	4 5 8
+00:00.993	ID:5	4 5 9
+00:01.166	ID:3	Contiki 2.4 started. Node id is set to 3.
+00:01.168	ID:3	Starting 'Staffetta test'
+00:01.170	ID:3	4 3 0
+00:01.171	ID:3	4 3 1
+00:01.172	ID:3	4 3 2
+00:01.172	ID:3	4 3 3
+00:01.173	ID:3	4 3 4
+00:01.174	ID:3	4 3 5
+00:01.175	ID:3	4 3 6
+00:01.176	ID:3	4 3 7
+00:01.177	ID:3	4 3 8
+00:01.178	ID:3	4 3 9
+00:01.384	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:01.386	ID:1	2 0 1
+00:01.387	ID:2	5 2 1
+00:01.389	ID:2	2 1 11
+00:01.392	ID:2	6 729 13
+00:01.534	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:01.545	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:01.546	ID:7	5 7 8
+00:01.548	ID:7	2 8 11
+00:01.550	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:01.551	ID:7	6 1254 24
+00:01.563	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:01.606	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:01.608	ID:1	4 0 1
+00:01.610	ID:1	4 0 1
+00:01.612	ID:1	4 0 1
+00:01.615	ID:1	4 0 1
+00:01.617	ID:1	4 0 1
+00:01.619	ID:1	4 0 1
+00:01.621	ID:1	4 0 1
+00:01.624	ID:1	4 0 1
+00:01.626	ID:1	4 0 1
+00:01.628	ID:1	4 0 1
+00:01.630	ID:1	4 0 1
+00:01.633	ID:1	4 0 1
+00:01.636	ID:1	4 0 1
+00:01.639	ID:1	4 0 1
+00:01.641	ID:1	4 0 1
+00:01.643	ID:1	4 0 1
+00:01.645	ID:1	4 0 1
+00:01.648	ID:1	4 0 1
+00:01.650	ID:1	4 0 1
+00:01.652	ID:1	4 0 1
+00:01.654	ID:1	4 0 1
+00:01.657	ID:1	4 0 1
+00:01.660	ID:1	4 0 1
+00:01.663	ID:1	4 0 1
+00:01.665	ID:1	4 0 1
+00:01.667	ID:1	4 0 1
+00:01.669	ID:1	4 0 1
+00:01.672	ID:1	4 0 1
+00:01.674	ID:1	4 0 1
+00:01.676	ID:1	4 0 1
+00:01.679	ID:1	4 0 1
+00:01.681	ID:1	4 0 1
+00:01.683	ID:1	4 0 1
+00:01.687	ID:1	4 0 1
+00:01.689	ID:1	4 0 1
+00:01.691	ID:1	4 0 1
+00:01.694	ID:1	4 0 1
+00:01.696	ID:1	4 0 1
+00:01.698	ID:1	4 0 1
+00:01.700	ID:1	4 0 1
+00:01.703	ID:1	4 0 1
+00:01.705	ID:1	4 0 1
+00:01.707	ID:1	4 0 1
+00:01.709	ID:1	4 0 1
+00:01.712	ID:1	4 0 1
+00:01.715	ID:1	4 0 1
+00:01.718	ID:1	4 0 1
+00:01.720	ID:1	4 0 1
+00:01.722	ID:1	4 0 1
+00:01.724	ID:1	4 0 1
+00:01.727	ID:1	4 0 1
+00:01.729	ID:1	4 0 1
+00:01.731	ID:1	4 0 1
+00:01.733	ID:1	4 0 1
+00:01.736	ID:1	4 0 1
+00:01.738	ID:1	4 0 1
+00:01.740	ID:1	4 0 1
+00:01.744	ID:1	4 0 1
+00:01.746	ID:1	4 0 1
+00:01.748	ID:1	4 0 1
+00:01.751	ID:1	4 0 1
+00:01.753	ID:1	4 0 1
+00:01.755	ID:1	4 0 1
+00:01.757	ID:1	4 0 1
+00:01.760	ID:1	4 0 1
+00:01.762	ID:1	4 0 1
+00:01.764	ID:1	4 0 1
+00:01.766	ID:1	4 0 1
+00:01.770	ID:1	4 0 1
+00:01.772	ID:1	4 0 1
+00:01.775	ID:1	4 0 1
+00:01.777	ID:1	4 0 1
+00:01.779	ID:1	4 0 1
+00:01.781	ID:1	4 0 1
+00:01.784	ID:1	4 0 1
+00:01.786	ID:1	4 0 1
+00:01.788	ID:1	4 0 1
+00:01.790	ID:1	4 0 1
+00:01.793	ID:1	4 0 1
+00:01.795	ID:1	4 0 1
+00:01.799	ID:1	4 0 1
+00:01.801	ID:1	4 0 1
+00:01.803	ID:1	4 0 1
+00:01.805	ID:1	4 0 1
+00:01.808	ID:1	4 0 1
+00:01.810	ID:1	4 0 1
+00:01.812	ID:1	4 0 1
+00:01.815	ID:1	4 0 1
+00:01.817	ID:1	4 0 1
+00:01.819	ID:1	4 0 1
+00:01.821	ID:1	4 0 1
+00:01.824	ID:1	4 0 1
+00:01.827	ID:1	4 0 1
+00:01.829	ID:1	4 0 1
+00:01.832	ID:1	4 0 1
+00:01.834	ID:1	4 0 1
+00:01.836	ID:1	4 0 1
+00:01.838	ID:1	4 0 1
+00:01.841	ID:1	4 0 1
+00:01.843	ID:1	4 0 1
+00:01.845	ID:1	4 0 1
+00:01.848	ID:1	4 0 1
+00:01.850	ID:1	4 0 1
+00:01.852	ID:1	4 0 1
+00:01.856	ID:1	4 0 1
+00:01.858	ID:1	4 0 1
+00:01.860	ID:1	4 0 1
+00:01.863	ID:1	4 0 1
+00:01.865	ID:1	4 0 1
+00:01.867	ID:1	4 0 1
+00:01.869	ID:1	4 0 1
+00:01.872	ID:1	4 0 1
+00:01.874	ID:1	4 0 1
+00:01.876	ID:1	4 0 1
+00:01.878	ID:1	4 0 1
+00:01.881	ID:1	4 0 1
+00:01.884	ID:1	4 0 1
+00:01.887	ID:1	4 0 1
+00:01.889	ID:1	4 0 1
+00:01.891	ID:1	4 0 1
+00:01.893	ID:1	4 0 1
+00:01.896	ID:1	4 0 1
+00:01.898	ID:1	4 0 1
+00:01.900	ID:1	4 0 1
+00:01.902	ID:1	4 0 1
+00:01.905	ID:1	4 0 1
+00:01.907	ID:1	4 0 1
+00:01.911	ID:1	4 0 1
+00:01.913	ID:1	4 0 1
+00:01.915	ID:1	4 0 1
+00:01.917	ID:1	4 0 1
+00:01.920	ID:1	4 0 1
+00:01.922	ID:1	4 0 1
+00:01.924	ID:1	4 0 1
+00:01.926	ID:1	4 0 1
+00:01.929	ID:1	4 0 1
+00:01.931	ID:1	4 0 1
+00:01.933	ID:1	4 0 1
+00:01.937	ID:1	4 0 1
+00:01.939	ID:1	4 0 1
+00:01.941	ID:1	4 0 1
+00:01.944	ID:1	4 0 1
+00:01.946	ID:1	4 0 1
+00:01.948	ID:1	4 0 1
+00:01.951	ID:1	4 0 1
+00:01.952	ID:5	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:01.953	ID:1	4 0 1
+00:01.955	ID:1	4 0 1
+00:01.957	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:01.957	ID:1	4 0 1
+00:01.958	ID:5	collision
+00:01.963	ID:1	4 0 1
+00:01.966	ID:1	4 0 1
+00:01.968	ID:1	4 0 1
+00:01.970	ID:1	4 0 1
+00:01.972	ID:1	4 0 1
+00:01.975	ID:1	4 0 1
+00:01.977	ID:1	4 0 1
+00:01.979	ID:1	4 0 1
+00:01.981	ID:1	4 0 1
+00:01.984	ID:1	4 0 1
+00:01.986	ID:1	4 0 1
+00:01.988	ID:1	4 0 1
+00:01.992	ID:1	4 0 1
+00:01.994	ID:1	4 0 1
+00:01.996	ID:1	4 0 1
+00:01.999	ID:1	4 0 1
+00:02.001	ID:1	4 0 1
+00:02.003	ID:1	4 0 1
+00:02.005	ID:1	4 0 1
+00:02.008	ID:1	4 0 1
+00:02.010	ID:1	4 0 1
+00:02.012	ID:1	4 0 1
+00:02.014	ID:1	4 0 1
+00:02.017	ID:1	4 0 1
+00:02.020	ID:1	4 0 1
+00:02.023	ID:1	4 0 1
+00:02.025	ID:1	4 0 1
+00:02.027	ID:1	4 0 1
+00:02.029	ID:1	4 0 1
+00:02.032	ID:1	4 0 1
+00:02.034	ID:1	4 0 1
+00:02.036	ID:1	4 0 1
+00:02.038	ID:1	4 0 1
+00:02.041	ID:1	4 0 1
+00:02.043	ID:1	4 0 1
+00:02.045	ID:1	4 0 1
+00:02.049	ID:1	4 0 1
+00:02.051	ID:1	4 0 1
+00:02.053	ID:1	4 0 1
+00:02.056	ID:1	4 0 1
+00:02.058	ID:1	4 0 1
+00:02.060	ID:1	4 0 1
+00:02.062	ID:1	4 0 1
+00:02.065	ID:1	4 0 1
+00:02.067	ID:3	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:02.067	ID:1	4 0 1
+00:02.071	ID:1	4 0 1
+00:02.072	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:02.073	ID:1	4 0 1
+00:02.075	ID:1	4 0 1
+00:02.078	ID:1	4 0 1
+00:02.080	ID:1	4 0 1
+00:02.082	ID:1	4 0 1
+00:02.084	ID:1	4 0 1
+00:02.087	ID:1	4 0 1
+00:02.089	ID:1	4 0 1
+00:02.091	ID:1	4 0 1
+00:02.093	ID:1	4 0 1
+00:02.096	ID:1	4 0 1
+00:02.099	ID:1	4 0 1
+00:02.102	ID:1	4 0 1
+00:02.104	ID:1	4 0 1
+00:02.106	ID:1	4 0 1
+00:02.108	ID:1	4 0 1
+00:02.111	ID:1	4 0 1
+00:02.113	ID:1	4 0 1
+00:02.115	ID:1	4 0 1
+00:02.117	ID:1	4 0 1
+00:02.120	ID:1	4 0 1
+00:02.122	ID:1	4 0 1
+00:02.124	ID:1	4 0 1
+00:02.128	ID:1	4 0 1
+00:02.130	ID:1	4 0 1
+00:02.132	ID:1	4 0 1
+00:02.133	ID:9	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:02.135	ID:1	4 0 1
+00:02.137	ID:1	4 0 1
+00:02.139	ID:1	4 0 1
+00:02.141	ID:1	4 0 1
+00:02.144	ID:1	4 0 1
+00:02.146	ID:1	4 0 1
+00:02.148	ID:1	4 0 1
+00:02.150	ID:1	4 0 1
+00:02.153	ID:1	4 0 1
+00:02.156	ID:1	4 0 1
+00:02.159	ID:1	4 0 1
+00:02.161	ID:1	4 0 1
+00:02.163	ID:1	4 0 1
+00:02.165	ID:1	4 0 1
+00:02.168	ID:1	4 0 1
+00:02.170	ID:1	4 0 1
+00:02.172	ID:1	4 0 1
+00:02.174	ID:1	4 0 1
+00:02.177	ID:1	4 0 1
+00:02.179	ID:1	4 0 1
+00:02.183	ID:1	4 0 1
+00:02.185	ID:1	4 0 1
+00:02.187	ID:1	4 0 1
+00:02.189	ID:1	4 0 1
+00:02.192	ID:1	4 0 1
+00:02.194	ID:1	4 0 1
+00:02.196	ID:1	4 0 1
+00:02.199	ID:1	4 0 1
+00:02.201	ID:1	4 0 1
+00:02.203	ID:1	4 0 1
+00:02.205	ID:1	4 0 1
+00:02.209	ID:1	4 0 1
+00:02.211	ID:1	4 0 1
+00:02.214	ID:1	4 0 1
+00:02.216	ID:1	4 0 1
+00:02.218	ID:1	4 0 1
+00:02.220	ID:1	4 0 1
+00:02.223	ID:1	4 0 1
+00:02.225	ID:1	4 0 1
+00:02.227	ID:1	4 0 1
+00:02.229	ID:1	4 0 1
+00:02.232	ID:1	4 0 1
+00:02.235	ID:1	4 0 1
+00:02.238	ID:1	4 0 1
+00:02.240	ID:1	4 0 1
+00:02.242	ID:1	4 0 1
+00:02.244	ID:1	4 0 1
+00:02.247	ID:1	4 0 1
+00:02.249	ID:1	4 0 1
+00:02.251	ID:1	4 0 1
+00:02.253	ID:1	4 0 1
+00:02.256	ID:1	4 0 1
+00:02.258	ID:1	4 0 1
+00:02.260	ID:1	4 0 1
+00:02.264	ID:1	4 0 1
+00:02.266	ID:1	4 0 1
+00:02.268	ID:1	4 0 1
+00:02.271	ID:1	4 0 1
+00:02.273	ID:1	4 0 1
+00:02.275	ID:1	4 0 1
+00:02.277	ID:1	4 0 1
+00:02.280	ID:1	4 0 1
+00:02.282	ID:1	4 0 1
+00:02.284	ID:1	4 0 1
+00:02.286	ID:1	4 0 1
+00:02.289	ID:1	4 0 1
+00:02.292	ID:1	4 0 1
+00:02.295	ID:1	4 0 1
+00:02.297	ID:1	4 0 1
+00:02.299	ID:1	4 0 1
+00:02.301	ID:1	4 0 1
+00:02.304	ID:1	4 0 1
+00:02.306	ID:1	4 0 1
+00:02.308	ID:1	4 0 1
+00:02.310	ID:1	4 0 1
+00:02.313	ID:1	4 0 1
+00:02.315	ID:1	4 0 1
+00:02.317	ID:1	4 0 1
+00:02.321	ID:1	4 0 1
+00:02.323	ID:1	4 0 1
+00:02.325	ID:1	4 0 1
+00:02.328	ID:1	4 0 1
+00:02.330	ID:1	4 0 1
+00:02.332	ID:1	4 0 1
+00:02.334	ID:1	4 0 1
+00:02.337	ID:1	4 0 1
+00:02.339	ID:1	4 0 1
+00:02.341	ID:1	4 0 1
+00:02.343	ID:1	4 0 1
+00:02.346	ID:1	4 0 1
+00:02.349	ID:1	4 0 1
+00:02.352	ID:1	4 0 1
+00:02.354	ID:1	4 0 1
+00:02.356	ID:1	4 0 1
+00:02.358	ID:1	4 0 1
+00:02.361	ID:1	4 0 1
+00:02.363	ID:1	4 0 1
+00:02.365	ID:1	4 0 1
+00:02.367	ID:1	4 0 1
+00:02.370	ID:1	4 0 1
+00:02.372	ID:1	4 0 1
+00:02.374	ID:1	4 0 1
+00:02.378	ID:1	4 0 1
+00:02.380	ID:1	4 0 1
+00:02.382	ID:1	4 0 1
+00:02.385	ID:1	4 0 1
+00:02.387	ID:1	4 0 1
+00:02.389	ID:1	4 0 1
+00:02.391	ID:1	4 0 1
+00:02.394	ID:1	4 0 1
+00:02.396	ID:1	4 0 1
+00:02.398	ID:1	4 0 1
+00:02.400	ID:1	4 0 1
+00:02.403	ID:1	4 0 1
+00:02.406	ID:1	4 0 1
+00:02.408	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:02.409	ID:1	4 0 1
+00:02.411	ID:1	4 0 1
+00:02.413	ID:1	4 0 1
+00:02.415	ID:1	4 0 1
+00:02.418	ID:1	4 0 1
+00:02.420	ID:1	4 0 1
+00:02.422	ID:1	4 0 1
+00:02.424	ID:1	4 0 1
+00:02.427	ID:1	4 0 1
+00:02.429	ID:1	4 0 1
+00:02.431	ID:1	4 0 1
+00:02.435	ID:1	4 0 1
+00:02.437	ID:1	4 0 1
+00:02.439	ID:1	4 0 1
+00:02.442	ID:1	4 0 1
+00:02.444	ID:1	4 0 1
+00:02.446	ID:1	4 0 1
+00:02.448	ID:1	4 0 1
+00:02.451	ID:1	4 0 1
+00:02.453	ID:1	4 0 1
+00:02.455	ID:1	4 0 1
+00:02.458	ID:1	4 0 1
+00:02.460	ID:1	4 0 1
+00:02.463	ID:1	4 0 1
+00:02.466	ID:1	4 0 1
+00:02.468	ID:1	4 0 1
+00:02.470	ID:1	4 0 1
+00:02.472	ID:1	4 0 1
+00:02.475	ID:1	4 0 1
+00:02.477	ID:1	4 0 1
+00:02.479	ID:1	4 0 1
+00:02.482	ID:1	4 0 1
+00:02.484	ID:1	4 0 1
+00:02.486	ID:1	4 0 1
+00:02.488	ID:1	4 0 1
+00:02.492	ID:1	4 0 1
+00:02.494	ID:1	4 0 1
+00:02.497	ID:1	4 0 1
+00:02.499	ID:1	4 0 1
+00:02.501	ID:1	4 0 1
+00:02.503	ID:1	4 0 1
+00:02.506	ID:1	4 0 1
+00:02.508	ID:1	4 0 1
+00:02.510	ID:1	4 0 1
+00:02.512	ID:1	4 0 1
+00:02.515	ID:1	4 0 1
+00:02.517	ID:1	4 0 1
+00:02.521	ID:1	4 0 1
+00:02.523	ID:1	4 0 1
+00:02.525	ID:1	4 0 1
+00:02.527	ID:1	4 0 1
+00:02.530	ID:1	4 0 1
+00:02.532	ID:1	4 0 1
+00:02.534	ID:1	4 0 1
+00:02.536	ID:1	4 0 1
+00:02.539	ID:1	4 0 1
+00:02.541	ID:1	4 0 1
+00:02.543	ID:1	4 0 1
+00:02.547	ID:1	4 0 1
+00:02.549	ID:1	4 0 1
+00:02.551	ID:1	4 0 1
+00:02.552	ID:8	2 8 10
+00:02.554	ID:1	4 0 1
+00:02.556	ID:8	6 57036 457
+00:02.556	ID:1	4 0 1
+00:02.558	ID:1	4 0 1
+00:02.560	ID:1	4 0 1
+00:02.563	ID:1	4 0 1
+00:02.565	ID:6	2 6 10
+00:02.565	ID:1	4 0 1
+00:02.567	ID:1	4 0 1
+00:02.568	ID:4	5 4 1
+00:02.568	ID:6	6 56967 493
+00:02.568	ID:7	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:02.570	ID:4	2 1 2
+00:02.572	ID:1	2 1 1
+00:02.573	ID:2	5 2 1
+00:02.573	ID:4	6 54843 497
+00:02.575	ID:2	2 1 11
+00:02.578	ID:2	6 10620 90
+00:02.887	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:03.028	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:03.157	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:03.338	ID:5	collision
+00:03.464	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:03.480	ID:6	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:03.485	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:03.486	ID:6	collision
+00:03.708	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:03.713	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:03.714	ID:8	collision
+00:04.030	ID:9	2 9 10
+00:04.034	ID:9	6 57291 332
+00:04.159	ID:3	2 3 10
+00:04.162	ID:3	6 57624 341
+00:04.197	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:04.242	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:04.316	ID:6	collision
+00:04.466	ID:7	2 7 11
+00:04.466	ID:1	2 2 1
+00:04.467	ID:2	5 2 1
+00:04.469	ID:2	2 1 7
+00:04.469	ID:7	6 58677 273
+00:04.472	ID:2	6 26586 118
+00:04.932	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:05.063	ID:9	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:05.064	ID:8	5 8 9
+00:05.066	ID:8	2 9 8
+00:05.068	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:05.070	ID:8	6 65769 246
+00:05.172	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:05.323	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:05.354	ID:6	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:05.359	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:05.360	ID:6	collision
+00:05.361	ID:6	collision
+00:05.480	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:05.747	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:06.070	ID:9	2 9 10
+00:06.074	ID:9	6 114306 397
+00:06.174	ID:3	2 3 10
+00:06.178	ID:3	6 114594 405
+00:06.300	ID:6	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:06.302	ID:5	5 5 6
+00:06.304	ID:5	2 6 3
+00:06.306	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:06.307	ID:5	6 73794 245
+00:06.325	ID:7	2 7 11
+00:06.329	ID:7	6 115644 362
+00:06.463	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:07.073	ID:3	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:07.079	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:07.080	ID:3	collision
+00:07.148	ID:9	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:07.153	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:07.154	ID:9	collision
+00:07.155	ID:9	collision
+00:07.263	ID:7	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:07.265	ID:8	5 8 7
+00:07.267	ID:8	2 7 3
+00:07.269	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:07.271	ID:8	6 111582 285
+00:07.308	ID:6	2 6 10
+00:07.312	ID:6	6 120111 313
+00:07.439	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:07.441	ID:1	2 3 1
+00:07.930	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:08.270	ID:7	2 7 11
+00:08.274	ID:7	6 172614 402
+00:08.278	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:08.280	ID:1	4 1 1
+00:08.280	ID:4	5 4 1
+00:08.282	ID:4	2 1 3
+00:08.286	ID:4	6 55578 128
+00:08.317	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:08.447	ID:6	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:08.453	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:08.454	ID:6	collision
+00:08.455	ID:6	collision
+00:08.520	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:08.521	ID:3	5 3 2
+00:08.523	ID:3	2 2 4
+00:08.525	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:08.527	ID:3	6 149193 359
+00:08.527	ID:1	2 3 1
+00:08.530	ID:1	2 3 1
+00:08.530	ID:2	5 2 1
+00:08.532	ID:2	2 1 8
+00:08.536	ID:2	6 28452 62
+00:09.151	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:09.319	ID:9	2 9 10
+00:09.323	ID:9	6 171957 365
+00:09.508	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:09.611	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:09.613	ID:1	2 4 1
+00:09.615	ID:1	2 4 1
+00:09.953	ID:5	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:09.954	ID:6	5 6 5
+00:09.956	ID:6	2 5 4
+00:09.958	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:09.960	ID:6	6 146526 275
+00:10.153	ID:7	2 7 11
+00:10.157	ID:7	6 229584 429
+00:10.411	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:10.528	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:10.533	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:10.534	ID:8	collision
+00:10.535	ID:8	collision
+00:10.594	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:10.704	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:10.960	ID:5	2 5 3
+00:10.963	ID:5	6 130824 232
+00:11.042	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:11.413	ID:9	2 9 10
+00:11.417	ID:9	6 228927 388
+00:11.596	ID:3	2 3 4
+00:11.600	ID:3	6 206172 350
+00:11.883	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:12.038	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:12.039	ID:7	5 7 4
+00:12.041	ID:7	2 4 11
+00:12.043	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:12.045	ID:4	collision
+00:12.045	ID:7	6 286401 446
+00:12.290	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:12.292	ID:1	2 4 1
+00:12.295	ID:1	2 4 1
+00:12.297	ID:1	2 4 1
+00:12.299	ID:1	2 4 1
+00:12.301	ID:1	2 4 1
+00:12.304	ID:1	2 4 1
+00:12.304	ID:2	5 2 1
+00:12.306	ID:2	2 1 9
+00:12.310	ID:2	6 33654 50
+00:12.617	ID:9	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:12.619	ID:6	5 6 9
+00:12.621	ID:6	2 9 4
+00:12.623	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:12.625	ID:6	6 188619 276
+00:12.987	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:13.290	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:13.432	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:13.433	ID:7	collision
+00:13.433	ID:9	collision
+00:13.435	ID:1	2 5 1
+00:13.437	ID:1	2 5 1
+00:13.440	ID:1	2 5 1
+00:13.442	ID:1	2 5 1
+00:13.444	ID:1	2 5 1
+00:13.446	ID:1	2 5 1
+00:13.449	ID:1	2 5 1
+00:13.451	ID:1	2 5 1
+00:13.451	ID:2	5 2 1
+00:13.453	ID:2	2 1 7
+00:13.457	ID:2	6 43320 59
+00:13.664	ID:5	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:13.665	ID:8	5 8 5
+00:13.667	ID:8	2 5 2
+00:13.669	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:13.671	ID:8	6 126033 167
+00:14.133	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:14.237	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:14.544	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:14.671	ID:5	2 5 3
+00:14.675	ID:5	6 187860 243
+00:15.135	ID:3	2 3 4
+00:15.139	ID:3	6 263139 333
+00:15.239	ID:7	2 7 11
+00:15.243	ID:7	6 369066 449
+00:15.546	ID:9	2 9 10
+00:15.550	ID:9	6 332175 404
+00:15.715	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:15.717	ID:1	4 2 1
+00:15.718	ID:4	5 4 1
+00:15.720	ID:4	2 1 3
+00:15.723	ID:4	6 56970 66
+00:15.933	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:16.462	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:16.464	ID:1	2 6 1
+00:16.465	ID:2	5 2 1
+00:16.467	ID:2	2 1 7
+00:16.470	ID:2	6 44172 49
+00:16.755	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:16.935	ID:7	2 7 11
+00:16.938	ID:7	6 32823 464
+00:17.519	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:17.665	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:17.683	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:17.757	ID:9	2 9 10
+00:17.761	ID:9	6 389151 411
+00:18.521	ID:5	2 5 3
+00:18.525	ID:5	6 244836 247
+00:18.646	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:18.666	ID:3	2 3 4
+00:18.670	ID:3	6 320115 324
+00:18.684	ID:7	2 7 11
+00:18.688	ID:7	6 89793 475
+00:19.154	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:19.156	ID:9	5 9 8
+00:19.158	ID:9	2 8 10
+00:19.159	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:19.161	ID:9	6 25281 408
+00:19.384	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:19.386	ID:1	2 7 1
+00:19.434	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:19.762	ID:8	collision
+00:19.765	ID:1	4 3 1
+00:19.766	ID:4	5 4 1
+00:19.768	ID:4	2 1 2
+00:19.771	ID:4	6 76263 70
+00:20.161	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:20.567	ID:6	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:20.568	ID:9	5 9 6
+00:20.570	ID:9	2 6 5
+00:20.572	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:20.574	ID:9	6 48813 399
+00:20.579	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:20.581	ID:1	2 7 1
+00:20.745	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:21.176	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:21.339	ID:3	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:21.341	ID:6	5 6 3
+00:21.343	ID:6	2 3 2
+00:21.347	ID:6	6 232920 198
+00:21.747	ID:7	2 7 11
+00:21.751	ID:7	6 146940 454
+00:22.177	ID:5	2 5 3
+00:22.181	ID:5	6 301812 252
+00:22.243	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:22.246	ID:1	2 7 1
+00:22.246	ID:2	5 2 1
+00:22.248	ID:2	2 1 15
+00:22.252	ID:2	6 46389 37
+00:22.505	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:22.714	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:22.806	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:23.507	ID:9	2 9 5
+00:23.511	ID:9	6 105786 392
+00:23.549	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:23.550	ID:7	collision
+00:23.552	ID:1	2 8 1
+00:24.236	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:24.297	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:24.331	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:24.332	ID:8	collision
+00:24.445	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:24.446	ID:7	5 7 4
+00:24.448	ID:7	2 4 10
+00:24.450	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:24.452	ID:1	4 4 1
+00:24.452	ID:7	6 201738 443
+00:24.454	ID:1	4 4 1
+00:24.457	ID:1	4 4 1
+00:24.459	ID:1	4 4 1
+00:24.461	ID:1	4 4 1
+00:24.463	ID:1	4 4 1
+00:24.466	ID:1	4 4 1
+00:24.468	ID:1	4 4 1
+00:24.468	ID:4	5 4 1
+00:24.471	ID:4	2 1 2
+00:24.474	ID:4	6 77919 57
+00:25.052	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:25.053	ID:3	5 3 2
+00:25.055	ID:3	2 2 2
+00:25.057	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:25.059	ID:1	2 8 1
+00:25.059	ID:3	6 363672 269
+00:25.060	ID:2	5 2 1
+00:25.062	ID:2	2 1 15
+00:25.065	ID:2	6 96012 69
+00:25.277	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:25.278	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:25.661	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:25.666	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:25.667	ID:2	collision
+00:25.675	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:26.280	ID:9	2 9 5
+00:26.284	ID:9	6 162762 389
+00:26.676	ID:7	2 7 10
+00:26.680	ID:7	6 258690 444
+00:27.001	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:27.003	ID:1	2 9 1
+00:27.004	ID:2	5 2 1
+00:27.006	ID:2	2 1 16
+00:27.010	ID:2	6 97533 65
+00:27.367	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:27.540	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:27.542	ID:2	collision
+00:27.581	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:28.134	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:28.199	ID:7	collision
+00:28.202	ID:1	3 0 2
+00:28.369	ID:6	2 6 2
+00:28.373	ID:6	6 289887 184
+00:28.521	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:28.908	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:28.910	ID:1	3 0 2
+00:29.206	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:29.462	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:29.490	ID:2	collision
+00:29.522	ID:9	2 9 5
+00:29.526	ID:9	6 219720 380
+00:29.585	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:29.587	ID:7	5 7 4
+00:29.589	ID:7	2 4 5
+00:29.590	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:29.592	ID:1	4 5 1
+00:29.592	ID:7	6 316173 434
+00:29.593	ID:4	5 4 1
+00:29.595	ID:4	2 1 9
+00:29.598	ID:4	6 78663 48
+00:29.855	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:30.199	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:30.201	ID:5	5 5 2
+00:30.203	ID:5	2 2 2
+00:30.205	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:30.207	ID:5	6 376512 228
+00:30.207	ID:1	3 0 2
+00:30.207	ID:2	5 2 1
+00:30.209	ID:2	2 1 56
+00:30.213	ID:2	6 106185 63
+00:30.219	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:30.372	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:30.374	ID:3	5 3 2
+00:30.376	ID:3	2 2 2
+00:30.378	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:30.380	ID:3	6 372972 226
+00:30.380	ID:1	3 1 2
+00:30.380	ID:2	5 2 1
+00:30.383	ID:2	2 1 55
+00:30.386	ID:2	6 106986 63
+00:30.603	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:30.605	ID:1	5 1 2
+00:30.606	ID:2	5 2 1
+00:30.608	ID:2	2 1 55
+00:30.611	ID:2	6 107718 63
+00:30.715	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:30.717	ID:1	4 6 1
+00:30.718	ID:4	5 4 1
+00:30.720	ID:4	2 1 9
+00:30.723	ID:4	6 79398 46
+00:30.814	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:30.816	ID:1	3 2 2
+00:30.816	ID:2	5 2 1
+00:30.819	ID:2	2 1 56
+00:30.822	ID:2	6 108450 63
+00:31.033	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:31.197	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:31.384	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:31.409	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:31.450	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:31.595	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:31.663	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:31.668	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:31.670	ID:4	collision
+00:31.728	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:31.884	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.056	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.197	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.368	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.380	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:32.381	ID:7	collision
+00:32.382	ID:9	5 9 8
+00:32.383	ID:9	2 8 2
+00:32.385	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:32.387	ID:9	6 272829 376
+00:32.572	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.759	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.892	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:32.973	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:32.975	ID:4	collision
+00:33.079	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:33.141	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:33.267	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:33.387	ID:8	2 8 2
+00:33.391	ID:8	6 262599 140
+00:33.431	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:33.564	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:33.743	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:33.817	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:33.915	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.072	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.142	ID:6	2 6 2
+00:34.143	ID:1	4 7 1
+00:34.144	ID:4	5 4 1
+00:34.146	ID:4	2 1 5
+00:34.146	ID:6	6 346842 182
+00:34.149	ID:4	6 99792 52
+00:34.283	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.447	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.512	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:34.575	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:34.576	ID:5	5 5 2
+00:34.578	ID:5	2 2 2
+00:34.580	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.582	ID:5	6 380742 200
+00:34.582	ID:1	5 2 2
+00:34.583	ID:2	5 2 1
+00:34.585	ID:2	2 1 56
+00:34.589	ID:2	6 120567 62
+00:34.589	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:34.767	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:34.954	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:35.150	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:35.361	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:35.556	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:35.590	ID:7	2 7 5
+00:35.594	ID:7	6 35289 417
+00:35.767	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:35.970	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:36.150	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:36.207	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:36.209	ID:1	4 8 1
+00:36.210	ID:4	5 4 1
+00:36.212	ID:4	2 1 9
+00:36.216	ID:4	6 100527 50
+00:36.345	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:36.509	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:36.516	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:36.700	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:36.701	ID:3	5 3 2
+00:36.703	ID:3	2 2 2
+00:36.705	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:36.707	ID:3	6 384009 191
+00:36.707	ID:1	3 3 2
+00:36.708	ID:2	5 2 1
+00:36.710	ID:2	2 1 55
+00:36.714	ID:2	6 126750 62
+00:36.884	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.025	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.129	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:37.131	ID:1	4 9 1
+00:37.132	ID:4	5 4 1
+00:37.134	ID:4	2 1 9
+00:37.137	ID:4	6 101262 49
+00:37.212	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.370	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:37.408	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.626	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.775	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:37.915	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.124	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:38.126	ID:7	5 7 4
+00:38.126	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.128	ID:7	2 4 2
+00:38.130	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:38.132	ID:7	6 78504 409
+00:38.132	ID:1	7 1 2
+00:38.132	ID:4	5 4 1
+00:38.134	ID:4	2 1 9
+00:38.138	ID:4	6 102027 48
+00:38.298	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.375	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:38.517	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.633	ID:9	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:38.635	ID:6	5 6 9
+00:38.637	ID:6	2 9 2
+00:38.639	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:38.641	ID:6	6 362079 168
+00:38.720	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.748	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:38.750	ID:9	5 9 8
+00:38.751	ID:9	2 8 2
+00:38.753	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:38.755	ID:9	6 279717 315
+00:38.915	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:38.968	ID:5	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:38.969	ID:8	5 8 5
+00:38.971	ID:8	2 5 2
+00:38.973	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:38.975	ID:8	6 275442 126
+00:39.109	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:39.110	ID:5	5 5 4
+00:39.112	ID:5	2 4 2
+00:39.114	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:39.116	ID:5	6 389097 180
+00:39.116	ID:1	7 2 2
+00:39.117	ID:4	5 4 1
+00:39.119	ID:4	2 1 9
+00:39.122	ID:4	6 102789 47
+00:39.134	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:39.353	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:39.501	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:39.689	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:39.868	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:40.040	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:40.212	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:40.215	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:40.217	ID:1	7 3 2
+00:40.218	ID:4	5 4 1
+00:40.220	ID:4	2 1 56
+00:40.224	ID:4	6 103524 46
+00:40.387	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:40.389	ID:1	7 4 2
+00:40.390	ID:4	5 4 1
+00:40.392	ID:4	2 1 56
+00:40.396	ID:4	6 104259 46
+00:40.559	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:40.561	ID:1	5 3 2
+00:40.562	ID:4	5 4 1
+00:40.564	ID:4	2 1 56
+00:40.567	ID:4	6 104994 46
+00:40.603	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:40.739	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:40.814	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:40.879	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:40.962	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.035	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.158	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.168	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.314	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.317	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.481	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.525	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.684	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.728	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.848	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:41.868	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:41.981	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.079	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:42.176	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.211	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:42.255	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:42.256	ID:3	5 3 2
+00:42.258	ID:3	2 2 2
+00:42.260	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:42.262	ID:1	3 4 2
+00:42.262	ID:3	6 387126 167
+00:42.263	ID:2	5 2 1
+00:42.265	ID:2	2 1 55
+00:42.269	ID:2	6 143037 60
+00:42.371	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.486	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:42.574	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.642	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:42.754	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.845	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:42.887	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:42.933	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:43.064	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:43.067	ID:9	ORW GRADIENT mode strobe queue size limit to 255
+00:43.086	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:43.091	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.204	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:43.257	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:43.258	ID:7	5 7 4
+00:43.260	ID:7	2 4 2
+00:43.262	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.264	ID:7	6 97461 367
+00:43.264	ID:1	7 5 2
+00:43.265	ID:4	5 4 1
+00:43.267	ID:4	2 1 57
+00:43.271	ID:4	6 113883 47
+00:43.403	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.415	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:43.543	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.626	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:43.739	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.775	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:43.833	ID:8	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:43.834	ID:9	5 9 8
+00:43.836	ID:9	2 8 1
+00:43.838	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:43.840	ID:9	6 323541 296
+00:43.871	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:43.939	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.020	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.095	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.160	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.164	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:44.283	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.356	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.439	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.445	ID:5	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:44.445	ID:8	collision
+00:44.446	ID:6	5 6 5
+00:44.448	ID:6	2 5 2
+00:44.450	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:44.452	ID:6	6 378558 152
+00:44.515	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:44.517	ID:5	5 5 4
+00:44.519	ID:5	2 4 2
+00:44.521	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.522	ID:5	6 291 160
+00:44.523	ID:1	5 4 2
+00:44.523	ID:4	5 4 1
+00:44.526	ID:4	2 1 56
+00:44.529	ID:4	6 118446 47
+00:44.611	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.660	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.790	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:44.832	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:44.996	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:45.001	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.204	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.207	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:45.345	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.356	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:45.486	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.504	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:45.637	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:45.650	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.814	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:45.832	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.033	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.043	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.204	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.254	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.376	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.395	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.535	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.540	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.692	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.720	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.750	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:46.871	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:46.910	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:46.912	ID:3	5 3 2
+00:46.914	ID:3	2 2 2
+00:46.915	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:46.917	ID:3	6 3582 153
+00:46.917	ID:1	3 5 2
+00:46.918	ID:2	5 2 1
+00:46.920	ID:2	2 1 55
+00:46.924	ID:2	6 157287 60
+00:47.034	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:47.064	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:47.069	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:47.070	ID:7	5 7 4
+00:47.072	ID:7	2 4 2
+00:47.074	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.076	ID:1	7 6 2
+00:47.076	ID:7	6 100083 338
+00:47.077	ID:4	5 4 1
+00:47.079	ID:4	2 1 57
+00:47.083	ID:4	6 126729 48
+00:47.254	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.275	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:47.447	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:47.457	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.626	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:47.653	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.801	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.814	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:47.981	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:47.993	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:48.173	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:48.192	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:48.361	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:48.371	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:48.556	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:48.574	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:48.723	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:48.743	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:48.840	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:48.865	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:48.867	ID:5	5 5 4
+00:48.869	ID:5	2 4 2
+00:48.871	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:48.872	ID:5	6 2415 146
+00:48.873	ID:1	5 5 2
+00:48.874	ID:4	5 4 1
+00:48.876	ID:4	2 1 57
+00:48.879	ID:4	6 132297 48
+00:48.939	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.043	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:49.150	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.246	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:49.322	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.403	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:49.501	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.551	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:49.627	ID:8	ORW GRADIENT mode strobe queue size limit to 255
+00:49.665	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.739	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:49.868	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:49.934	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.087	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:50.145	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.203	ID:6	ORW GRADIENT mode strobe queue size limit to 255
+00:50.275	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:50.317	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.431	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:50.489	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.611	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:50.629	ID:8	2 8 2
+00:50.633	ID:8	6 367248 129
+00:50.699	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.790	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:50.910	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:50.993	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:51.074	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.165	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:51.205	ID:6	2 6 2
+00:51.208	ID:6	6 42312 152
+00:51.215	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.353	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:51.356	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.548	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:51.567	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.743	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:51.770	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.903	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:51.947	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.035	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.055	ID:3	ORW GRADIENT mode strobe queue size limit to 255
+00:52.114	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:52.115	ID:3	5 3 2
+00:52.117	ID:3	2 2 5
+00:52.119	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.121	ID:3	6 7566 139
+00:52.121	ID:1	3 6 2
+00:52.122	ID:2	5 2 1
+00:52.124	ID:2	2 1 55
+00:52.128	ID:2	6 172659 59
+00:52.223	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.329	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.379	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.533	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.543	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.681	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.715	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.868	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:52.886	ID:7	ORW GRADIENT mode strobe queue size limit to 255
+00:52.905	ID:4	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:52.906	ID:7	5 7 4
+00:52.908	ID:7	2 4 2
+00:52.910	ID:4	ORW GRADIENT mode strobe queue size limit to 255
+00:52.912	ID:1	7 7 2
+00:52.912	ID:7	6 101838 301
+00:52.913	ID:4	5 4 1
+00:52.915	ID:4	2 1 57
+00:52.919	ID:4	6 144918 49
+00:52.933	ID:5	ORW GRADIENT mode strobe queue size limit to 255
+00:53.012	ID:2	ORW_GRADIENT mode strobe_ack queue size limit to 255
+00:53.013	ID:5	5 5 2
+00:53.015	ID:5	2 2 2
+00:53.017	ID:2	ORW GRADIENT mode strobe queue size limit to 255
+00:53.019	ID:5	6 7509 136
+00:53.019	ID:1	5 6 2
+00:53.020	ID:2	5 2 1
+00:53.022	ID:2	2 1 55
+00:53.026	ID:2	6 175575 59

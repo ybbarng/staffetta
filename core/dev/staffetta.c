@@ -1,6 +1,6 @@
 /**
  * \file
- *         Staffetta protocol underneat a generic opportunistic data collection protocol [SenSys 2016]
+ *         Staffetta protocol underneat a generic opportunistic data collection protocol
  * \author
  *         Marco Cattani <m.cattani@gmail.com>
  */
@@ -47,23 +47,11 @@ static enum mac_state current_state = disabled;
 
 static struct pt pt;
 
-static uint8_t hop_count = 0;
-
-static inline void count_hop_num(void) {
-    //printf("Node number: %u\n", node_id);
-    if(node_id == 1)
-	hop_count = 0;
-    if((node_id == 2) || (node_id == 4))
-	hop_count = 1;
-    if((node_id == 3) || (node_id == 5) || (node_id == 7))
-	hop_count = 2;
-    if((node_id == 6) || (node_id == 8))
-	hop_count = 3;
-    if(node_id == 9)
-	hop_count = 4;
-}
 /* --------------------------- RADIO FUNCTIONS ---------------------- */
 
+/*
+ * 라디오 TX flush
+ */
 static inline void radio_flush_tx(void) {
     FASTSPI_STROBE(CC2420_SFLUSHTX);
 }
@@ -76,7 +64,6 @@ static inline uint8_t radio_status(void) {
 
 static inline void radio_on(void) {
     FASTSPI_STROBE(CC2420_SRXON);
-	printf("7 1\n");
     while(!(radio_status() & (BV(CC2420_XOSC16M_STABLE))));
     ENERGEST_ON(ENERGEST_TYPE_LISTEN);
 }
@@ -91,7 +78,6 @@ static inline void radio_off(void) {
     }
 #endif
     FASTSPI_STROBE(CC2420_SRFOFF);
-	printf("7 0\n");
 }
 
 static inline void radio_flush_rx(void) {
@@ -134,7 +120,7 @@ static void goto_idle() {
 /*--------------------------- DATA FUNCTIONS ------------------------------------------------*/
 
 uint32_t getWakeups(){
-    return num_wakeups;
+    return MIN(num_wakeups, 25);
 }
 
 static void set_bitmap(int idx){
@@ -231,7 +217,7 @@ int staffetta_send_packet(void) {
 	    if (strobe[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 		radio_flush_rx();
 		goto_idle();
-		//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+		printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 		return RET_FAIL_RX_BUFF;
 	    }
 	    while (bytes_read < 10) {
@@ -242,7 +228,7 @@ int staffetta_send_packet(void) {
 		    if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t1 + RTIMER_ARCH_SECOND/200)) {
 				radio_flush_rx();
 				goto_idle();
-				//printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+				printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 				return RET_FAIL_RX_BUFF;
 		    }
 		};
@@ -273,21 +259,16 @@ int staffetta_send_packet(void) {
 	    //strobe received, process it
 #if WITH_GRADIENT
 #if BCP_GRADIENT
-	    printf("BCP_GRADIENT mode rx\n");
 	    if(strobe[PKT_GRADIENT] < q_size){
 #elif ORW_GRADIENT
-		printf("ORW_GRADIENT mode rx\n");
 		if(strobe[PKT_GRADIENT] < avg_edc){
 #else
-		    printf("normal mode rx\n");
-		    count_hop_num();
-		    if(strobe[PKT_GRADIENT] > hop_count){
-		    //if(strobe[PKT_GRADIENT] > num_wakeups){
+		    if(strobe[PKT_GRADIENT] > num_wakeups){
 #endif
 			leds_off(LEDS_GREEN);
 			radio_flush_rx();
 			goto_idle();
-			//PRINTF("sender is closer to the sink than me\n");
+			PRINTF("sender is closer to the sink than me\n");
 			return RET_WRONG_GRADIENT;
 		    }
 #endif
@@ -297,7 +278,7 @@ int staffetta_send_packet(void) {
 				leds_off(LEDS_GREEN);
 				radio_flush_rx();
 				goto_idle();
-				//printf("expected beacon, got type %d\n",strobe[PKT_TYPE]);
+				printf("expected beacon, got type %d\n",strobe[PKT_TYPE]);
 				return RET_WRONG_TYPE;
 		    }
 		}
@@ -309,7 +290,6 @@ int staffetta_send_packet(void) {
 		strobe_ack[PKT_SEQ] = strobe[PKT_SEQ];
 		strobe_ack[PKT_TTL] = strobe[PKT_TTL];
 #if ORW_GRADIENT
-		printf("ORW_GRADIENT mode strobe_ack queue size limit to 255\n");
 		strobe_ack[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #endif
 #if WITH_AGGREGATE
@@ -333,7 +313,7 @@ int staffetta_send_packet(void) {
 				if (select[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 			    	radio_flush_rx();
 			    	goto_idle();
-			    	//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+			    	printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 			    	return RET_FAIL_RX_BUFF;
 				}
 				//PRINTF("len %u\n",strobe[PKT_LEN]);
@@ -345,7 +325,7 @@ int staffetta_send_packet(void) {
 						if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t2 + RTIMER_ARCH_SECOND/200)) {
 					    	radio_flush_rx();
 					    	goto_idle();
-					    	//printf("goto sleep after waiting for SELECT's byte %u from radio\n",bytes_read);
+					    	printf("goto sleep after waiting for SELECT's byte %u from radio\n",bytes_read);
 					    	return RET_FAIL_RX_BUFF;
 						}
 				    };
@@ -371,7 +351,7 @@ int staffetta_send_packet(void) {
 		//Save received data
 		if((current_state==select_received)&&(select[PKT_DST]!=node_id)){
 	    	//if we received a select and it is not for us, trash the packet.
-	    	//printf("select not for us\n");
+	    	printf("select not for us\n");
 		} else {
 	    	//otherwise save the packet
 	    	add_data(strobe[PKT_DATA], strobe[PKT_TTL]+1, strobe[PKT_SEQ]);
@@ -404,16 +384,11 @@ int staffetta_send_packet(void) {
     strobe[PKT_TTL] = read_ttl();
     strobe[PKT_SEQ] = read_seq();
 #if BCP_GRADIENT
-    printf("BCP GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(q_size,255)); // we limit the queue size to 255
 #elif ORW_GRADIENT
-    printf("ORW GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #else
-    printf("normal mode strobe queue size limit to 25\n");
-    //strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
-    count_hop_num();
-    strobe[PKT_GRADIENT] = (uint8_t)(MIN(hop_count,25));
+    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;
@@ -443,7 +418,7 @@ int staffetta_send_packet(void) {
 				if (strobe_ack[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
 			   		radio_flush_rx();
 		    		goto_idle();
-			   		//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+			   		printf("goto sleep after waiting for SELECT. Wrong packet length\n");
 			   		return RET_FAIL_RX_BUFF;
 				}
 				//debug = strobe_ack[PKT_LEN];
@@ -455,7 +430,7 @@ int staffetta_send_packet(void) {
 						if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t2 + RTIMER_ARCH_SECOND/200)) {
 				    		radio_flush_rx();
 				    		goto_idle();
-				    		//printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+				    		printf("goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 				    		return RET_FAIL_RX_BUFF;
 						}
 			    	};
@@ -496,16 +471,14 @@ int staffetta_send_packet(void) {
 			    	if ((strobe_ack[PKT_DST] == node_id)&&(strobe_ack[PKT_DATA] == strobe[PKT_DATA] )) {
 						current_state = beacon_sent;
 						//radio_flush_tx();
-						//PRINTF("beacon ack for us from %d\n", strobe_ack[PKT_SRC]);
+						PRINTF("beacon ack for us from %d\n", strobe_ack[PKT_SRC]);
 			    	} else {
-						//printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
+						printf("beacon ack not for us. For %d, from %d\n", strobe_ack[PKT_DST],strobe_ack[PKT_SRC]);
 						collisions++;
-						printf("collision\n");
 			    	}
 				} else {
-			    	//printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
+			    	printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
 			    	collisions++;
-				printf("collision\n");
 				}
 		    }
 		}
@@ -526,8 +499,6 @@ int staffetta_send_packet(void) {
 		FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
 		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
-		// 5 src dst: Send packet from 'src' to 'dst'
-		printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
 		//t2 = RTIMER_NOW ();while(RTIMER_CLOCK_LT(RTIMER_NOW(),t2+32)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
 #endif
 #if WITH_AGGREGATE
@@ -571,13 +542,7 @@ int staffetta_send_packet(void) {
 		num_wakeups = 10;
 #endif
 		if (!IS_SINK) {
-		    	// 2 src frequency: When a beacon ack from 'src' is received, report my wakeup 'frequency'.
-		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
-    			uint32_t power = (energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17400) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18800) / RTIMER_ARCH_SECOND * 3;
-			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 1000 / RTIMER_ARCH_SECOND;
-			uint32_t elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
-		    	// 6 power duty-cycle: Report my 'power' consumption and 'duty-cycle'.
-			printf("6 %ld %ld\n", power, (on_time * 1000) / elapsed_time);
+	    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
 		}
 	}
 	radio_flush_rx();
@@ -619,7 +584,7 @@ void sink_listen(void) {
 				leds_off(LEDS_GREEN);
 				radio_flush_rx();
 				current_state=idle;
-				//printf("sink got a too long beacon\n");
+				printf("sink got a too long beacon\n");
 				continue;
 		    }
 		    debug = strobe[PKT_LEN];
@@ -632,7 +597,7 @@ void sink_listen(void) {
 					leds_off(LEDS_GREEN);
 					radio_flush_rx();
 					current_state=idle;
-					//printf("sink goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
+					printf("sink goto sleep after waiting for BEACON's byte %u from radio\n",bytes_read);
 					continue;
 			    	}
 				};
@@ -721,10 +686,8 @@ void staffetta_print_stats(void){
     elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
     if (!(IS_SINK)){
 #if ORW_GRADIENT
-		// 3 duty-cycle avg_edc
 		printf("3 %ld %ld\n",(on_time*1000)/elapsed_time,avg_edc);
 #else
-		// 3 duty-cycle q_size
 		printf("3 %ld %d\n",(on_time*1000)/elapsed_time,q_size);
 #endif
 	}
@@ -732,7 +695,6 @@ void staffetta_print_stats(void){
 }
 
 void staffetta_add_data(uint8_t _seq){
-    // 4 node_id seq: Add data with 'seq' number to node 'node_id'.
     printf("4 %d %d\n",node_id,_seq);
     add_data(node_id,0,_seq);
 }
@@ -754,16 +716,19 @@ void staffetta_init(void) {
     avg_edc = 255;
 #endif
     //Init message vars
-    for (i=0;i<DATA_SIZE;i++) {
-		data[i]=0;
-		seq[i]=0;
-		ttl[i]=0;
+
+	if (IS_SOURCE) {
+	    for (i=0;i<DATA_SIZE;i++) {
+			data[i]=0;
+			seq[i]=0;
+			ttl[i]=0;
+		}
+	    for(i=0;i<PAKETS_PER_NODE;i++) staffetta_add_data(i);
 	}
+
     read_idx = 0;
     write_idx = 0;
     q_size = 0;
-    //Add some messages to the queue
-    for(i=0;i<PAKETS_PER_NODE;i++) staffetta_add_data(i);
 #if WITH_AGGREGATE
 	aggregateValue = node_id;
 #endif

@@ -76,6 +76,7 @@ static inline uint8_t radio_status(void) {
 
 static inline void radio_on(void) {
     FASTSPI_STROBE(CC2420_SRXON);
+	printf("7 1\n");
     while(!(radio_status() & (BV(CC2420_XOSC16M_STABLE))));
     ENERGEST_ON(ENERGEST_TYPE_LISTEN);
 }
@@ -90,6 +91,7 @@ static inline void radio_off(void) {
     }
 #endif
     FASTSPI_STROBE(CC2420_SRFOFF);
+	printf("7 0\n");
 }
 
 static inline void radio_flush_rx(void) {

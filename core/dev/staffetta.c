@@ -279,7 +279,7 @@ int staffetta_send_packet(void) {
 #else
 		    printf("normal mode rx\n");
 		    count_hop_num();
-		    if(strobe[PKT_GRADIENT] > hop_count){
+		    if(strobe[PKT_GRADIENT] < hop_count){
 		    //if(strobe[PKT_GRADIENT] > num_wakeups){
 #endif
 			leds_off(LEDS_GREEN);

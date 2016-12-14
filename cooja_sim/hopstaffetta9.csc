@@ -24,9 +24,9 @@
       se.sics.cooja.mspmote.SkyMoteType
       <identifier>sky1</identifier>
       <description>Sky Mote Type #sky1</description>
-      <source EXPORT="discard">[CONFIG_DIR]/staffetta/apps/staffetta-test/staffetta-test.c</source>
+      <source EXPORT="discard">[CONFIG_DIR]/../apps/staffetta-test/staffetta-test.c</source>
       <commands EXPORT="discard">make staffetta-test.sky TARGET=sky</commands>
-      <firmware EXPORT="copy">[CONFIG_DIR]/staffetta/apps/staffetta-test/staffetta-test.sky</firmware>
+      <firmware EXPORT="copy">[CONFIG_DIR]/../apps/staffetta-test/staffetta-test.sky</firmware>
       <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
       <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
@@ -198,10 +198,10 @@
       <formatted_time />
       <coloring />
     </plugin_config>
-    <width>1521</width>
-    <z>1</z>
-    <height>562</height>
-    <location_x>399</location_x>
+    <width>1520</width>
+    <z>3</z>
+    <height>240</height>
+    <location_x>400</location_x>
     <location_y>160</location_y>
   </plugin>
   <plugin>
@@ -222,7 +222,7 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>1920</width>
-    <z>3</z>
+    <z>2</z>
     <height>166</height>
     <location_x>0</location_x>
     <location_y>814</location_y>
@@ -234,7 +234,7 @@
       <decorations>true</decorations>
     </plugin_config>
     <width>1240</width>
-    <z>2</z>
+    <z>1</z>
     <height>160</height>
     <location_x>680</location_x>
     <location_y>0</location_y>

@@ -27,6 +27,9 @@
 //#define IS_SINK 		        (node_id < 4)     // Mobile sink on flocklab
 #define WITH_SELECT 		      1                 // enable 3-way handshake (in case of multiple forwarders, initiator can choose)
 
+// OUR IMPORTANT OPTION
+#define SOURCE					9					// the source's node_id
+
 #define WITH_GRADIENT 		    1                 // ensure that messages follows a gradient to the sink (number of wakeups)
 #define BCP_GRADIENT		      0                 // use the queue size as gradient (BCP)
 #define ORW_GRADIENT		      0                 // use the expected duty cycle as gradient (ORW)

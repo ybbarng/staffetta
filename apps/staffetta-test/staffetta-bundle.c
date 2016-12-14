@@ -38,8 +38,9 @@ PROCESS_THREAD(staffetta_test, ev, data){
     process_start(&staffetta_print_stats_process, NULL);
     while(1){
 		wakeups = getWakeups(); //Get wakeups/period from Staffetta
-		Tw = ((CLOCK_SECOND*(10*BUDGET_PRECISION))/wakeups); //Compute Tw
-		etimer_set(&et,((Tw*3)/4) + (random_rand()%(Tw/2))); //Add some randomness
+		Tw = ((CLOCK_SECOND*(10*BUDGET_PRECISION))/wakeups) * wakeups; //Compute Tw
+		//etimer_set(&et,((Tw*3)/4) + (random_rand()%(Tw/))); //Add some randomness
+		etimer_set(&et,Tw); //Add some randomness
 		PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 		staffetta_result = staffetta_send_packet(); //Perform a data exchange
 		//TODO compute histogram of staffetta results

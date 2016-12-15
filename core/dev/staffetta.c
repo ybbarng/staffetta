@@ -47,20 +47,36 @@ static enum mac_state current_state = disabled;
 
 static struct pt pt;
 
+// Our variables.
 static uint8_t hop_count = 0;
+static uint32_t duty_cycle = 100;
+static uint8_t history[NUM_OF_HISTORY] = {0};
+static uint8_t check_history(int id) // 1 if all is same with 'id'
+{
+	int i=0, n=0;
+	for (i=0; i<NUM_OF_HISTORY; i++)
+	{
+		if (history[i] == id)
+			n++;
+	}
+
+	if (n == NUM_OF_HISTORY)
+		return 1;
+	return 0;
+}
 
 static inline void count_hop_num(void) {
     //printf("Node number: %u\n", node_id);
     if(node_id == 1)
-	hop_count = 0;
+		hop_count = 0;
     if((node_id == 2) || (node_id == 4))
-	hop_count = 1;
+		hop_count = 1;
     if((node_id == 3) || (node_id == 5) || (node_id == 7))
-	hop_count = 2;
+		hop_count = 2;
     if((node_id == 6) || (node_id == 8))
-	hop_count = 3;
+		hop_count = 3;
     if(node_id == 9)
-	hop_count = 4;
+		hop_count = 4;
 }
 /* --------------------------- RADIO FUNCTIONS ---------------------- */
 
@@ -76,7 +92,7 @@ static inline uint8_t radio_status(void) {
 
 static inline void radio_on(void) {
     FASTSPI_STROBE(CC2420_SRXON);
-	printf("7 1\n");
+//	printf("7 1\n");
     while(!(radio_status() & (BV(CC2420_XOSC16M_STABLE))));
     ENERGEST_ON(ENERGEST_TYPE_LISTEN);
 }
@@ -84,14 +100,16 @@ static inline void radio_on(void) {
 static inline void radio_off(void) {
 #if ENERGEST_CONF_ON
     if (energest_current_mode[ENERGEST_TYPE_TRANSMIT]) {
-	ENERGEST_OFF(ENERGEST_TYPE_TRANSMIT);
+		ENERGEST_OFF(ENERGEST_TYPE_TRANSMIT);
+//		printf("RADIO OFF (ENERGEST_TYPE_TRANSMIT): %u\n", energest_type_time(ENERGEST_TYPE_TRANSMIT));
     }
     if (energest_current_mode[ENERGEST_TYPE_LISTEN]) {
-	ENERGEST_OFF(ENERGEST_TYPE_LISTEN);
+		ENERGEST_OFF(ENERGEST_TYPE_LISTEN);
+//		printf("RADIO OFF (ENERGEST_TYPE_LISTEN): %lu\n", energest_type_time(ENERGEST_TYPE_LISTEN));
     }
 #endif
     FASTSPI_STROBE(CC2420_SRFOFF);
-	printf("7 0\n");
+//	printf("7 0\n");
 }
 
 static inline void radio_flush_rx(void) {
@@ -134,7 +152,12 @@ static void goto_idle() {
 /*--------------------------- DATA FUNCTIONS ------------------------------------------------*/
 
 uint32_t getWakeups(){
-    return num_wakeups;
+    return MIN(num_wakeups, 25);
+}
+
+uint32_t get_duty_cycle()
+{
+	return duty_cycle;
 }
 
 static void set_bitmap(int idx){
@@ -316,10 +339,17 @@ int staffetta_send_packet(void) {
 		aggregateValue = MAX(aggregateValue,strobe[PKT_GRADIENT]);
 		strobe_ack[PKT_GRADIENT] = aggregateValue;
 #endif
-		FASTSPI_WRITE_FIFO(strobe_ack, STAFFETTA_PKT_LEN+1);
-		FASTSPI_STROBE(CC2420_STXON);
+
+		if (!check_history(strobe_ack[PKT_DST]))
+			FASTSPI_WRITE_FIFO(strobe_ack, STAFFETTA_PKT_LEN+1);
+			FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
-		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
+			BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
+		} else {
+			radio_flush_rx();
+			goto_idle();
+			return RET_FAIL_HISTORY;
+		}
 		//wait for the select packet
 		current_state = wait_select;
 		radio_flush_rx();
@@ -410,10 +440,10 @@ int staffetta_send_packet(void) {
     printf("ORW GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
 #else
-    printf("normal mode strobe queue size limit to 25\n");
+    //printf("normal mode strobe queue size limit to 25\n");
     //strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
     count_hop_num();
-    strobe[PKT_GRADIENT] = (uint8_t)(MIN(hop_count,25));
+    strobe[PKT_GRADIENT] = (uint8_t)hop_count;
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;
@@ -521,13 +551,22 @@ int staffetta_send_packet(void) {
 		select[PKT_SEQ] = 0;
 		select[PKT_GRADIENT] = 0;
 		select[PKT_DST] = strobe_ack[PKT_SRC];
-		radio_flush_tx();
-		FASTSPI_WRITE_FIFO(select, STAFFETTA_PKT_LEN+1);
-		FASTSPI_STROBE(CC2420_STXON);
+
+		if (!check_history(select[PKT_DST]))
+		{
+			radio_flush_tx();
+			FASTSPI_WRITE_FIFO(select, STAFFETTA_PKT_LEN+1);
+			FASTSPI_STROBE(CC2420_STXON);
 		//We wait until transmission has ended
-		BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
+			BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
 		// 5 src dst: Send packet from 'src' to 'dst'
-		printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
+			printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
+		} else {
+			radio_flush_tx();
+			radio_flush_rx();
+			goto_idle();
+			return RET_FAIL_HISTORY;
+		}
 		//t2 = RTIMER_NOW ();while(RTIMER_CLOCK_LT(RTIMER_NOW(),t2+32)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
 #endif
 #if WITH_AGGREGATE
@@ -566,18 +605,26 @@ int staffetta_send_packet(void) {
 		avg_edc = MIN(((rendezvous_time/100)+(edc_sum/AVG_EDC_SIZE)),255); //limit to 255
 #endif
 #if DYN_DC
-		num_wakeups = MAX(1,(BUDGET*10)/avg_rendezvous);
+		num_wakeups = MAX(1, BUDGET*10/avg_rendezvous);
 #else
 		num_wakeups = 10;
 #endif
 		if (!IS_SINK) {
 		    	// 2 src frequency: When a beacon ack from 'src' is received, report my wakeup 'frequency'.
-		    	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
-    			uint32_t power = (energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17400) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18800) / RTIMER_ARCH_SECOND * 3;
-			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 1000 / RTIMER_ARCH_SECOND;
-			uint32_t elapsed_time = clock_time() * 1000 / CLOCK_SECOND;
+		   	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
+			uint32_t power = (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT)) * 10000 / RTIMER_ARCH_SECOND * 18.8; // Need to divide by 1000 then in mW
+			printf("power: %lu uW\n", power);
+			duty_cycle = 1000 * ((energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 10000 / RTIMER_ARCH_SECOND) / ((energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM)) * 10000 / RTIMER_ARCH_SECOND);
+			printf("duty cycle: %u per mill\n", duty_cycle);
+//   		uint32_t power = ((energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17.4 * 10000) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18.8 * 10000) / RTIMER_ARCH_SECOND * 3) / 10000;
+//			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 10000 / RTIMER_ARCH_SECOND;
+//			uint32_t elapsed_time = clock_time() * 10000 / CLOCK_SECOND;
+
+//			printf("ENERGEST_TYPE_TRANSMIT: %u, ENERGEST_TYPE_LISTEN: %u, clock_time: %u, power: %u\n", energest_type_time(ENERGEST_TYPE_TRANSMIT), energest_type_time(ENERGEST_TYPE_LISTEN), clock_time(), power);
+
+//			duty_cycle = (on_time * 1000) / elapsed_time;
 		    	// 6 power duty-cycle: Report my 'power' consumption and 'duty-cycle'.
-			printf("6 %ld %ld\n", power, (on_time * 1000) / elapsed_time);
+//			printf("6 %ld %ld\n", power, duty_cycle);
 		}
 	}
 	radio_flush_rx();
@@ -596,7 +643,7 @@ void sink_listen(void) {
     uint8_t strobe[STAFFETTA_PKT_LEN+3];
     uint8_t strobe_ack[STAFFETTA_PKT_LEN+3];
     uint8_t select[STAFFETTA_PKT_LEN+3];
-    int i,collisions,strobes,bytes_read;
+    int i,collisions,strobes,bytes_read, num_of_recv = 0;
     //prepare strobe_ack packet
     strobe_ack[PKT_LEN] = STAFFETTA_PKT_LEN+FOOTER_LEN;
     strobe_ack[PKT_SRC] = node_id;
@@ -608,6 +655,7 @@ void sink_listen(void) {
     radio_flush_tx();
     watchdog_stop();
     current_state = idle;
+
     while (1) {
 		//there is a message in the buffer
 		if(FIFO_IS_1){
@@ -703,11 +751,72 @@ void sink_listen(void) {
 		    //We wait until transmission has ended
 		    BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
 		    //t2 = RTIMER_NOW (); while(RTIMER_CLOCK_LT (RTIMER_NOW (), t2 + RTIMER_ARCH_SECOND/500)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
-		    leds_off(LEDS_BLUE);
-		    radio_flush_rx();
-		    current_state=idle;
 		    //SINK output
-		    printf("%u %u %u\n", strobe[PKT_DATA],strobe[PKT_SEQ],strobe[PKT_TTL]+1);
+		//wait for the select packet
+			current_state = wait_select;
+			radio_flush_rx();
+			t1 = RTIMER_NOW ();
+			while (current_state == wait_select && RTIMER_CLOCK_LT (RTIMER_NOW(),t1 + STROBE_WAIT_TIME)) {
+	    		if(FIFO_IS_1){
+					t2 = RTIMER_NOW (); while(RTIMER_CLOCK_LT (RTIMER_NOW (), t2 + 3));
+					FASTSPI_READ_FIFO_BYTE(select[PKT_LEN]);
+					bytes_read = 1;
+					//check if the size is right
+					if (select[PKT_LEN]>=(STAFFETTA_PKT_LEN+3)) {
+				    	radio_flush_rx();
+				    	goto_idle();
+			    	//printf("goto sleep after waiting for SELECT. Wrong packet length\n");
+						current_state = idle;
+					}
+					//PRINTF("len %u\n",strobe[PKT_LEN]);
+					while (bytes_read < 10) {
+				    	//while (bytes_read < select[PKT_LEN]+1) {
+				    	t2 = RTIMER_NOW ();
+				    	// wait until the FIFO pin is 1 (until one more byte is received)
+				    	while (!FIFO_IS_1) {
+							if (!RTIMER_CLOCK_LT(RTIMER_NOW(), t2 + RTIMER_ARCH_SECOND/200)) {
+						    	radio_flush_rx();
+						    	goto_idle();
+						    	//printf("goto sleep after waiting for SELECT's byte %u from radio\n",bytes_read);
+								current_state = idle;
+							}
+					    };
+				    // read another byte from the RXFIFO
+				    	FASTSPI_READ_FIFO_BYTE(select[bytes_read]);
+				    	bytes_read++;
+					}
+				//Check CRC
+					if (select[PKT_CRC] & FOOTER1_CRC_OK) {}
+					else {
+#if WITH_CRC
+			    		leds_off(LEDS_GREEN);
+			    		radio_flush_rx();
+			    		goto_idle();
+			    		PRINTF("Wrong CRC\n");
+						current_state = idle;
+#endif
+					}
+					//change state to idle to signal that a message was received
+					current_state = select_received;
+	    		}
+			}
+		//Save received data
+			if((current_state==select_received)&&(select[PKT_DST]!=node_id)){
+	    	//if we received a select and it is not for us, trash the packet.
+	    	//printf("select not for us\n");
+			} else {
+	    	//otherwise save the packet
+				num_of_recv++;
+
+				if (num_of_recv == PAKETS_PER_NODE)
+					printf("complete!\n");
+		    	printf("%u %u %u %d\n", strobe[PKT_DATA],strobe[PKT_SEQ],strobe[PKT_TTL]+1, num_of_recv);
+			}
+		// Give time to the radio to finish sending the data
+			t2 = RTIMER_NOW (); while(RTIMER_CLOCK_LT (RTIMER_NOW (), t2 + RTIMER_ARCH_SECOND/1000));
+			leds_off(LEDS_GREEN);
+		
+			current_state = idle;
 #if WITH_AGGREGATE
 		    printf("A %u\n",aggregateValue);
 #endif
@@ -754,16 +863,23 @@ void staffetta_init(void) {
     avg_edc = 255;
 #endif
     //Init message vars
+
     for (i=0;i<DATA_SIZE;i++) {
 		data[i]=0;
 		seq[i]=0;
 		ttl[i]=0;
 	}
-    read_idx = 0;
-    write_idx = 0;
-    q_size = 0;
+
+	read_idx = 0;
+	write_idx = 0;
+	q_size = 0;
+
+	if (IS_SOURCE)
+	{
+    	for(i=0;i<PAKETS_PER_NODE;i++) staffetta_add_data(i);
+	}
+
     //Add some messages to the queue
-    for(i=0;i<PAKETS_PER_NODE;i++) staffetta_add_data(i);
 #if WITH_AGGREGATE
 	aggregateValue = node_id;
 #endif

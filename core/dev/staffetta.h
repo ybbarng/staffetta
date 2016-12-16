@@ -29,18 +29,19 @@
 #define NUM_OF_HISTORY			3
 #define HC_GRADIENT				0					// use hop count as gradient
 #define WITH_HISTORY			0
+#define COMPLETE_PACKETS		30					// complete number of packets
 /////////////
 
 
-#define WITH_CRC 		          1                 // Check packet CRC
-#define IS_SINK 		          (node_id == 1)    // Define condition to be a sink node
+#define WITH_CRC 		       	1                 // Check packet CRC
+#define IS_SINK 		      	(node_id == 1)    // Define condition to be a sink node
 //#define IS_SINK 		        (node_id < 4)     // Mobile sink on flocklab
-#define WITH_SELECT 		      1                 // enable 3-way handshake (in case of multiple forwarders, initiator can choose)
+#define WITH_SELECT 		   	1                 // enable 3-way handshake (in case of multiple forwarders, initiator can choose)
 
 #define WITH_GRADIENT 		    1                 // ensure that messages follows a gradient to the sink (number of wakeups)
-#define BCP_GRADIENT		      0                 // use the queue size as gradient (BCP)
-#define ORW_GRADIENT		      0                 // use the expected duty cycle as gradient (ORW)
-#define DYN_DC 			          1                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
+#define BCP_GRADIENT		   	0                 // use the queue size as gradient (BCP)
+#define ORW_GRADIENT		   	0                 // use the expected duty cycle as gradient (ORW)
+#define DYN_DC 			       	1                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
 
 #define FAST_FORWARD 		      0                 // forward as soon as you can (not dummy messages)
 #define BUDGET_PRECISION 	    1                 //use fixed point precision to compute the number of wakeups

@@ -864,7 +864,7 @@ void sink_listen(void) {
 						recv_data[strobe[PKT_SEQ]] = 1;
 					}
 
-					if (num_of_recv == PAKETS_PER_NODE)
+					if (num_of_recv == COMPLETE_PACKETS)
 						printf("complete!\n");
 				}
 			}

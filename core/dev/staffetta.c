@@ -324,13 +324,15 @@ int staffetta_send_packet(void) {
 #elif ORW_GRADIENT
 			printf("ORW_GRADIENT mode rx\n");
 			if(strobe[PKT_GRADIENT] < avg_edc){
-#else
-	    	printf("normal mode rx\n");
+#elif HC_GRADIENT
+	    	printf("HC_GRADIENT mode rx\n");
 	    	count_hop_num();
 	    	if(strobe[PKT_GRADIENT] < hop_count){
 				printf("drop because %u is smaller then %u\n", strobe[PKT_GRADIENT], hop_count);
 				printf("packet from %u is dropped\n", strobe[PKT_SRC]);
-		    //if(strobe[PKT_GRADIENT] > num_wakeups){
+#else
+			printf("nomal mode rx\n");
+		    if(strobe[PKT_GRADIENT] > num_wakeups){
 #endif
 				leds_off(LEDS_GREEN);
 				radio_flush_rx();
@@ -460,11 +462,14 @@ int staffetta_send_packet(void) {
 #elif ORW_GRADIENT
     printf("ORW GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(avg_edc,255)); // limit to 255
-#else
-    //printf("normal mode strobe queue size limit to 25\n");
-    //strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+#elif HC_GRADIENT
+	printf("HC GRADIENT mode strobe\n");
     count_hop_num();
     strobe[PKT_GRADIENT] = (uint8_t)hop_count;
+#else
+    printf("normal mode strobe queue size limit to 25\n");
+    strobe[PKT_GRADIENT] = (uint8_t)(MIN(num_wakeups,25)); // we limit the # of wakeups to 25
+
 #endif
 #if WITH_AGGREGATE
     strobe[PKT_GRADIENT] = aggregateValue;

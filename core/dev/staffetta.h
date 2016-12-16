@@ -21,7 +21,16 @@
 
 /*------------------------- OPTIONS --------------------------------------------------*/
 
+// OUR OPTIONS
 #define PAKETS_PER_NODE 	    10                 // Initial queue size
+#define NUM_OF_NODES			SOURCE
+#define SOURCE					9
+#define IS_SOURCE				(node_id == SOURCE)		// Check whether the node is the source.
+#define NUM_OF_HISTORY			3
+#define HC_GRADIENT				1					// use hop count as gradient
+/////////////
+
+
 #define WITH_CRC 		          1                 // Check packet CRC
 #define IS_SINK 		          (node_id == 1)    // Define condition to be a sink node
 //#define IS_SINK 		        (node_id < 4)     // Mobile sink on flocklab
@@ -34,7 +43,7 @@
 
 #define FAST_FORWARD 		      1                 // forward as soon as you can (not dummy messages)
 #define BUDGET_PRECISION 	    1                 //use fixed point precision to compute the number of wakeups
-#define BUDGET 			          750               // how ho long the radio should stay ON every second (in ms * 10)
+#define BUDGET 			          750               // how ho long the radio should stay ON every second (in ms / 10)
 #define AVG_SIZE 		          5                 // windows size for averaging the rendezvous time
 #define AVG_EDC_SIZE		      20                // averaging size for orw's metric EDC
 #define WITH_RETX 		        0                 // retransmit a beacon ack if we receive another beacon
@@ -43,7 +52,7 @@
 #define RSSI_FILTER 		      0                 // Filter beacons with RSSI lower that a threshold
 #define RSSI_THRESHOLD 		    -90               // Minimum RSSI value for accepting a beacon
 #define WITH_SINK_DELAY 	    1                 // Add a delay to the beacon ack of nodes that are not a sink (sink is always the first to answer to beacons)
-#define DATA_SIZE 		        100               // Size of the packet queue
+#define DATA_SIZE 		        10               // Size of the packet queue
 #define WITH_AGGREGATE		    0                 // todo?
 
 /*-------------------------- MACROS -------------------------------------------------*/
@@ -89,15 +98,16 @@ struct staffetta_hdr {
   uint16_t wakeups;
 };
 
-#define RET_FAST_FORWARD 	     1
-#define RET_NO_RX		           2
-#define RET_EMPTY_QUEUE		     3
-#define RET_ERRORS		         4
-#define RET_WRONG_SELECT	     5
-#define RET_FAIL_RX_BUFF	     6
-#define RET_WRONG_TYPE		     7
-#define RET_WRONG_CRC		       8
-#define RET_WRONG_GRADIENT	   9
+#define RET_FAST_FORWARD 	   	1
+#define RET_NO_RX		      	2
+#define RET_EMPTY_QUEUE		   	3
+#define RET_ERRORS		       	4
+#define RET_WRONG_SELECT	   	5
+#define RET_FAIL_RX_BUFF	   	6
+#define RET_WRONG_TYPE		   	7
+#define RET_WRONG_CRC		  	8
+#define RET_WRONG_GRADIENT	   	9
+#define RET_FAIL_HISTORY		10
 
 #define TYPE_BEACON       	   1
 #define TYPE_BEACON_ACK   	   2
@@ -147,6 +157,11 @@ struct staffettamac_config {
 
 int staffetta_send_packet(void);
 uint32_t getWakeups(void);
+
+// OUR FUNCTIONS
+uint32_t get_duty_cycle(void);
+/////
+
 void sink_listen(void);
 void staffetta_print_stats(void);
 void staffetta_add_data(uint8_t);

@@ -655,8 +655,8 @@ int staffetta_send_packet(void) {
 		if (!IS_SINK) {
 		    	// 2 src frequency: When a beacon ack from 'src' is received, report my wakeup 'frequency'.
 		   	printf("2 %d %ld\n",strobe_ack[PKT_SRC],num_wakeups);
-			uint32_t power = (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT)) * 1000 / RTIMER_ARCH_SECOND * 20 * 3; // Need to divide by 1000 then in mW
-			printf("power: %lu uJ\n", power);
+			uint32_t power = (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT)) * 10000 / RTIMER_ARCH_SECOND * 20 * 3 / 10; // Need to divide by 1000 then in mW
+			printf("power: %lu\n", power);
 			duty_cycle = (1000 * (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT))) / ((energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM)));
 //			uint32_t nominator = energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT);
 //			uint32_t denominator = energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM);

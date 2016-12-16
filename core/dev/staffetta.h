@@ -41,7 +41,7 @@
 #define ORW_GRADIENT		      0                 // use the expected duty cycle as gradient (ORW)
 #define DYN_DC 			          1                 // Enable staffetta adaptative wakeups. If disabled, the wakeup of nodes will be fixed
 
-#define FAST_FORWARD 		      1                 // forward as soon as you can (not dummy messages)
+#define FAST_FORWARD 		      0                 // forward as soon as you can (not dummy messages)
 #define BUDGET_PRECISION 	    1                 //use fixed point precision to compute the number of wakeups
 #define BUDGET 			          750               // how ho long the radio should stay ON every second (in ms / 10)
 #define AVG_SIZE 		          5                 // windows size for averaging the rendezvous time
@@ -141,7 +141,7 @@ struct staffetta_hdr {
 
 #define PERIOD 			          RTIMER_ARCH_SECOND 		     // 1s
 #define STROBE_TIME 		      PERIOD				             // 1s
-#define STROBE_WAIT_TIME	    (RTIMER_ARCH_SECOND/700) 	 // 2ms
+#define STROBE_WAIT_TIME	    (RTIMER_ARCH_SECOND/500) 	 // 2ms
 #define ON_TIME 		          (RTIMER_ARCH_SECOND/300) 	 // 3ms
 #define OFF_TIME 		          (PERIOD-ON_TIME)		       // 995ms
 #define BACKOFF_TIME 		      (ON_TIME)			             // 5ms

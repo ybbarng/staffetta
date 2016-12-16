@@ -226,6 +226,9 @@ static uint8_t read_ttl(){
 }
 
 static uint8_t pop_data(){
+	if (node_id == SOURCE)
+		printf("pop_data: %u\n", seq[read_idx]);
+
     uint8_t _data,_seq;
     int _unique;
     if (read_idx == write_idx) return 0; // error if queue is empty
@@ -427,6 +430,7 @@ int staffetta_send_packet(void) {
 		} else {
 	    	//otherwise save the packet
 			printf("select_received from %u\n", strobe_ack[PKT_DST]);
+			printf("data: %u, ttl: %u, seq: %u\n", strobe[PKT_DATA], strobe[PKT_TTL], strobe[PKT_SEQ]);
 	    	add_data(strobe[PKT_DATA], strobe[PKT_TTL]+1, strobe[PKT_SEQ]);
 		}
 		// Give time to the radio to finish sending the data
@@ -456,6 +460,7 @@ int staffetta_send_packet(void) {
     strobe[PKT_DATA] = read_data();
     strobe[PKT_TTL] = read_ttl();
     strobe[PKT_SEQ] = read_seq();
+	printf("Beacon send DATA: %u, TTL: %u, SEQ: %u\n", strobe[PKT_DATA], strobe[PKT_TTL], strobe[PKT_SEQ]);
 #if BCP_GRADIENT
     printf("BCP GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(q_size,255)); // we limit the queue size to 255
@@ -561,12 +566,18 @@ int staffetta_send_packet(void) {
 				} else {
 			    	//printf("expected beacon ack, got type %d\n",strobe_ack[PKT_TYPE]);
 			    	collisions++;
-				printf("collision\n");
+					printf("collision\n");
 				}
 		    }
 		}
     }
     //Message sent. Send a select packet and go to sleep
+
+	if (node_id == SOURCE)
+	{
+		printf("current_state: %u, collisions: %u\n", current_state, collisions);
+	}
+
     if(current_state == beacon_sent && collisions == 0){
 #if WITH_SELECT
 		select[PKT_LEN] = STAFFETTA_PKT_LEN+FOOTER_LEN;
@@ -606,6 +617,7 @@ int staffetta_send_packet(void) {
 #endif
 		//Message delivered. Remove from our queue
 		pop_data();
+		printf("pop_data: DATA: %u, SEQ: %u, TTL: %u\n", read_data(), read_seq(), read_ttl());
     }
     //turn off the radio
     goto_idle();
@@ -647,12 +659,12 @@ int staffetta_send_packet(void) {
 			uint32_t power = (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT)) * 1000 / RTIMER_ARCH_SECOND * 20 * 3; // Need to divide by 1000 then in mW
 			printf("power: %lu uJ\n", power);
 			duty_cycle = (1000 * (energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT))) / ((energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM)));
-			uint32_t nominator = energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT);
-			uint32_t denominator = energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM);
-			printf("LISTEN: %lu, TRANSMIT: %lu, CPU: %lu, LPM: %lu\n", energest_type_time(ENERGEST_TYPE_LISTEN), energest_type_time(ENERGEST_TYPE_TRANSMIT), energest_type_time(ENERGEST_TYPE_CPU), energest_type_time(ENERGEST_TYPE_LPM));
-			printf("NOMINATOR: %lu, DENOMINATOR: %lu\n", nominator, denominator);
-			printf("NOM/DENOM*1000: %lu\n", (1000*nominator) / denominator);
-			printf("duty cycle: %u per mill\n", duty_cycle);
+//			uint32_t nominator = energest_type_time(ENERGEST_TYPE_LISTEN) + energest_type_time(ENERGEST_TYPE_TRANSMIT);
+//			uint32_t denominator = energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM);
+//			printf("LISTEN: %lu, TRANSMIT: %lu, CPU: %lu, LPM: %lu\n", energest_type_time(ENERGEST_TYPE_LISTEN), energest_type_time(ENERGEST_TYPE_TRANSMIT), energest_type_time(ENERGEST_TYPE_CPU), energest_type_time(ENERGEST_TYPE_LPM));
+//			printf("NOMINATOR: %lu, DENOMINATOR: %lu\n", nominator, denominator);
+//			printf("NOM/DENOM*1000: %lu\n", (1000*nominator) / denominator);
+//			printf("duty cycle: %u per mill\n", duty_cycle);
 //   		uint32_t power = ((energest_type_time(ENERGEST_TYPE_TRANSMIT) * 17.4 * 10000) / RTIMER_ARCH_SECOND * 3 + (energest_type_time(ENERGEST_TYPE_LISTEN) * 18.8 * 10000) / RTIMER_ARCH_SECOND * 3) / 10000;
 //			uint32_t on_time = (energest_type_time(ENERGEST_TYPE_TRANSMIT) + energest_type_time(ENERGEST_TYPE_LISTEN)) * 10000 / RTIMER_ARCH_SECOND;
 //			uint32_t elapsed_time = clock_time() * 10000 / CLOCK_SECOND;
@@ -661,7 +673,7 @@ int staffetta_send_packet(void) {
 
 //			duty_cycle = (on_time * 1000) / elapsed_time;
 		    	// 6 power duty-cycle: Report my 'power' consumption and 'duty-cycle'.
-//			printf("6 %ld %ld\n", power, duty_cycle);
+			printf("6 %ld %ld\n", power, duty_cycle);
 		}
 	}
 	radio_flush_rx();
@@ -681,6 +693,7 @@ void sink_listen(void) {
     uint8_t strobe_ack[STAFFETTA_PKT_LEN+3];
     uint8_t select[STAFFETTA_PKT_LEN+3];
     int i,collisions,strobes,bytes_read, num_of_recv = 0;
+	uint8_t recv_data[PAKETS_PER_NODE] = {0};
     //prepare strobe_ack packet
     strobe_ack[PKT_LEN] = STAFFETTA_PKT_LEN+FOOTER_LEN;
     strobe_ack[PKT_SRC] = node_id;
@@ -793,7 +806,7 @@ void sink_listen(void) {
 			current_state = wait_select;
 			radio_flush_rx();
 			t1 = RTIMER_NOW ();
-			while (current_state == wait_select && RTIMER_CLOCK_LT (RTIMER_NOW(),t1 + STROBE_WAIT_TIME)) {
+			while (current_state == wait_select) {
 	    		if(FIFO_IS_1){
 					t2 = RTIMER_NOW (); while(RTIMER_CLOCK_LT (RTIMER_NOW (), t2 + 3));
 					FASTSPI_READ_FIFO_BYTE(select[PKT_LEN]);
@@ -843,11 +856,18 @@ void sink_listen(void) {
 	    	//printf("select not for us\n");
 			} else {
 	    	//otherwise save the packet
-				num_of_recv++;
+				if ((current_state == select_received) && (select[PKT_DST] == node_id))
+				{
+					if (recv_data[strobe[PKT_SEQ]] == 0)
+					{
+						num_of_recv++;
+		    			printf("%u %u %u %u\n", strobe[PKT_DATA],strobe[PKT_SEQ],strobe[PKT_TTL]+1, num_of_recv);
+						recv_data[strobe[PKT_SEQ]] = 1;
+					}
 
-				if (num_of_recv == PAKETS_PER_NODE)
-					printf("complete!\n");
-		    	printf("%u %u %u %d\n", strobe[PKT_DATA],strobe[PKT_SEQ],strobe[PKT_TTL]+1, num_of_recv);
+					if (num_of_recv == PAKETS_PER_NODE)
+						printf("complete!\n");
+				}
 			}
 		// Give time to the radio to finish sending the data
 			t2 = RTIMER_NOW (); while(RTIMER_CLOCK_LT (RTIMER_NOW (), t2 + RTIMER_ARCH_SECOND/1000));
@@ -913,7 +933,6 @@ void staffetta_init(void) {
 
 	if (IS_SOURCE)
 	{
-		printf("I'm in here\n");
     	for(i=0;i<PAKETS_PER_NODE;i++) staffetta_add_data(i);
 	}
 

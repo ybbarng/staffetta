@@ -28,6 +28,7 @@
 #define IS_SOURCE				(node_id == SOURCE)		// Check whether the node is the source.
 #define NUM_OF_HISTORY			3
 #define HC_GRADIENT				1					// use hop count as gradient
+#define WITH_HISTORY			1
 /////////////
 
 

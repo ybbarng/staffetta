@@ -586,11 +586,13 @@ int staffetta_send_packet(void) {
 
 		printf("history[0]: %u, history[1]: %u, history[2]: %u\n", history[0], history[1], history[2]);
 
+#if WITH_HISTORY
 		if (!check_history(select[PKT_DST]))
 		{
 			printf("check success\n");
 			history[history_idx] = select[PKT_DST];
 			history_idx = (history_idx + 1) % NUM_OF_HISTORY;
+#endif
 			radio_flush_tx();
 			FASTSPI_WRITE_FIFO(select, STAFFETTA_PKT_LEN+1);
 			FASTSPI_STROBE(CC2420_STXON);
@@ -598,6 +600,7 @@ int staffetta_send_packet(void) {
 			BUSYWAIT_UNTIL(!(radio_status() & BV(CC2420_TX_ACTIVE)), RTIMER_SECOND / 10);
 		// 5 src dst: Send packet from 'src' to 'dst'
 			printf("5 %d %d\n", node_id, strobe_ack[PKT_SRC]);
+#if WITH_HISTORY
 		} else {
 			printf("drop for load balancing\n");
 			radio_flush_tx();
@@ -605,6 +608,7 @@ int staffetta_send_packet(void) {
 			goto_idle();
 			return RET_FAIL_HISTORY;
 		}
+#endif
 		//t2 = RTIMER_NOW ();while(RTIMER_CLOCK_LT(RTIMER_NOW(),t2+32)); //give time to the radio to send a message (1ms) TODO: add this time to .h file
 #endif
 #if WITH_AGGREGATE

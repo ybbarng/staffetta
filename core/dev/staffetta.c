@@ -216,6 +216,10 @@ static uint8_t read_data(){
 }
 
 static uint8_t read_seq(){
+//////
+	if (node_id == SOURCE)
+		printf("seq[read_idx]: %d\n", seq[read_idx]);
+/////
     if (read_idx == write_idx) return 0;
     return seq[read_idx];
 }
@@ -227,7 +231,7 @@ static uint8_t read_ttl(){
 
 static uint8_t pop_data(){
 	if (node_id == SOURCE)
-		printf("pop_data: %u\n", seq[read_idx]);
+		printf("pop_data: %d\n", seq[read_idx]);
 
     uint8_t _data,_seq;
     int _unique;
@@ -460,7 +464,6 @@ int staffetta_send_packet(void) {
     strobe[PKT_DATA] = read_data();
     strobe[PKT_TTL] = read_ttl();
     strobe[PKT_SEQ] = read_seq();
-	printf("Beacon send DATA: %u, TTL: %u, SEQ: %u\n", strobe[PKT_DATA], strobe[PKT_TTL], strobe[PKT_SEQ]);
 #if BCP_GRADIENT
     printf("BCP GRADIENT mode strobe queue size limit to 255\n");
     strobe[PKT_GRADIENT] = (uint8_t)(MIN(q_size,255)); // we limit the queue size to 255
@@ -484,6 +487,7 @@ int staffetta_send_packet(void) {
 		goto_idle();
 		return RET_EMPTY_QUEUE;
     }
+	printf("Beacon send DATA: %u, TTL: %u, SEQ: %u\n", strobe[PKT_DATA], strobe[PKT_TTL], strobe[PKT_SEQ]);
     current_state = wait_beacon_ack;
     t0 = RTIMER_NOW();
     collisions = 0;
@@ -617,7 +621,7 @@ int staffetta_send_packet(void) {
 #endif
 		//Message delivered. Remove from our queue
 		pop_data();
-		printf("pop_data: DATA: %u, SEQ: %u, TTL: %u\n", read_data(), read_seq(), read_ttl());
+//		printf("pop_data: DATA: %u, SEQ: %u, TTL: %u\n", read_data(), read_seq(), read_ttl());
     }
     //turn off the radio
     goto_idle();

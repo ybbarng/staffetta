@@ -52,7 +52,7 @@
 #define RSSI_FILTER 		      0                 // Filter beacons with RSSI lower that a threshold
 #define RSSI_THRESHOLD 		    -90               // Minimum RSSI value for accepting a beacon
 #define WITH_SINK_DELAY 	    1                 // Add a delay to the beacon ack of nodes that are not a sink (sink is always the first to answer to beacons)
-#define DATA_SIZE 		        10               // Size of the packet queue
+#define DATA_SIZE 		        100               // Size of the packet queue
 #define WITH_AGGREGATE		    0                 // todo?
 
 /*-------------------------- MACROS -------------------------------------------------*/

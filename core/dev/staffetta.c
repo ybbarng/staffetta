@@ -584,9 +584,9 @@ int staffetta_send_packet(void) {
 		select[PKT_GRADIENT] = 0;
 		select[PKT_DST] = strobe_ack[PKT_SRC];
 
+#if WITH_HISTORY
 		printf("history[0]: %u, history[1]: %u, history[2]: %u\n", history[0], history[1], history[2]);
 
-#if WITH_HISTORY
 		if (!check_history(select[PKT_DST]))
 		{
 			printf("check success\n");

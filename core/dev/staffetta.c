@@ -216,10 +216,6 @@ static uint8_t read_data(){
 }
 
 static uint8_t read_seq(){
-//////
-	if (node_id == SOURCE)
-		printf("seq[read_idx]: %d\n", seq[read_idx]);
-/////
     if (read_idx == write_idx) return 0;
     return seq[read_idx];
 }
@@ -230,9 +226,6 @@ static uint8_t read_ttl(){
 }
 
 static uint8_t pop_data(){
-	if (node_id == SOURCE)
-		printf("pop_data: %d\n", seq[read_idx]);
-
     uint8_t _data,_seq;
     int _unique;
     if (read_idx == write_idx) return 0; // error if queue is empty
@@ -433,8 +426,6 @@ int staffetta_send_packet(void) {
 	    	//printf("select not for us\n");
 		} else {
 	    	//otherwise save the packet
-			printf("select_received from %u\n", strobe_ack[PKT_DST]);
-			printf("data: %u, ttl: %u, seq: %u\n", strobe[PKT_DATA], strobe[PKT_TTL], strobe[PKT_SEQ]);
 	    	add_data(strobe[PKT_DATA], strobe[PKT_TTL]+1, strobe[PKT_SEQ]);
 		}
 		// Give time to the radio to finish sending the data

@@ -22,7 +22,7 @@
 /*------------------------- OPTIONS --------------------------------------------------*/
 
 // OUR OPTIONS
-#define PAKETS_PER_NODE 	    100                 // Initial queue size
+#define PAKETS_PER_NODE 	    50                 // Initial queue size
 #define NUM_OF_NODES			SOURCE
 #define SOURCE					9
 #define IS_SOURCE				(node_id == SOURCE)		// Check whether the node is the source.
